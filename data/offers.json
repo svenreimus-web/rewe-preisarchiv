@@ -4,33 +4,37 @@
     "name": "REWE Vigheshan Gahndi oHG",
     "address": "Industriestraße 40, 65439 Flörsheim-Weilbach"
   },
-  "updated_at": "2026-09-02T19:49:27+00:00",
+  "updated_at": "2026-09-02T19:52:24+00:00",
   "products": [
     {
       "id": "bonne-maman-weniger-zucker-mehr-frucht-konfiture",
       "name": "Bonne Maman Weniger Zucker, mehr Frucht Konfitüre",
       "brand": "",
-      "quantity": "Rewe Prospekt",
+      "quantity": "Erdbeere, je 335-g-Glas oder Konfitüre Aprikose, je 370-g-Glas",
       "category": "Prospekt",
       "image": "https://prospektewoche.de/images/prospekte/rewe/week1/1_crops/item_2.jpg",
       "history": [
         {
           "date": "2026-09-02",
-          "price": 1.99
+          "price": 2.49
         }
       ]
     },
     {
       "id": "funny-frisch-ofen-chips-paprika-oder-chipsfrisch-ungarisch",
-      "name": "Funny-frisch Ofen Chips Paprika, oder Chipsfrisch ungarisch",
+      "name": "Funny-frisch Ofen Chips Paprika oder Chipsfrisch ungarisch",
       "brand": "",
-      "quantity": "Rewe Prospekt",
+      "quantity": "Paprika, je 115-g-Btl. oder Chipsfrisch ungarisch, je 150-g-Btl.",
       "category": "Prospekt",
-      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/2_crops/item_3.jpg",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/23_crops/item_1.jpg",
       "history": [
         {
           "date": "2026-09-02",
-          "price": 1.99
+          "price": 1.11
+        },
+        {
+          "date": "2026-09-02",
+          "price": 1.11
         }
       ]
     },
@@ -38,13 +42,13 @@
       "id": "bergader-almzeit-oder-bavaria-blu",
       "name": "Bergader Almzeit oder Bavaria blu",
       "brand": "",
-      "quantity": "Rewe Prospekt",
+      "quantity": "Bergader Almzeit oder Bavaria blu Weichkäse, versch. Sorten, je 175-g-Pckg.",
       "category": "Prospekt",
       "image": "https://prospektewoche.de/images/prospekte/rewe/week1/3_crops/item_2.jpg",
       "history": [
         {
           "date": "2026-09-02",
-          "price": 1.99
+          "price": 1.0
         }
       ]
     },
@@ -52,13 +56,13 @@
       "id": "oro-di-parma-tomatenmark-oder-italienische-tomaten-stuckig",
       "name": "Oro di Parma Tomatenmark oder italienische Tomaten stückig",
       "brand": "",
-      "quantity": "Rewe Prospekt",
+      "quantity": "3-fach konzentriert, je 200-g-Tube oder italienische Tomaten stückig, je 400-g-Dose",
       "category": "Prospekt",
       "image": "https://prospektewoche.de/images/prospekte/rewe/week1/4_crops/item_1.jpg",
       "history": [
         {
           "date": "2026-09-02",
-          "price": 1.99
+          "price": 1.29
         }
       ]
     },
@@ -66,7 +70,7 @@
       "id": "barilla-pesto-rosso-oder-pasta-sauce-basilico",
       "name": "Barilla Pesto Rosso oder Pasta Sauce Basilico",
       "brand": "",
-      "quantity": "Rewe Prospekt",
+      "quantity": "vegan, je 200-g-Glas (1 kg = 9.95) oder Pasta Sauce Basilico, je 400-g-Glas",
       "category": "Prospekt",
       "image": "https://prospektewoche.de/images/prospekte/rewe/week1/5_crops/item_3.jpg",
       "history": [
@@ -80,13 +84,13 @@
       "id": "schweine-schnitzel-oder-braten",
       "name": "Schweine-Schnitzel oder -Braten",
       "brand": "",
-      "quantity": "Rewe Prospekt",
+      "quantity": "aus dem Schinken",
       "category": "Prospekt",
       "image": "https://prospektewoche.de/images/prospekte/rewe/week1/8_crops/item_1.jpg",
       "history": [
         {
           "date": "2026-09-02",
-          "price": 1.99
+          "price": 1.11
         }
       ]
     },
@@ -94,13 +98,13 @@
       "id": "metten-salami-aufschnitt-spezial",
       "name": "Metten Salami-Aufschnitt »Spezial«",
       "brand": "",
-      "quantity": "Rewe Prospekt",
+      "quantity": "versch. Sorten, je 100 g",
       "category": "Prospekt",
       "image": "https://prospektewoche.de/images/prospekte/rewe/week1/10_crops/item_9.jpg",
       "history": [
         {
           "date": "2026-09-02",
-          "price": 1.99
+          "price": 1.59
         }
       ]
     },
@@ -108,27 +112,13 @@
       "id": "hohenrainer-putenschnitzel",
       "name": "Höhenrainer Putenschnitzel",
       "brand": "",
-      "quantity": "Rewe Prospekt",
+      "quantity": "oder Cordon bleu paniert",
       "category": "Prospekt",
       "image": "https://prospektewoche.de/images/prospekte/rewe/week1/11_crops/item_3.jpg",
       "history": [
         {
           "date": "2026-09-02",
-          "price": 1.99
-        }
-      ]
-    },
-    {
-      "id": "toasty-cheese",
-      "name": "Toasty Cheese",
-      "brand": "",
-      "quantity": "3.98",
-      "category": "Prospekt",
-      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/12_crops/item_4.jpg",
-      "history": [
-        {
-          "date": "2026-09-02",
-          "price": 1.99
+          "price": 1.49
         }
       ]
     },
@@ -136,13 +126,13 @@
       "id": "berliner-kunterbunt-oder-berliner-vanille",
       "name": "Berliner Kunterbunt oder Berliner Vanille",
       "brand": "",
-      "quantity": "Rewe Prospekt",
+      "quantity": "je St.",
       "category": "Prospekt",
       "image": "https://prospektewoche.de/images/prospekte/rewe/week1/12_crops/item_1.jpg",
       "history": [
         {
           "date": "2026-09-02",
-          "price": 1.99
+          "price": 0.79
         }
       ]
     },
@@ -150,13 +140,13 @@
       "id": "lieken-urkorn-kleine-sonne",
       "name": "Lieken Urkorn Kleine Sonne",
       "brand": "",
-      "quantity": "Rewe Prospekt",
+      "quantity": "je 250-g-Pckg. (1 kg = 3.96)",
       "category": "Prospekt",
       "image": "https://prospektewoche.de/images/prospekte/rewe/week1/13_crops/item_4.jpg",
       "history": [
         {
           "date": "2026-09-02",
-          "price": 1.99
+          "price": 0.99
         }
       ]
     },
@@ -164,13 +154,13 @@
       "id": "pwr-clear-whey-protein-ice-tea-peach-flavour",
       "name": "PWR Clear Whey Protein Ice Tea Peach flavour",
       "brand": "",
-      "quantity": "Rewe Prospekt",
+      "quantity": "je 420-g-Dose",
       "category": "Prospekt",
       "image": "https://prospektewoche.de/images/prospekte/rewe/week1/17_crops/item_3.jpg",
       "history": [
         {
           "date": "2026-09-02",
-          "price": 1.99
+          "price": 16.99
         }
       ]
     },
@@ -178,13 +168,13 @@
       "id": "youcook-internationales-fertiggericht",
       "name": "Youcook Internationales Fertiggericht",
       "brand": "",
-      "quantity": "Rewe Prospekt",
+      "quantity": "versch. Sorten, je 420-g-Pckg.",
       "category": "Prospekt",
       "image": "https://prospektewoche.de/images/prospekte/rewe/week1/18_crops/item_6.jpg",
       "history": [
         {
           "date": "2026-09-02",
-          "price": 1.99
+          "price": 3.79
         }
       ]
     },
@@ -192,27 +182,13 @@
       "id": "rewe-bio-vegan-rauchertofu-mandel-sesam",
       "name": "REWE Bio + vegan Räuchertofu Mandel-Sesam",
       "brand": "",
-      "quantity": "Rewe Prospekt",
+      "quantity": "je 200-g-Pckg.",
       "category": "Prospekt",
       "image": "https://prospektewoche.de/images/prospekte/rewe/week1/19_crops/item_3.jpg",
       "history": [
         {
           "date": "2026-09-02",
-          "price": 1.99
-        }
-      ]
-    },
-    {
-      "id": "ja-mobil-starter-paket",
-      "name": "ja! mobil Starter-Paket",
-      "brand": "",
-      "quantity": "4.98",
-      "category": "Prospekt",
-      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/26_crops/item_5.jpg",
-      "history": [
-        {
-          "date": "2026-09-02",
-          "price": 9.95
+          "price": 2.19
         }
       ]
     },
@@ -220,17 +196,2607 @@
       "id": "weinfreunde-tres-reyes-tempranillo-syrah",
       "name": "Weinfreunde Tres Reyes Tempranillo-Syrah",
       "brand": "",
-      "quantity": "Rewe Prospekt",
+      "quantity": "trocken, je 0.75-l-Fl.",
       "category": "Prospekt",
       "image": "https://prospektewoche.de/images/prospekte/rewe/week1/26_crops/item_7.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 5.49
+        }
+      ]
+    },
+    {
+      "id": "barilla-classic-pasta",
+      "name": "Barilla Classic Pasta",
+      "brand": "",
+      "quantity": "versch. Ausformungen, je 500-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/1_crops/item_1.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 0.88
+        }
+      ]
+    },
+    {
+      "id": "rucola",
+      "name": "Rucola",
+      "brand": "",
+      "quantity": "Deutschland: Kl. I, je 125-g-Schale",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/1_crops/item_3.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 0.69
+        }
+      ]
+    },
+    {
+      "id": "rinder-rouladen-braten-oder-gulasch",
+      "name": "Rinder-Rouladen, -Braten oder -Gulasch",
+      "brand": "",
+      "quantity": "Jungbullenfleisch aus der Keule, je 100 g",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/1_crops/item_4.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.79
+        }
+      ]
+    },
+    {
+      "id": "arla-kaergarden",
+      "name": "Arla Kaergården",
+      "brand": "",
+      "quantity": "versch. Sorten, je 200-g-Becher",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/1_crops/item_5.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.29
+        }
+      ]
+    },
+    {
+      "id": "aperol-aperitif-bitter",
+      "name": "Aperol Aperitif Bitter",
+      "brand": "",
+      "quantity": "11% Vol., je 0,7-l-Fl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/1_crops/item_6.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 9.49
+        }
+      ]
+    },
+    {
+      "id": "bitburger-pils-oder-alkoholfrei",
+      "name": "Bitburger Pils oder alkoholfrei",
+      "brand": "",
+      "quantity": "versch. Sorten, je 20 x 0,5-l-Fl.-Kasten zzgl. 3.10 Pfand",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/1_crops/item_7.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 10.99
+        }
+      ]
+    },
+    {
+      "id": "herta-aufschnitt",
+      "name": "Herta Aufschnitt",
+      "brand": "",
+      "quantity": "versch. Sorten, je 100-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/2_crops/item_1.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.69
+        }
+      ]
+    },
+    {
+      "id": "powerade-mountain-blast",
+      "name": "Powerade Mountain Blast",
+      "brand": "",
+      "quantity": "je 0,5-l-Fl. (1 l = 1.98) zzgl. 0.25 Pfand",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/2_crops/item_2.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 0.99
+        }
+      ]
+    },
+    {
+      "id": "barilla-pesto-rosso-vegan-oder-pasta-sauce-basilico",
+      "name": "Barilla Pesto Rosso vegan, oder Pasta Sauce Basilico",
+      "brand": "",
+      "quantity": "je 200-g-Glas (1 kg = 9.95) oder Pasta Sauce Basilico, je 400-g-Glas",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/2_crops/item_4.jpg",
       "history": [
         {
           "date": "2026-09-02",
           "price": 1.99
         }
       ]
+    },
+    {
+      "id": "storck-knoppers-oder-knoppers-nussriegel",
+      "name": "Storck Knoppers oder Knoppers Nussriegel",
+      "brand": "",
+      "quantity": "je 8 x 25/5 x 40-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/2_crops/item_5.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.79
+        }
+      ]
+    },
+    {
+      "id": "rote-tafelapfel",
+      "name": "Rote Tafeläpfel",
+      "brand": "",
+      "quantity": "Südafrika/Chile: Rote Tafeläpfel »Cripps Pink«, Kl. I, je 1-kg-Schale",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/3_crops/item_1.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 0.7
+        }
+      ]
+    },
+    {
+      "id": "block-house-burger",
+      "name": "Block House Burger",
+      "brand": "",
+      "quantity": "Block House Block Burger tiefgefroren, je 2 x 200-g-Pckg. American Burger tiefgefroren, je 4 x 125-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/3_crops/item_3.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 3.0
+        }
+      ]
+    },
+    {
+      "id": "knorr-feinschmecker-sauce",
+      "name": "Knorr Feinschmecker Sauce",
+      "brand": "",
+      "quantity": "Knorr Feinschmecker Sauce ausreichend für 250 ml, je Btl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/3_crops/item_4.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 0.5
+        }
+      ]
+    },
+    {
+      "id": "zucchini",
+      "name": "Zucchini",
+      "brand": "",
+      "quantity": "Deutschland: Kl. I, je 1 kg",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/4_crops/item_2.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.11
+        }
+      ]
+    },
+    {
+      "id": "zitronen",
+      "name": "Zitronen",
+      "brand": "",
+      "quantity": "Südafrika/Argentinien/Chile: Sorte: siehe Etikett, Kl. I, je 500-g-Netz",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/4_crops/item_3.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 0.99
+        }
+      ]
+    },
+    {
+      "id": "le-rustique-camembert",
+      "name": "Le Rustique Camembert",
+      "brand": "",
+      "quantity": "frz. Weichkäse, 45% Fett i.Tr., je 250-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/4_crops/item_4.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.79
+        }
+      ]
+    },
+    {
+      "id": "citterio-prosciutto-di-parma",
+      "name": "Citterio Prosciutto di Parma",
+      "brand": "",
+      "quantity": "je 70-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/4_crops/item_5.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.69
+        }
+      ]
+    },
+    {
+      "id": "ciabatta",
+      "name": "Ciabatta",
+      "brand": "",
+      "quantity": "Mediterranes Weizenbrot, je 300-g-St.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/5_crops/item_1.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 0.79
+        }
+      ]
+    },
+    {
+      "id": "fage-total",
+      "name": "Fage Total",
+      "brand": "",
+      "quantity": "original griechischer Joghurt, 0,2% Fett, je 150-g-Becher",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/5_crops/item_2.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 0.99
+        }
+      ]
+    },
+    {
+      "id": "ramazzotti-amaro-oder-aperitivo-arancia",
+      "name": "Ramazzotti Amaro oder Aperitivo Arancia",
+      "brand": "",
+      "quantity": "30% Vol. oder Aperitivo Arancia alkoholfrei, je 0,7-l-Fl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/5_crops/item_4.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 9.99
+        }
+      ]
+    },
+    {
+      "id": "plomari-ouzo",
+      "name": "Plomari Ouzo",
+      "brand": "",
+      "quantity": "40% Vol., je 0,7-l-Fl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/5_crops/item_5.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 8.99
+        }
+      ]
+    },
+    {
+      "id": "osborne-veterano",
+      "name": "Osborne Veterano",
+      "brand": "",
+      "quantity": "30% Vol., je 0,7-l-Fl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/5_crops/item_6.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 9.99
+        }
+      ]
+    },
+    {
+      "id": "bananen",
+      "name": "Bananen",
+      "brand": "",
+      "quantity": "Ursprung: siehe Etikett, je 1 kg",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/6_crops/item_1.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": "himbeeren",
+      "name": "Himbeeren",
+      "brand": "",
+      "quantity": "Marokko/Portugal/Spanien: Kl. I, je 250-g-Schale",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/6_crops/item_2.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 3.49
+        }
+      ]
+    },
+    {
+      "id": "kernlose-tafeltrauben",
+      "name": "Kernlose Tafeltrauben",
+      "brand": "",
+      "quantity": "Italien: Sorte: siehe Etikett, Kl. I, je 1 kg",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/6_crops/item_3.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 3.99
+        }
+      ]
+    },
+    {
+      "id": "bunte-tafelbirnen",
+      "name": "Bunte Tafelbirnen",
+      "brand": "",
+      "quantity": "Belgien: Sorte: siehe Etikett, Kl. I, je 1 kg",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/6_crops/item_4.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.79
+        }
+      ]
+    },
+    {
+      "id": "bonduelle-wildkrautersalat-oder-kopfsalat",
+      "name": "Bonduelle Wildkräutersalat oder Kopfsalat",
+      "brand": "",
+      "quantity": "je 110-g-Btl. oder Kopfsalat je 175-g-Btl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/6_crops/item_5.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.79
+        }
+      ]
+    },
+    {
+      "id": "essreife-papaya",
+      "name": "Essreife Papaya",
+      "brand": "",
+      "quantity": "Brasilien: je St.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/6_crops/item_6.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 4.44
+        }
+      ]
+    },
+    {
+      "id": "zum-dorfkrug-frische-salatsauce",
+      "name": "Zum Dorfkrug Frische Salatsauce",
+      "brand": "",
+      "quantity": "versch. Sorten, je 250-ml-Fl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/6_crops/item_7.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.59
+        }
+      ]
+    },
+    {
+      "id": "true-fruits-smoothie",
+      "name": "True Fruits Smoothie",
+      "brand": "",
+      "quantity": "versch. Sorten, je 250-ml-Fl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/6_crops/item_8.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.29
+        }
+      ]
+    },
+    {
+      "id": "nektarinen",
+      "name": "Nektarinen",
+      "brand": "",
+      "quantity": "Spanien: Gelb- oder weißfleischige Kl. I, je 1 kg",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/6_crops/item_9.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.99
+        }
+      ]
+    },
+    {
+      "id": "braune-bio-champignons",
+      "name": "Braune Bio Champignons",
+      "brand": "",
+      "quantity": "Deutschland: Kl. I, je 250-g-Schale",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/7_crops/item_1.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.79
+        }
+      ]
+    },
+    {
+      "id": "pfifferlinge",
+      "name": "Pfifferlinge",
+      "brand": "",
+      "quantity": "Ursprung: siehe Etikett, je 200-g-Schale",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/7_crops/item_2.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.79
+        }
+      ]
+    },
+    {
+      "id": "buschbohnen",
+      "name": "Buschbohnen*",
+      "brand": "",
+      "quantity": "Deutschland: Kl. I, je 500-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/7_crops/item_3.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.59
+        }
+      ]
+    },
+    {
+      "id": "sukartoffeln",
+      "name": "Süßkartoffeln",
+      "brand": "",
+      "quantity": "Ägypten: Kl. I, je 1 kg",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/7_crops/item_4.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.49
+        }
+      ]
+    },
+    {
+      "id": "bio-ingwer",
+      "name": "Bio Ingwer",
+      "brand": "",
+      "quantity": "China/Thailand/Brasilien: je 100 g",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/7_crops/item_5.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 0.49
+        }
+      ]
+    },
+    {
+      "id": "bio-butternut-kurbis",
+      "name": "Bio Butternut Kürbis",
+      "brand": "",
+      "quantity": "Deutschland: Kl. I, je 1 kg",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/7_crops/item_6.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": "knoblauch",
+      "name": "Knoblauch",
+      "brand": "",
+      "quantity": "Spanien: Kl. I, je 200-g-Netz",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/7_crops/item_7.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 0.99
+        }
+      ]
+    },
+    {
+      "id": "chrysantheme-trio-pink-cadillac1",
+      "name": "Chrysantheme Trio »Pink Cadillac«¹",
+      "brand": "",
+      "quantity": "drei versch. Farben je Topf, je Topf",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/7_crops/item_8.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.29
+        }
+      ]
+    },
+    {
+      "id": "besenheide1-calluna-beauty-ladies",
+      "name": "Besenheide¹ »Calluna Beauty Ladies«,",
+      "brand": "",
+      "quantity": "versch. Farben, je Topf",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/7_crops/item_9.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.49
+        }
+      ]
+    },
+    {
+      "id": "topfrose1-die-konigin-der-blumen",
+      "name": "Topfrose¹ die »Königin der Blumen«",
+      "brand": "",
+      "quantity": "in versch. Farben, perfekt zum Verschenken, je Topf",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/7_crops/item_10.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.69
+        }
+      ]
+    },
+    {
+      "id": "grunpflanze1",
+      "name": "Grünpflanze¹",
+      "brand": "",
+      "quantity": "beliebte Grünpflanze zur Innendekoration, versch. Sorten, ca. 1 m hoch, je Topf",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/7_crops/item_11.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 10.0
+        }
+      ]
+    },
+    {
+      "id": "ginseng-bonsai-pure-balance1",
+      "name": "Ginseng Bonsai »Pure Balance«¹",
+      "brand": "",
+      "quantity": "in dekorativer Keramik, je Topf",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/7_crops/item_12.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 9.99
+        }
+      ]
+    },
+    {
+      "id": "blumenstrau-flower-festival1",
+      "name": "Blumenstrauß »Flower Festival«¹",
+      "brand": "",
+      "quantity": "mit Schnittblumennahrung, je Bund",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/7_crops/item_13.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 15.0
+        }
+      ]
+    },
+    {
+      "id": "rinder-steakhufte",
+      "name": "Rinder-Steakhüfte",
+      "brand": "",
+      "quantity": "am Stück oder in Scheiben",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/8_crops/item_2.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.79
+        }
+      ]
+    },
+    {
+      "id": "rinderrollchen-cheddar",
+      "name": "Rinderröllchen Cheddar",
+      "brand": "",
+      "quantity": "Cheddar",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/8_crops/item_3.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.79
+        }
+      ]
+    },
+    {
+      "id": "rinder-hackfleisch",
+      "name": "Rinder-Hackfleisch",
+      "brand": "",
+      "quantity": "1.55",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/8_crops/item_4.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.55
+        }
+      ]
+    },
+    {
+      "id": "rinder-hamburger",
+      "name": "Rinder-Hamburger",
+      "brand": "",
+      "quantity": "1.69",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/8_crops/item_5.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.69
+        }
+      ]
+    },
+    {
+      "id": "kalbs-leber",
+      "name": "Kalbs-Leber",
+      "brand": "",
+      "quantity": "1.99",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/8_crops/item_6.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": "duroc-schweine-nacken",
+      "name": "Duroc Schweine-Nacken",
+      "brand": "",
+      "quantity": "ohne Knochen",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/8_crops/item_7.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": "schweine-geschnetzeltes",
+      "name": "Schweine-Geschnetzeltes",
+      "brand": "",
+      "quantity": "aus dem Schinken, natur oder gewürzt",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/8_crops/item_8.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.19
+        }
+      ]
+    },
+    {
+      "id": "lamm-lachs",
+      "name": "Lamm-Lachs",
+      "brand": "",
+      "quantity": "natur oder mariniert oder Lammfilet",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/8_crops/item_9.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 3.79
+        }
+      ]
+    },
+    {
+      "id": "maishahnchen-pollo-fino",
+      "name": "Maishähnchen Pollo Fino",
+      "brand": "",
+      "quantity": "0.89",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/8_crops/item_10.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 0.89
+        }
+      ]
+    },
+    {
+      "id": "butcher-s-barbecue-hahnchen-minuten-schnitzel",
+      "name": "Butcher's Barbecue Hähnchen-Minuten-Schnitzel",
+      "brand": "",
+      "quantity": "in versch. Marinaden, SB-verpackt, versch. Gewichte, je 307 g z. B. (1 kg = 12.99)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/9_crops/item_1.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 3.99
+        }
+      ]
+    },
+    {
+      "id": "butcher-s-barbecue-pollo-fino",
+      "name": "Butcher's Barbecue Pollo Fino",
+      "brand": "",
+      "quantity": "mit Paprika Würzung, SB-verpackt, versch. Gewichte, je 333 g z. B. (1 kg = 8.99)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/9_crops/item_2.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.99
+        }
+      ]
+    },
+    {
+      "id": "butcher-s-barbecue-schweine-nackensteaks",
+      "name": "Butcher's Barbecue Schweine-Nackensteaks",
+      "brand": "",
+      "quantity": "in versch. Marinaden, je 380-g-Pckg. (1 kg = 9.97)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/9_crops/item_3.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 3.79
+        }
+      ]
+    },
+    {
+      "id": "butcher-s-barbecue-schweine-bauchscheiben",
+      "name": "Butcher's Barbecue Schweine-Bauchscheiben",
+      "brand": "",
+      "quantity": "ohne Knochen, mit Smoked Paprika Würzung, je 400-g-Pckg. (1 kg = 8.23)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/9_crops/item_4.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 3.29
+        }
+      ]
+    },
+    {
+      "id": "butcher-s-barbecue-merguez-rinder-bratwurst",
+      "name": "Butcher's Barbecue Merguez Rinder-Bratwurst",
+      "brand": "",
+      "quantity": "je 250-g-Pckg. (1 kg = 13.16)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/9_crops/item_5.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 3.69
+        }
+      ]
+    },
+    {
+      "id": "butcher-s-barbecue-schinken-bratwurst",
+      "name": "Butcher's Barbecue Schinken-Bratwurst",
+      "brand": "",
+      "quantity": "vom Schwein, mit grobem Pfeffer, je 250-g-Pckg. (1 kg = 7.96)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/9_crops/item_6.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": "butcher-s-barbecue-schweine-grillfackeln",
+      "name": "Butcher's Barbecue Schweine-Grillfackeln",
+      "brand": "",
+      "quantity": "mit Smoked Paprika Marinade, je 450-g-Pckg. (1 kg = 12.20)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/9_crops/item_7.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 5.49
+        }
+      ]
+    },
+    {
+      "id": "meisterschinken",
+      "name": "Meisterschinken",
+      "brand": "",
+      "quantity": "gegart, je 100 g",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/10_crops/item_1.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.59
+        }
+      ]
+    },
+    {
+      "id": "chaumes-oder-saint-albray-classic",
+      "name": "Chaumes oder Saint Albray Classic",
+      "brand": "",
+      "quantity": "frz. Weichkäse, versch. Sorten, je 100 g",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/10_crops/item_2.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.79
+        }
+      ]
+    },
+    {
+      "id": "alta-badia",
+      "name": "Alta Badia",
+      "brand": "",
+      "quantity": "ital. Hartkäse, mind. 50% Fett i.Tr., je 100 g",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/10_crops/item_3.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": "wilhelm-brandenburg-kernschinken",
+      "name": "Wilhelm Brandenburg Kernschinken",
+      "brand": "",
+      "quantity": "je 100 g",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/10_crops/item_4.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.49
+        }
+      ]
+    },
+    {
+      "id": "leerdammer-original",
+      "name": "Leerdammer Original",
+      "brand": "",
+      "quantity": "holl. Schnittkäse, 45% Fett i.Tr., je 100 g",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/10_crops/item_5.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.11
+        }
+      ]
+    },
+    {
+      "id": "morawitzky-leberwurst",
+      "name": "Morawitzky Leberwurst",
+      "brand": "",
+      "quantity": "versch. Sorten, je 100 g",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/10_crops/item_6.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.29
+        }
+      ]
+    },
+    {
+      "id": "steinhaus-gutsrotwurst",
+      "name": "Steinhaus Gutsrotwurst",
+      "brand": "",
+      "quantity": "je 100 g",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/10_crops/item_7.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.39
+        }
+      ]
+    },
+    {
+      "id": "wilhelm-brandenburg-mini-wiener",
+      "name": "Wilhelm Brandenburg Mini-Wiener",
+      "brand": "",
+      "quantity": "je 200-g-Pckg. (1 kg = 12.45)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/10_crops/item_8.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.49
+        }
+      ]
+    },
+    {
+      "id": "zimbo-pastrami-mit-steakpfeffer",
+      "name": "Zimbo Pastrami mit Steakpfeffer",
+      "brand": "",
+      "quantity": "je 100 g",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/10_crops/item_10.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.49
+        }
+      ]
+    },
+    {
+      "id": "houdek-kabanos",
+      "name": "Houdek Kabanos",
+      "brand": "",
+      "quantity": "Klassik oder Knabber Kabanos",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/11_crops/item_1.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.49
+        }
+      ]
+    },
+    {
+      "id": "duroc-serrano-schinken",
+      "name": "Duroc Serrano-Schinken",
+      "brand": "",
+      "quantity": "18 Monate gereift",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/11_crops/item_2.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.49
+        }
+      ]
+    },
+    {
+      "id": "noel-chorizo-paprikasalami",
+      "name": "Noel Chorizo Paprikasalami",
+      "brand": "",
+      "quantity": "1.59",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/11_crops/item_4.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.59
+        }
+      ]
+    },
+    {
+      "id": "palatum-oliven-mix",
+      "name": "Palatum Oliven-Mix",
+      "brand": "",
+      "quantity": "1.49",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/11_crops/item_5.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.49
+        }
+      ]
+    },
+    {
+      "id": "frischkase-zubereitung",
+      "name": "Frischkäse-zubereitung",
+      "brand": "",
+      "quantity": "mit roten Zwiebeln und Knoblauch",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/11_crops/item_6.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.79
+        }
+      ]
+    },
+    {
+      "id": "donut-matcha-erdbeere",
+      "name": "Donut Matcha Erdbeere",
+      "brand": "",
+      "quantity": "je St.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/12_crops/item_2.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.0
+        }
+      ]
+    },
+    {
+      "id": "karottenkrustchen",
+      "name": "Karottenkrüstchen",
+      "brand": "",
+      "quantity": "Weizenbrötchen mit Karottenstreifen und Saatenmischung, je St.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/12_crops/item_3.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 0.49
+        }
+      ]
+    },
+    {
+      "id": "kraftkorn-mit-philadelphia",
+      "name": "Kraftkorn mit Philadelphia",
+      "brand": "",
+      "quantity": "je St.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/12_crops/item_5.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 0.99
+        }
+      ]
+    },
+    {
+      "id": "fleischkase",
+      "name": "Fleischkäse",
+      "brand": "",
+      "quantity": "im Brötchen, mit Senf oder Ketchup, je St.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/13_crops/item_1.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.5
+        }
+      ]
+    },
+    {
+      "id": "hahnchen-schenkel",
+      "name": "Hähnchen-Schenkel",
+      "brand": "",
+      "quantity": "je St.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/13_crops/item_2.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.0
+        }
+      ]
+    },
+    {
+      "id": "laugenstange",
+      "name": "Laugenstange",
+      "brand": "",
+      "quantity": "Schnittlauch, je St.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/13_crops/item_3.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.4
+        }
+      ]
+    },
+    {
+      "id": "pita-brot-rund",
+      "name": "Pita Brot rund",
+      "brand": "",
+      "quantity": "je 420-g-Pckg. (1 kg = 4.26)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/13_crops/item_5.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.79
+        }
+      ]
+    },
+    {
+      "id": "harry-dinkel-krustchen",
+      "name": "Harry Dinkel Krüstchen",
+      "brand": "",
+      "quantity": "versch. Sorten, je 480-g-Pckg. (1 kg = 4.56)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/13_crops/item_6.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.19
+        }
+      ]
+    },
+    {
+      "id": "grunlander-scheiben",
+      "name": "Grünländer Scheiben",
+      "brand": "",
+      "quantity": "mild & nussig oder Naturfreunde Tilsiterscheiben, je 140-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/14_crops/item_1.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.69
+        }
+      ]
+    },
+    {
+      "id": "gutfried-hahnchen-geflugel-fleischwurst",
+      "name": "Gutfried Hähnchen-/Geflügel-Fleischwurst",
+      "brand": "",
+      "quantity": "würzig-frisch, je 350-g-Pckg. oder Geflügel-Fleischwurst fein-würzig, je 400-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/14_crops/item_2.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.79
+        }
+      ]
+    },
+    {
+      "id": "gervais-huttenkase",
+      "name": "Gervais Hüttenkäse",
+      "brand": "",
+      "quantity": "versch. Sorten, je 200-g-Becher",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/14_crops/item_3.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.29
+        }
+      ]
+    },
+    {
+      "id": "rugenwalder-schinken-spicker-oder-muhlen-mett-zwiebelmettwurst",
+      "name": "Rügenwalder Schinken Spicker oder Mühlen Mett Zwiebelmettwurst",
+      "brand": "",
+      "quantity": "versch. Sorten, je 80-g-Pckg. oder Mühlen Mett Zwiebelmettwurst je 100-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/14_crops/item_5.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.49
+        }
+      ]
+    },
+    {
+      "id": "rougette-ofenkase",
+      "name": "Rougette Ofenkäse",
+      "brand": "",
+      "quantity": "fein-würzig Weichkäse, 60% Fett i.Tr., je 320-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/14_crops/item_6.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 3.99
+        }
+      ]
+    },
+    {
+      "id": "schar-landbrot-oder-meisterbackers-classic",
+      "name": "Schär Landbrot oder Meisterbäckers Classic",
+      "brand": "",
+      "quantity": "gluten- u. laktosefrei je 275-g-Pckg. oder Meisterbäckers Classic gluten- und laktosefrei je 330-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/14_crops/item_7.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.79
+        }
+      ]
+    },
+    {
+      "id": "wasa-sesam-vollkorn-oder-vollkorn-roggen",
+      "name": "Wasa Sesam & Vollkorn oder Vollkorn Roggen",
+      "brand": "",
+      "quantity": "Sesam & Vollkorn je 200-g-Pckg. oder Vollkorn Roggen je 260-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/14_crops/item_8.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.79
+        }
+      ]
+    },
+    {
+      "id": "oreo-mini-donuts",
+      "name": "Oreo Mini Donuts",
+      "brand": "",
+      "quantity": "6 Stück, je 144-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/14_crops/item_9.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.79
+        }
+      ]
+    },
+    {
+      "id": "dr-oetker-rote-grutze-oder-high-protein-porridge",
+      "name": "Dr. Oetker Rote Grütze oder High Protein Porridge",
+      "brand": "",
+      "quantity": "je 400-g-Becher",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/15_crops/item_1.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": "milram-buttermilch-drink",
+      "name": "Milram Buttermilch Drink",
+      "brand": "",
+      "quantity": "versch. Sorten, je 750-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/15_crops/item_2.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.29
+        }
+      ]
+    },
+    {
+      "id": "lavazza-caramel-latte-oder-latte-macchiato",
+      "name": "Lavazza Caramel Latte oder Latte Macchiato",
+      "brand": "",
+      "quantity": "koffeinhaltig, je 220-ml-Becher",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/15_crops/item_3.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.79
+        }
+      ]
+    },
+    {
+      "id": "arla-frische-bio-weidemilch",
+      "name": "Arla Frische Bio Weidemilch",
+      "brand": "",
+      "quantity": "1,5/3,8% Fett, je 1-l-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/15_crops/item_4.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.29
+        }
+      ]
+    },
+    {
+      "id": "nestle-joghurt-mit-smarties",
+      "name": "Nestlé Joghurt mit Smarties",
+      "brand": "",
+      "quantity": "versch. Sorten, je 120-g-Becher",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/15_crops/item_5.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 0.69
+        }
+      ]
+    },
+    {
+      "id": "muller-mullermilch",
+      "name": "Müller Müllermilch",
+      "brand": "",
+      "quantity": "versch. Sorten, je 400-ml-Fl. zzgl. 0.25 Pfand",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/15_crops/item_6.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 0.79
+        }
+      ]
+    },
+    {
+      "id": "zott-monte-maxi",
+      "name": "Zott Monte Maxi",
+      "brand": "",
+      "quantity": "je 4 x 100-g-Becher",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/15_crops/item_7.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.49
+        }
+      ]
+    },
+    {
+      "id": "becel-gold",
+      "name": "Becel Gold",
+      "brand": "",
+      "quantity": "je 225-g-Becher",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/15_crops/item_8.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.39
+        }
+      ]
+    },
+    {
+      "id": "bauer-der-groe-bauer-stracciatella-oder-der-groe-bauer-erdbeere",
+      "name": "Bauer Der Große Bauer Stracciatella oder Der Große Bauer Erdbeere",
+      "brand": "",
+      "quantity": "je 225-g-Becher (1 kg = 2.18) oder je 250-g-Becher (1 kg = 1.96)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/15_crops/item_9.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 0.49
+        }
+      ]
+    },
+    {
+      "id": "homann-nudel-oder-pellkartoffelsalat",
+      "name": "Homann Nudel- oder Pellkartoffelsalat",
+      "brand": "",
+      "quantity": "je 400-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/15_crops/item_10.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.79
+        }
+      ]
+    },
+    {
+      "id": "dr-oetker-ristorante-pizza-salame",
+      "name": "Dr. Oetker Ristorante Pizza Salame",
+      "brand": "",
+      "quantity": "tiefgefroren, je 320-g-Pckg. (1 kg = 5.59) oder Ristorante Pizza Spinaci tiefgefroren, je 390-g-Pckg. (1 kg = 4.59)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/16_crops/item_1.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.79
+        }
+      ]
+    },
+    {
+      "id": "langnese-cremissimo-haselnuss-vanilla-schokolade",
+      "name": "Langnese Cremissimo Haselnuss Vanilla Schokolade",
+      "brand": "",
+      "quantity": "je 1000-ml-Becher oder Cremissimo Bourbon Vanille je 1300-ml-Becher (1 l = 1.38)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/16_crops/item_2.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.79
+        }
+      ]
+    },
+    {
+      "id": "nuii-ice-cream-salted-caramel-australian-macadamia",
+      "name": "Nuii Ice Cream Salted Caramel & Australian Macadamia",
+      "brand": "",
+      "quantity": "je 3 x 90-ml-Pckg. (1 l = 8.22) oder Milka Vanilla & Chocolate Swirl",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/16_crops/item_3.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.22
+        }
+      ]
+    },
+    {
+      "id": "dr-oetker-suprema-calabrese-nduja-tipo",
+      "name": "Dr. Oetker Suprema Calabrese & 'Nduja Tipo",
+      "brand": "",
+      "quantity": "tiefgefroren, je 520-g-Pckg. (1 kg = 7.67) oder Suprema Tonno tiefgefroren, je 540-g-Pckg. (1 kg = 7.39)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/16_crops/item_4.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 3.99
+        }
+      ]
+    },
+    {
+      "id": "iglo-13-backfischstabchen",
+      "name": "Iglo 13 Backfischstäbchen",
+      "brand": "",
+      "quantity": "tiefgefroren, je 364-g-Pckg. (1 kg = 8.21) oder 15 Fischstäbchen tiefgefroren, je 450-g-Pckg. (1 kg = 6.64)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/16_crops/item_5.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.99
+        }
+      ]
+    },
+    {
+      "id": "greenforce-veganer-leberkase",
+      "name": "Greenforce Veganer Leberkäse",
+      "brand": "",
+      "quantity": "je 160-g-Schale (1 kg = 15.56) oder vegane Weißwurst je 200-g-Pckg. (1 kg = 12.45)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/16_crops/item_6.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.49
+        }
+      ]
+    },
+    {
+      "id": "rugenwalder-vegane-pommersche",
+      "name": "Rügenwalder Vegane Pommersche",
+      "brand": "",
+      "quantity": "fein, je 125-g-Becher (1 kg = 14.32) oder Veganer Schinken Spicker Salat klassisch, je 150-g-Becher (1 kg = 11.93)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/16_crops/item_7.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.79
+        }
+      ]
+    },
+    {
+      "id": "tante-fanny-frischer-flammkuchenteig",
+      "name": "Tante Fanny Frischer Flammkuchenteig",
+      "brand": "",
+      "quantity": "je 260-g-Pckg. (1 kg = 5.73) oder Frischer Quiche- und Tarteteig je 300-g-Pckg. (1 kg = 4.97)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/16_crops/item_8.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.49
+        }
+      ]
+    },
+    {
+      "id": "pwr-shaker3",
+      "name": "PWR Shaker³",
+      "brand": "",
+      "quantity": "ca. 500 ml\ninkl. 2 Pulverdosen\nje Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/17_crops/item_1.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 5.99
+        }
+      ]
+    },
+    {
+      "id": "pwr-whey-protein-vanilla-flavour",
+      "name": "PWR Whey Protein Vanilla flavour",
+      "brand": "",
+      "quantity": "je 420-g-Dose",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/17_crops/item_2.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 12.85
+        }
+      ]
+    },
+    {
+      "id": "pwr-filled-protein-bar",
+      "name": "PWR Filled Protein Bar",
+      "brand": "",
+      "quantity": "versch. Sorten,\nje 45-g-Riegel",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/17_crops/item_4.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.19
+        }
+      ]
+    },
+    {
+      "id": "pwr-protein-bar-30",
+      "name": "PWR Protein Bar 30",
+      "brand": "",
+      "quantity": "versch. Sorten,\nje 45-g-Riegel",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/17_crops/item_5.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 0.95
+        }
+      ]
+    },
+    {
+      "id": "pwr-protein-bar-50",
+      "name": "PWR Protein Bar 50",
+      "brand": "",
+      "quantity": "versch. Sorten,\nje 45-g-Riegel",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/17_crops/item_6.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 0.85
+        }
+      ]
+    },
+    {
+      "id": "rewe-bio-vollkorn-sandwich",
+      "name": "REWE Bio Vollkorn Sandwich",
+      "brand": "",
+      "quantity": "je 750-g-Btl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/18_crops/item_1.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.99
+        }
+      ]
+    },
+    {
+      "id": "beemster-mild-oder-pikant",
+      "name": "Beemster mild oder pikant",
+      "brand": "",
+      "quantity": "holl. Schnittkäse, mind. 48% Fett i.Tr., je 100 g",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/18_crops/item_2.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.49
+        }
+      ]
+    },
+    {
+      "id": "palatum-paprini-mit-frischkase",
+      "name": "Palatum Paprini mit Frischkäse",
+      "brand": "",
+      "quantity": "je 160-g-Schale",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/18_crops/item_3.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.49
+        }
+      ]
+    },
+    {
+      "id": "rewe-bio-cashewkerne",
+      "name": "REWE Bio Cashewkerne",
+      "brand": "",
+      "quantity": "je 250-g-Btl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/18_crops/item_4.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 3.99
+        }
+      ]
+    },
+    {
+      "id": "ergullu-scharfer-grieche",
+      "name": "Ergüllü Scharfer Grieche",
+      "brand": "",
+      "quantity": "je 125-g-Becher",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/18_crops/item_5.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": "rewe-bio-orangensaft",
+      "name": "REWE Bio Orangensaft",
+      "brand": "",
+      "quantity": "100% Direktsaft, je 1-l-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/18_crops/item_7.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 3.09
+        }
+      ]
+    },
+    {
+      "id": "dermaris-pizzabrotchen",
+      "name": "Dermaris Pizzabrötchen",
+      "brand": "",
+      "quantity": "versch. Sorten, je 250-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/18_crops/item_8.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.79
+        }
+      ]
+    },
+    {
+      "id": "o-mochi-eis",
+      "name": "O-Mochi Eis",
+      "brand": "",
+      "quantity": "versch. Sorten, je 180-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/18_crops/item_9.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 3.79
+        }
+      ]
+    },
+    {
+      "id": "beyond-meat-beyond-burger",
+      "name": "Beyond Meat Beyond Burger",
+      "brand": "",
+      "quantity": "tiefgefroren, je 226-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/19_crops/item_1.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.99
+        }
+      ]
+    },
+    {
+      "id": "vivera-veganes-schnitzel",
+      "name": "Vivera Veganes Schnitzel",
+      "brand": "",
+      "quantity": "Hähnchen Art, je 200-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/19_crops/item_2.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.29
+        }
+      ]
+    },
+    {
+      "id": "better-nature-tempeh",
+      "name": "Better Nature Tempeh",
+      "brand": "",
+      "quantity": "geräuchert, je 220-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/19_crops/item_4.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.49
+        }
+      ]
+    },
+    {
+      "id": "sofine-brokkoli-burger",
+      "name": "SoFine Brokkoli Burger",
+      "brand": "",
+      "quantity": "je 170-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/19_crops/item_5.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.22
+        }
+      ]
+    },
+    {
+      "id": "rewe-bio-linseneintopf",
+      "name": "REWE Bio Linseneintopf",
+      "brand": "",
+      "quantity": "je 800-g-Dose",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/19_crops/item_6.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.69
+        }
+      ]
+    },
+    {
+      "id": "complete-organics-kimchi",
+      "name": "Complete Organics Kimchi",
+      "brand": "",
+      "quantity": "versch. Sorten, je 240-g-Glas",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/19_crops/item_7.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 4.29
+        }
+      ]
+    },
+    {
+      "id": "huel-trinkmahlzeit",
+      "name": "Huel Trinkmahlzeit",
+      "brand": "",
+      "quantity": "versch. Sorten, je 500-ml-Fl. zzgl. 0.25 Pfand",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/19_crops/item_8.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.99
+        }
+      ]
+    },
+    {
+      "id": "rewe-bio-fruhstucks-direktsaft",
+      "name": "REWE Bio Frühstücks-Direktsaft",
+      "brand": "",
+      "quantity": "je 1-l-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/19_crops/item_9.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.59
+        }
+      ]
+    },
+    {
+      "id": "beck-s-pils",
+      "name": "Beck's Pils",
+      "brand": "",
+      "quantity": "versch. Sorten, je 20 x 0,5-l-Fl.-Kasten (1 l = 1.10) zzgl. 3.10 Pfand",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/20_crops/item_1.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 10.99
+        }
+      ]
+    },
+    {
+      "id": "hohes-c-saft",
+      "name": "Hohes C Saft",
+      "brand": "",
+      "quantity": "versch. Sorten, je 1-l-Fl. zzgl. 0.25 Pfand",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/20_crops/item_2.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.79
+        }
+      ]
+    },
+    {
+      "id": "karlsberg-mixery-vod-flav-iced-blue",
+      "name": "Karlsberg Mixery Vod. Flav. Iced Blue",
+      "brand": "",
+      "quantity": "je 0,5-l-Dose (1 l = 1.98) zzgl. 0.25 Pfand",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/20_crops/item_4.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 0.99
+        }
+      ]
+    },
+    {
+      "id": "pfanner-icetea",
+      "name": "Pfanner IceTea",
+      "brand": "",
+      "quantity": "versch. Sorten, je 2-l-Pckg. (1 l = 0.65)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/20_crops/item_5.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.29
+        }
+      ]
+    },
+    {
+      "id": "amecke-sanfte-safte-oder-plus-safte",
+      "name": "Amecke Sanfte Säfte oder Plus Säfte",
+      "brand": "",
+      "quantity": "versch. Sorten, aus Konzentrat, je 1-l-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/20_crops/item_6.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": "rheinfels-mineralwasser",
+      "name": "Rheinfels Mineralwasser",
+      "brand": "",
+      "quantity": "versch. Sorten, je 12 x 0,7-l-Fl.-Kasten (1 l = 0.57) zzgl. 3.30 Pfand",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/20_crops/item_7.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 4.79
+        }
+      ]
+    },
+    {
+      "id": "heineken-premium-beer",
+      "name": "Heineken Premium Beer",
+      "brand": "",
+      "quantity": "versch. Sorten, je 20 x 0,4/28 x 0,25-l-Fl.-Kasten (1 l = 2.00/2.28) zzgl. 3.10/3.74 Pfand",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/20_crops/item_8.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 15.99
+        }
+      ]
+    },
+    {
+      "id": "franziskaner-weibier",
+      "name": "Franziskaner Weißbier",
+      "brand": "",
+      "quantity": "versch. Sorten, je 20 x 0,5-l-Fl.-Kasten (1 l = 1.50) zzgl. 3.10 Pfand",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/20_crops/item_9.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 14.99
+        }
+      ]
+    },
+    {
+      "id": "oberdorfer-helles",
+      "name": "Oberdorfer Helles",
+      "brand": "",
+      "quantity": "je 20 x 0,5-l-Fl.-Kasten (1 l = 1.50) zzgl. 3.10 Pfand",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/20_crops/item_10.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 14.99
+        }
+      ]
+    },
+    {
+      "id": "gorbatschow-wodka-original",
+      "name": "Gorbatschow Wodka Original",
+      "brand": "",
+      "quantity": "37,5% Vol., je 0,7-l-Fl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/21_crops/item_1.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 6.49
+        }
+      ]
+    },
+    {
+      "id": "skyy-vodka",
+      "name": "Skyy Vodka",
+      "brand": "",
+      "quantity": "40% Vol., je 0,7-l-Fl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/21_crops/item_2.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 9.99
+        }
+      ]
+    },
+    {
+      "id": "hendrick-s-gin",
+      "name": "Hendrick's Gin",
+      "brand": "",
+      "quantity": "44% Vol., versch. Sorten, je 0,7-l-Fl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/21_crops/item_3.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 27.99
+        }
+      ]
+    },
+    {
+      "id": "furst-von-metternich-sekt",
+      "name": "Fürst von Metternich Sekt",
+      "brand": "",
+      "quantity": "je 0,75-l-Fl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/21_crops/item_4.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 5.99
+        }
+      ]
+    },
+    {
+      "id": "jameson-irish-whiskey",
+      "name": "Jameson Irish Whiskey",
+      "brand": "",
+      "quantity": "40% Vol., je 0,7-l-Fl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/21_crops/item_5.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 14.99
+        }
+      ]
+    },
+    {
+      "id": "campari-bitter-aperitif",
+      "name": "Campari Bitter Aperitif",
+      "brand": "",
+      "quantity": "25% Vol., je 0,7-l-Fl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/21_crops/item_6.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 10.99
+        }
+      ]
+    },
+    {
+      "id": "sohnlein-brillant-sekt",
+      "name": "Söhnlein Brillant Sekt",
+      "brand": "",
+      "quantity": "versch. Sorten, je 0,75-l-Fl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/21_crops/item_7.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.79
+        }
+      ]
+    },
+    {
+      "id": "baileys-chocolate-irish-cream-liqueur",
+      "name": "Baileys Chocolate Irish Cream Liqueur",
+      "brand": "",
+      "quantity": "15,7% Vol., je 0,5-l-Fl. oder Original Irish Cream Liqueur 17% Vol., je 0,7-l-Fl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/21_crops/item_8.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 9.99
+        }
+      ]
+    },
+    {
+      "id": "smirnoff-ice-vodka-oder-gordon-s-gin-tonic",
+      "name": "Smirnoff Ice Vodka oder Gordon's Gin & Tonic",
+      "brand": "",
+      "quantity": "10% Vol., je 0,25-l-Dose zzgl. 0.25 Pfand",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/21_crops/item_9.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": "pfalz-hettinger-qualitatswein",
+      "name": "Pfalz: Hettinger Qualitätswein",
+      "brand": "",
+      "quantity": "versch. Sorten, trocken, halbtrocken, je 1-l-Fl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/21_crops/item_10.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.99
+        }
+      ]
+    },
+    {
+      "id": "barilla-pasta-spezialitaten-collezione",
+      "name": "Barilla Pasta Spezialitäten Collezione",
+      "brand": "",
+      "quantity": "versch. Ausformungen, je 500-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/22_crops/item_1.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.49
+        }
+      ]
+    },
+    {
+      "id": "knorr-pasta-pot-brokkoli-kase",
+      "name": "Knorr Pasta Pot Brokkoli & Käse",
+      "brand": "",
+      "quantity": "je 62-g-Becher",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/22_crops/item_2.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 0.99
+        }
+      ]
+    },
+    {
+      "id": "mutti-tomatenpesto-rosso-oder-pastasauce-basilikum",
+      "name": "Mutti Tomatenpesto Rosso oder Pastasauce Basilikum",
+      "brand": "",
+      "quantity": "je 180-g-Glas (1 kg = 13.83) oder Pastasauce Basilikum, je 400-g-Glas (1 kg = 6.23)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/22_crops/item_3.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.49
+        }
+      ]
+    },
+    {
+      "id": "knorr-feinschmecker-suppe",
+      "name": "Knorr Feinschmecker Suppe",
+      "brand": "",
+      "quantity": "versch. Sorten, ausreichend für 500 ml, je Btl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/22_crops/item_4.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 0.88
+        }
+      ]
+    },
+    {
+      "id": "knorr-schlemmersauce",
+      "name": "Knorr Schlemmersauce",
+      "brand": "",
+      "quantity": "versch. Sorten, je 250-ml-Fl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/22_crops/item_5.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 0.99
+        }
+      ]
+    },
+    {
+      "id": "knorr-soe-3er-pack",
+      "name": "Knorr Soße 3er-Pack",
+      "brand": "",
+      "quantity": "versch. Sorten, ausreichend für 3 x 250 ml, je Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/22_crops/item_6.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 0.99
+        }
+      ]
+    },
+    {
+      "id": "maggi-fix-nudel-schinken-gratin-oder-fix-air-fryer-curry-knusper-hahnchen",
+      "name": "Maggi Fix Nudel-Schinken Gratin oder Fix Air Fryer Curry Knusper Hähnchen",
+      "brand": "",
+      "quantity": "je 33-g-Btl. (1 kg = 14.85) oder Fix Air Fryer Curry Knusper Hähnchen je 41-g-Btl. (1 kg = 11.95)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/22_crops/item_7.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 0.49
+        }
+      ]
+    },
+    {
+      "id": "saupiquet-thunfisch-salat",
+      "name": "Saupiquet Thunfisch-Salat",
+      "brand": "",
+      "quantity": "versch. Sorten, je 160-g-Dosen-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/22_crops/item_8.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.29
+        }
+      ]
+    },
+    {
+      "id": "dallmayr-capsa",
+      "name": "Dallmayr Capsa",
+      "brand": "",
+      "quantity": "versch. Sorten, je 56-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/22_crops/item_9.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.69
+        }
+      ]
+    },
+    {
+      "id": "kinder-schoko-bons-oder-bueno",
+      "name": "Kinder Schoko-Bons oder Bueno",
+      "brand": "",
+      "quantity": "je 200-g-Btl. oder je 10 x 21,5-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/23_crops/item_3.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.99
+        }
+      ]
+    },
+    {
+      "id": "nestle-kit-kat-tafel-cookie-dough-oder-kit-kat",
+      "name": "Nestlé Kit Kat Tafel Cookie Dough oder Kit Kat",
+      "brand": "",
+      "quantity": "je 99-g-Tafel oder je 4 x 41,5-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/23_crops/item_4.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.79
+        }
+      ]
+    },
+    {
+      "id": "griesson-soft-cake-orange",
+      "name": "Griesson Soft Cake Orange",
+      "brand": "",
+      "quantity": "je 300-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/23_crops/item_5.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": "milka-choco-wafer-coconut-oder-choco-minis",
+      "name": "Milka Choco Wafer Coconut, oder Choco Minis",
+      "brand": "",
+      "quantity": "je 5 x 30-g-Pckg. oder je 5 x 37-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/23_crops/item_6.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": "capri-sun-soft-chews-fruit-mix-oder-ice-pops",
+      "name": "Capri Sun Soft Chews Fruit Mix oder Ice Pops",
+      "brand": "",
+      "quantity": "je 147-g-Btl. oder je 400-ml-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/23_crops/item_7.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": "nescafe-espresso-concentrate-versch-sorten",
+      "name": "Nescafé Espresso Concentrate versch. Sorten",
+      "brand": "",
+      "quantity": "je 500-ml-Fl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/23_crops/item_8.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 4.44
+        }
+      ]
+    },
+    {
+      "id": "movenpick-kaffee-der-himmlische",
+      "name": "Mövenpick Kaffee Der Himmlische",
+      "brand": "",
+      "quantity": "gemahlener Bohnenkaffee, je 500-g-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/23_crops/item_9.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 6.99
+        }
+      ]
+    },
+    {
+      "id": "movenpick-caffe-crema-ganze-bohnen",
+      "name": "Mövenpick Caffè Crema ganze Bohnen",
+      "brand": "",
+      "quantity": "je 1000-g-Btl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/23_crops/item_10.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 13.99
+        }
+      ]
+    },
+    {
+      "id": "zewa-toilettenpapier",
+      "name": "Zewa Toilettenpapier",
+      "brand": "",
+      "quantity": "Ultra Soft, 4-lagig, je 8 x 150-Blatt-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/24_crops/item_1.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 3.99
+        }
+      ]
+    },
+    {
+      "id": "zewa-wisch-weg-original",
+      "name": "Zewa Wisch & Weg Original",
+      "brand": "",
+      "quantity": "je 4 x 45-Blatt-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/24_crops/item_2.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.49
+        }
+      ]
+    },
+    {
+      "id": "persil-universal-4-in-1-discs-oder-colorwaschmittel-kraft-gel",
+      "name": "Persil Universal 4 in 1 Discs oder Colorwaschmittel Kraft-Gel",
+      "brand": "",
+      "quantity": "je 76-WL-Btl. (1 WL = 0.25) oder je 100-WL-Fl. (1 WL = 0.19)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/24_crops/item_3.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 18.99
+        }
+      ]
+    },
+    {
+      "id": "pampers-baby-dry-sparpack-pants",
+      "name": "Pampers Baby-Dry Sparpack Pants",
+      "brand": "",
+      "quantity": "Gr. 6, XL, je 32-St.-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/24_crops/item_4.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 12.99
+        }
+      ]
+    },
+    {
+      "id": "milupa-kindermilch",
+      "name": "Milupa Kindermilch",
+      "brand": "",
+      "quantity": "versch. Sorten, je 550-g-Pckg. (1 kg = 10.89)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/24_crops/item_5.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 5.99
+        }
+      ]
+    },
+    {
+      "id": "carefree-slipeinlagen",
+      "name": "Carefree Slipeinlagen",
+      "brand": "",
+      "quantity": "Plus Long, je 40-St.-Pckg. oder Slipeinlagen Cotton Feel Normal, je 56-St.-Pckg.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/24_crops/item_6.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.29
+        }
+      ]
+    },
+    {
+      "id": "old-spice-deostick-captain",
+      "name": "Old Spice Deostick Captain",
+      "brand": "",
+      "quantity": "je 50-ml-Stick (1 l = 59.80)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/24_crops/item_7.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.99
+        }
+      ]
+    },
+    {
+      "id": "bruno-banani-duschgel-man",
+      "name": "Bruno Banani Duschgel Man",
+      "brand": "",
+      "quantity": "je 250-ml-Fl. (1 l = 9.16)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/24_crops/item_8.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.29
+        }
+      ]
+    },
+    {
+      "id": "felix-katzennahrung",
+      "name": "Felix Katzennahrung",
+      "brand": "",
+      "quantity": "versch. Sorten, je 12 x 85-g-Multipckg. (1 kg = 3.91)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/24_crops/item_9.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 3.99
+        }
+      ]
+    },
+    {
+      "id": "sheba-fresh-fine",
+      "name": "Sheba Fresh & Fine",
+      "brand": "",
+      "quantity": "versch. Sorten, je 6 x 50-g-Multipckg. (1 kg = 7.30)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/24_crops/item_10.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.19
+        }
+      ]
+    },
+    {
+      "id": "catsan-hygiene-plus",
+      "name": "Catsan Hygiene Plus",
+      "brand": "",
+      "quantity": "je 9-l-Btl. (1 l = 0.61)",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/24_crops/item_11.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 5.49
+        }
+      ]
+    },
+    {
+      "id": "pantene-pro-v-spulung",
+      "name": "Pantene Pro-V Spülung",
+      "brand": "",
+      "quantity": "Repair & Care, je 200-ml-Tube oder Shampoo Repair & Care, je 300-ml-Fl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/25_crops/item_1.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 3.29
+        }
+      ]
+    },
+    {
+      "id": "head-shoulders-shampoo-2in1-classic-clean",
+      "name": "Head & Shoulders Shampoo 2in1 Classic Clean",
+      "brand": "",
+      "quantity": "je 225-ml-Fl. oder Shampoo Classic Clean je 250-ml-Fl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/25_crops/item_2.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 3.49
+        }
+      ]
+    },
+    {
+      "id": "meister-proper-ultra-power-spray",
+      "name": "Meister Proper Ultra Power Spray",
+      "brand": "",
+      "quantity": "Antibakteriell, je 800-ml-Fl. oder Küchenspray je 800-ml-Fl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/25_crops/item_3.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 2.29
+        }
+      ]
+    },
+    {
+      "id": "fairy-geschirrspulmittel",
+      "name": "Fairy Geschirrspülmittel",
+      "brand": "",
+      "quantity": "versch. Sorten, je 450-ml-Fl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/25_crops/item_4.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.39
+        }
+      ]
+    },
+    {
+      "id": "lenor-weichspuler",
+      "name": "Lenor Weichspüler",
+      "brand": "",
+      "quantity": "versch. Sorten, je 1,49-l-Fl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/25_crops/item_5.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 3.99
+        }
+      ]
+    },
+    {
+      "id": "lenor-all-in-1-pods",
+      "name": "Lenor All in 1 Pods",
+      "brand": "",
+      "quantity": "Amethyst & Blütentraum, je 15-WL-Pckg. oder Waschmittel flüssig Aprilfrisch, je 20-WL-Fl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/25_crops/item_6.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 4.99
+        }
+      ]
+    },
+    {
+      "id": "ariel-all-in-1-pods",
+      "name": "Ariel All in 1 Pods",
+      "brand": "",
+      "quantity": "je 15-WL-Pckg. oder Colorwaschmittel flüssig je 20-WL-Fl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/25_crops/item_7.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 4.99
+        }
+      ]
+    },
+    {
+      "id": "weinfreunde-steitz-beck",
+      "name": "Weinfreunde Steitz & Beck",
+      "brand": "",
+      "quantity": "versch. Sorten, trocken, je 0.75-l-Fl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/26_crops/item_6.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 3.99
+        }
+      ]
+    },
+    {
+      "id": "weinfreunde-granbeau-rose",
+      "name": "Weinfreunde Granbeau Rosé",
+      "brand": "",
+      "quantity": "trocken, je 0.75-l-Fl.",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/26_crops/item_8.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 4.99
+        }
+      ]
     }
   ],
   "source": "https://prospektewoche.de/rewe",
-  "last_import_count": 16
+  "last_import_count": 200
 }
