@@ -1,0 +1,9 @@
+{
+  "name": "REWE Preisarchiv Weilbach",
+  "short_name": "REWE Preise",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f5f7",
+  "theme_color": "#cc071e",
+  "lang": "de"
+}
