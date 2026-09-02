@@ -1,0 +1,12 @@
+{
+  "manual_import_example": {
+    "name": "Beispielprodukt",
+    "brand": "Marke",
+    "quantity": "500 g",
+    "category": "Beispiel",
+    "price": 1.99,
+    "image_url": "https://example.com/image.jpg",
+    "valid_from": "2026-09-01",
+    "valid_to": "2026-09-06"
+  }
+}
