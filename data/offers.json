@@ -1,5 +1,236 @@
 {
-  "store": {"id":"240367","name":"REWE Vigheshan Gahndi oHG","address":"Industriestraße 40, 65439 Flörsheim-Weilbach"},
-  "updated_at": null,
-  "products": []
+  "store": {
+    "id": "240367",
+    "name": "REWE Vigheshan Gahndi oHG",
+    "address": "Industriestraße 40, 65439 Flörsheim-Weilbach"
+  },
+  "updated_at": "2026-09-02T19:49:27+00:00",
+  "products": [
+    {
+      "id": "bonne-maman-weniger-zucker-mehr-frucht-konfiture",
+      "name": "Bonne Maman Weniger Zucker, mehr Frucht Konfitüre",
+      "brand": "",
+      "quantity": "Rewe Prospekt",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/1_crops/item_2.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": "funny-frisch-ofen-chips-paprika-oder-chipsfrisch-ungarisch",
+      "name": "Funny-frisch Ofen Chips Paprika, oder Chipsfrisch ungarisch",
+      "brand": "",
+      "quantity": "Rewe Prospekt",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/2_crops/item_3.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": "bergader-almzeit-oder-bavaria-blu",
+      "name": "Bergader Almzeit oder Bavaria blu",
+      "brand": "",
+      "quantity": "Rewe Prospekt",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/3_crops/item_2.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": "oro-di-parma-tomatenmark-oder-italienische-tomaten-stuckig",
+      "name": "Oro di Parma Tomatenmark oder italienische Tomaten stückig",
+      "brand": "",
+      "quantity": "Rewe Prospekt",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/4_crops/item_1.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": "barilla-pesto-rosso-oder-pasta-sauce-basilico",
+      "name": "Barilla Pesto Rosso oder Pasta Sauce Basilico",
+      "brand": "",
+      "quantity": "Rewe Prospekt",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/5_crops/item_3.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": "schweine-schnitzel-oder-braten",
+      "name": "Schweine-Schnitzel oder -Braten",
+      "brand": "",
+      "quantity": "Rewe Prospekt",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/8_crops/item_1.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": "metten-salami-aufschnitt-spezial",
+      "name": "Metten Salami-Aufschnitt »Spezial«",
+      "brand": "",
+      "quantity": "Rewe Prospekt",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/10_crops/item_9.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": "hohenrainer-putenschnitzel",
+      "name": "Höhenrainer Putenschnitzel",
+      "brand": "",
+      "quantity": "Rewe Prospekt",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/11_crops/item_3.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": "toasty-cheese",
+      "name": "Toasty Cheese",
+      "brand": "",
+      "quantity": "3.98",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/12_crops/item_4.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": "berliner-kunterbunt-oder-berliner-vanille",
+      "name": "Berliner Kunterbunt oder Berliner Vanille",
+      "brand": "",
+      "quantity": "Rewe Prospekt",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/12_crops/item_1.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": "lieken-urkorn-kleine-sonne",
+      "name": "Lieken Urkorn Kleine Sonne",
+      "brand": "",
+      "quantity": "Rewe Prospekt",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/13_crops/item_4.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": "pwr-clear-whey-protein-ice-tea-peach-flavour",
+      "name": "PWR Clear Whey Protein Ice Tea Peach flavour",
+      "brand": "",
+      "quantity": "Rewe Prospekt",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/17_crops/item_3.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": "youcook-internationales-fertiggericht",
+      "name": "Youcook Internationales Fertiggericht",
+      "brand": "",
+      "quantity": "Rewe Prospekt",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/18_crops/item_6.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": "rewe-bio-vegan-rauchertofu-mandel-sesam",
+      "name": "REWE Bio + vegan Räuchertofu Mandel-Sesam",
+      "brand": "",
+      "quantity": "Rewe Prospekt",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/19_crops/item_3.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": "ja-mobil-starter-paket",
+      "name": "ja! mobil Starter-Paket",
+      "brand": "",
+      "quantity": "4.98",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/26_crops/item_5.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 9.95
+        }
+      ]
+    },
+    {
+      "id": "weinfreunde-tres-reyes-tempranillo-syrah",
+      "name": "Weinfreunde Tres Reyes Tempranillo-Syrah",
+      "brand": "",
+      "quantity": "Rewe Prospekt",
+      "category": "Prospekt",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/26_crops/item_7.jpg",
+      "history": [
+        {
+          "date": "2026-09-02",
+          "price": 1.99
+        }
+      ]
+    }
+  ],
+  "source": "https://prospektewoche.de/rewe",
+  "last_import_count": 16
 }
