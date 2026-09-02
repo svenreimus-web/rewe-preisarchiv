@@ -1,0 +1,8 @@
+{
+  "name": "REWE Preisarchiv",
+  "short_name": "Preisarchiv",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}
