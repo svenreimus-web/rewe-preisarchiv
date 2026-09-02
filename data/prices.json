@@ -1,0 +1,7 @@
+[
+  {"name":"Barilla Pasta Sauce","brand":"Barilla","quantity":"400 g","history":[{"date":"2026-08-24","price":2.29},{"date":"2026-08-31","price":1.99}]},
+  {"name":"Ristorante Pizza Salame","brand":"Dr. Oetker","quantity":"320 g","history":[{"date":"2026-08-24","price":1.99},{"date":"2026-08-31","price":1.79}]},
+  {"name":"Pils","brand":"Beck’s","quantity":"20 x 0,5 l","history":[{"date":"2026-08-24","price":11.99},{"date":"2026-08-31","price":10.99}]},
+  {"name":"Kinder Bueno","brand":"Ferrero","quantity":"6 Stück","history":[{"date":"2026-08-31","price":2.99}]},
+  {"name":"Ofen Chips","brand":"funny-frisch","quantity":"125 g","history":[{"date":"2026-08-31","price":1.11}]}
+]
