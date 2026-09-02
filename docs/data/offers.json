@@ -1,0 +1,15 @@
+{
+  "store": {
+    "id": "240367",
+    "name": "REWE Vigheshan Gahndi oHG",
+    "address": "Industriestraße 40, 65439 Flörsheim-Weilbach"
+  },
+  "updated_at": "2026-09-02T21:15:00+02:00",
+  "products": [
+    {"id":"barilla-pasta-sauce","name":"Barilla Pasta Sauce","brand":"Barilla","category":"Lebensmittel","image":"","history":[{"date":"2026-08-24","price":2.29},{"date":"2026-08-31","price":1.99}]},
+    {"id":"dr-oetker-ristorante-pizza-salame","name":"Ristorante Pizza Salame","brand":"Dr. Oetker","category":"Tiefkühl","image":"","history":[{"date":"2026-08-24","price":1.99},{"date":"2026-08-31","price":1.79}]},
+    {"id":"becks-pils","name":"Beck's Pils","brand":"Beck's","category":"Getränke","image":"","history":[{"date":"2026-08-24","price":11.99},{"date":"2026-08-31","price":10.99}]},
+    {"id":"kinder-bueno","name":"Kinder Bueno","brand":"Kinder","category":"Süßwaren","image":"","history":[{"date":"2026-08-31","price":2.99}]},
+    {"id":"funny-frisch-ofen-chips","name":"Ofen Chips","brand":"funny-frisch","category":"Snacks","image":"","history":[{"date":"2026-08-31","price":1.11}]}
+  ]
+}
