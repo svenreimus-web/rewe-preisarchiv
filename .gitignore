@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+data/offers.sqlite3
+data/thumbs/
+.env
