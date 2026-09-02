@@ -4,7 +4,7 @@
     "name": "REWE Vigheshan Gahndi oHG",
     "address": "Industriestraße 40, 65439 Flörsheim-Weilbach"
   },
-  "updated_at": "2026-09-02T19:52:24+00:00",
+  "updated_at": "2026-09-02T19:59:35+00:00",
   "products": [
     {
       "id": "bonne-maman-weniger-zucker-mehr-frucht-konfiture",
@@ -22,16 +22,12 @@
     },
     {
       "id": "funny-frisch-ofen-chips-paprika-oder-chipsfrisch-ungarisch",
-      "name": "Funny-frisch Ofen Chips Paprika oder Chipsfrisch ungarisch",
+      "name": "Funny-frisch Ofen Chips Paprika, oder Chipsfrisch ungarisch",
       "brand": "",
-      "quantity": "Paprika, je 115-g-Btl. oder Chipsfrisch ungarisch, je 150-g-Btl.",
+      "quantity": "je 115-g-Btl. (1 kg = 9.65) oder Chipsfrisch ungarisch, je 150-g-Btl.",
       "category": "Prospekt",
-      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/23_crops/item_1.jpg",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/2_crops/item_3.jpg",
       "history": [
-        {
-          "date": "2026-09-02",
-          "price": 1.11
-        },
         {
           "date": "2026-09-02",
           "price": 1.11
@@ -68,11 +64,11 @@
     },
     {
       "id": "barilla-pesto-rosso-oder-pasta-sauce-basilico",
-      "name": "Barilla Pesto Rosso oder Pasta Sauce Basilico",
+      "name": "Barilla Pesto Rosso vegan, oder Pasta Sauce Basilico",
       "brand": "",
-      "quantity": "vegan, je 200-g-Glas (1 kg = 9.95) oder Pasta Sauce Basilico, je 400-g-Glas",
+      "quantity": "je 200-g-Glas (1 kg = 9.95) oder Pasta Sauce Basilico, je 400-g-Glas",
       "category": "Prospekt",
-      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/5_crops/item_3.jpg",
+      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/2_crops/item_4.jpg",
       "history": [
         {
           "date": "2026-09-02",
@@ -179,7 +175,7 @@
       ]
     },
     {
-      "id": "rewe-bio-vegan-rauchertofu-mandel-sesam",
+      "id": "rewe-bio-rauchertofu-mandel-sesam",
       "name": "REWE Bio + vegan Räuchertofu Mandel-Sesam",
       "brand": "",
       "quantity": "je 200-g-Pckg.",
@@ -315,20 +311,6 @@
         {
           "date": "2026-09-02",
           "price": 0.99
-        }
-      ]
-    },
-    {
-      "id": "barilla-pesto-rosso-vegan-oder-pasta-sauce-basilico",
-      "name": "Barilla Pesto Rosso vegan, oder Pasta Sauce Basilico",
-      "brand": "",
-      "quantity": "je 200-g-Glas (1 kg = 9.95) oder Pasta Sauce Basilico, je 400-g-Glas",
-      "category": "Prospekt",
-      "image": "https://prospektewoche.de/images/prospekte/rewe/week1/2_crops/item_4.jpg",
-      "history": [
-        {
-          "date": "2026-09-02",
-          "price": 1.99
         }
       ]
     },
@@ -2798,5 +2780,5 @@
     }
   ],
   "source": "https://prospektewoche.de/rewe",
-  "last_import_count": 200
+  "last_import_count": 198
 }
