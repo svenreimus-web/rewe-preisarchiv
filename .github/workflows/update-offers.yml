@@ -58,11 +58,8 @@ jobs:
           PY
       - name: Abhängigkeiten installieren
         if: steps.gate.outputs.run == 'true'
-        run: |
-          pip install requests beautifulsoup4 pillow pytesseract
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-deu
-      - name: EDEKA Blätterkatalog OCR testen
+        run: pip install requests beautifulsoup4 pypdf
+      - name: EDEKA Blätterkatalog PDF testen
         if: steps.gate.outputs.run == 'true'
         run: python edeka_catalog_ocr.py
       - name: REWE und GLOBUS aktualisieren
