@@ -27,7 +27,7 @@ def get(url):
 
 def parse_period(text, today=None):
  today=today or datetime.now(timezone.utc).date()
- patterns=[r'(?:Angebot\s+gültig\s+vom\s*)?(\d{1,2})\.(\d{1,2})(?:\.(\d{2,4}))?\s*(?:bis|[-–])\s*(\d{1,2})\.(\d{1,2})\.(\d{2,4})',r'(\d{1,2})\.(\d{1,2})\.(\d{2,4})\s*[-–]\s*(\d{1,2})\.(\d{1,2})\.(\d{2,4})']
+ patterns=[r'(?:Angebot\s+gültig\s+vom\s*|Gültig\s+vom\s*)?(\d{1,2})\.(\d{1,2})(?:\.(\d{2,4}))?\s*(?:bis(?:\s+zum)?|[-–])\s*(\d{1,2})\.(\d{1,2})\.(\d{2,4})',r'(\d{1,2})\.(\d{1,2})\.(\d{2,4})\s*[-–]\s*(\d{1,2})\.(\d{1,2})\.(\d{2,4})']
  for pat in patterns:
   m=re.search(pat,text,re.I)
   if not m: continue
@@ -81,32 +81,64 @@ def extract_rewe_direct():
   seen.add(key); src=(img.get('src') or img.get('data-src') or '') if img else ''; found.append({'name':name,'quantity':'','category':'Markt-Angebot','price':p,'image':urljoin(REWE_URL,src) if src else '','store':'REWE'})
  return found,period
 
-def extract_edeka_market(url,store,market_name):
- period,soup=source_period(url); page_text=' '.join(soup.stripped_strings)
- if market_name.casefold() not in page_text.casefold(): raise RuntimeError(f'{market_name} auf Marktseite nicht bestätigt')
- found=[]; seen=set()
- for h in soup.find_all(re.compile(r'^h[1-6]$')):
-  raw=' '.join(h.stripped_strings); m=re.match(r'\s*Angebot:\s*(.+)',raw,re.I)
+def extract_edeka_from_text(text,url,store,market_name):
+ if market_name.casefold() not in text.casefold(): raise RuntimeError(f'{market_name} auf EDEKA-Seite nicht bestätigt')
+ period=parse_period(text); found=[]; seen=set()
+ for seg in re.split(r'(?=#+\s*Angebot:\s*)',text):
+  m=re.match(r'#+\s*Angebot:\s*(.+?)(?:\r?\n|$)',seg,re.I)
   if not m: continue
-  name=m.group(1).strip(); block=None
-  for parent in list(h.parents)[:7]:
-   if parent.name in ('body','html'): break
-   txt=' '.join(parent.stripped_strings)
-   if price_from_text(txt) is not None and len(txt)<1800: block=parent; break
-  if not block: continue
-  txt=' '.join(block.stripped_strings); p=price_from_text(txt)
+  name=re.sub(r'[*_`]+','',m.group(1)).strip()
+  pm=re.search(r'Festpreis\s+von\s*(\d{1,3})[,.](\d{2})\s*€',seg,re.I)
+  if pm: p=float(pm.group(1)+'.'+pm.group(2))
+  else:
+   p=price_from_text(seg)
   if p is None: continue
   key=(slug(name),p)
   if key in seen: continue
-  seen.add(key); img=block.find('img'); src=(img.get('src') or img.get('data-src') or img.get('data-lazy-src') or '') if img else ''
-  pieces=[x.strip() for x in block.stripped_strings if x.strip()]; desc=''
-  for x in pieces:
-   xl=x.casefold()
-   if x==raw or x==name or price_from_text(x) is not None or xl.startswith(('gültig ab','festpreis','rabattierter preis','app preis','grundpreis','image','diese artikel','abgabe in','niedrigster gesamtpreis','mit payback')): continue
-   if 4<len(x)<320: desc=x; break
-  found.append({'name':name,'quantity':desc,'category':'Markt-Angebot','price':p,'image':urljoin(url,src) if src else '','store':store})
- print(f'{store}: {len(found)} Angebote von offizieller EDEKA-Marktseite')
+  seen.add(key); desc=''
+  for line in seg.splitlines()[1:]:
+   x=re.sub(r'^[\s>*#-]+','',line).replace('**','').strip(); xl=x.casefold()
+   if not x or len(x)>320 or price_from_text(x) is not None or xl.startswith(('gültig ab','app preis','festpreis','rabattierter preis','grundpreis','image','diese artikel','abgabe in','niedrigster gesamtpreis','mit payback','dialog schließen')): continue
+   if x.startswith('![') or x.startswith('['): continue
+   if len(x)>4: desc=x; break
+  found.append({'name':name,'quantity':desc,'category':'Markt-Angebot','price':p,'image':'','store':store})
+ print(f'{store}: {len(found)} Angebote über EDEKA-Textquelle')
  return found,period
+
+def extract_edeka_market(url,store,market_name):
+ try:
+  period,soup=source_period(url); page_text=' '.join(soup.stripped_strings)
+  if market_name.casefold() not in page_text.casefold(): raise RuntimeError(f'{market_name} auf Marktseite nicht bestätigt')
+  found=[]; seen=set()
+  for h in soup.find_all(re.compile(r'^h[1-6]$')):
+   raw=' '.join(h.stripped_strings); m=re.match(r'\s*Angebot:\s*(.+)',raw,re.I)
+   if not m: continue
+   name=m.group(1).strip(); block=None
+   for parent in list(h.parents)[:7]:
+    if parent.name in ('body','html'): break
+    txt=' '.join(parent.stripped_strings)
+    if price_from_text(txt) is not None and len(txt)<1800: block=parent; break
+   if not block: continue
+   txt=' '.join(block.stripped_strings); pm=re.search(r'Festpreis\s+von\s*(\d{1,3})[,.](\d{2})\s*€',txt,re.I); p=float(pm.group(1)+'.'+pm.group(2)) if pm else price_from_text(txt)
+   if p is None: continue
+   key=(slug(name),p)
+   if key in seen: continue
+   seen.add(key); img=block.find('img'); src=(img.get('src') or img.get('data-src') or img.get('data-lazy-src') or '') if img else ''
+   pieces=[x.strip() for x in block.stripped_strings if x.strip()]; desc=''
+   for x in pieces:
+    xl=x.casefold()
+    if x==raw or x==name or price_from_text(x) is not None or xl.startswith(('gültig ab','festpreis','rabattierter preis','app preis','grundpreis','image','diese artikel','abgabe in','niedrigster gesamtpreis','mit payback')): continue
+    if 4<len(x)<320: desc=x; break
+   found.append({'name':name,'quantity':desc,'category':'Markt-Angebot','price':p,'image':urljoin(url,src) if src else '','store':store})
+  if found:
+   print(f'{store}: {len(found)} Angebote direkt von offizieller EDEKA-Marktseite')
+   return found,period
+  raise RuntimeError('keine Angebote im Direkt-HTML')
+ except Exception as direct_error:
+  print(f'{store} Direktabruf nicht möglich: {direct_error}; nutze Text-Fallback')
+  proxy='https://r.jina.ai/'+url
+  r=S.get(proxy,timeout=60); r.raise_for_status()
+  return extract_edeka_from_text(r.text,url,store,market_name)
 
 def dedupe_history(history):
  out=[];seen=set()
