@@ -4,7 +4,7 @@
     "name": "REWE Vigheshan Gahndi oHG",
     "address": "Industriestraße 40, 65439 Flörsheim-Weilbach"
   },
-  "updated_at": "2026-09-08T13:24:05+02:00",
+  "updated_at": "2026-09-08T13:26:36+02:00",
   "products": [
     {
       "id": "rewe-bonne-maman-weniger-zucker-mehr-frucht-konfiture",
@@ -26282,7 +26282,7 @@
           "price": 10.99
         }
       ],
-      "active": false,
+      "active": true,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12"
@@ -26301,7 +26301,7 @@
           "price": 1.29
         }
       ],
-      "active": false,
+      "active": true,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12"
@@ -26320,7 +26320,7 @@
           "price": 1.99
         }
       ],
-      "active": false,
+      "active": true,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12"
@@ -26339,7 +26339,7 @@
           "price": 0.99
         }
       ],
-      "active": false,
+      "active": true,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12"
@@ -26358,7 +26358,7 @@
           "price": 9.99
         }
       ],
-      "active": false,
+      "active": true,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12"
@@ -26367,7 +26367,7 @@
       "id": "edeka_buch-edeka-herzstucke-traubenmix-hell-und-rot",
       "name": "EDEKA Herzstücke Traubenmix hell und rot",
       "brand": "",
-      "quantity": "kernlos, aus Italien oder Spanien, Klasse I, 500 g",
+      "quantity": "kernlos, 500 g",
       "category": "Markt-Angebot",
       "image": "",
       "store": "EDEKA_BUCH",
@@ -26377,7 +26377,7 @@
           "price": 1.99
         }
       ],
-      "active": false,
+      "active": true,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12"
@@ -26396,7 +26396,7 @@
           "price": 12.99
         }
       ],
-      "active": false,
+      "active": true,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12"
@@ -26415,7 +26415,7 @@
           "price": 29.99
         }
       ],
-      "active": false,
+      "active": true,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12"
@@ -26434,7 +26434,7 @@
           "price": 27.99
         }
       ],
-      "active": false,
+      "active": true,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12"
@@ -26453,7 +26453,7 @@
           "price": 44.0
         }
       ],
-      "active": false,
+      "active": true,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12"
@@ -26462,7 +26462,7 @@
       "id": "edeka_buch-gut-gunstig-gartensack-faltbar",
       "name": "Gut & Günstig Gartensack faltbar",
       "brand": "",
-      "quantity": "",
+      "quantity": "Farbe Grün oder Grau",
       "category": "Markt-Angebot",
       "image": "",
       "store": "EDEKA_BUCH",
@@ -26475,8 +26475,7 @@
       "active": true,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
-      "valid_until": "2026-09-12",
-      "source_page": 34
+      "valid_until": "2026-09-12"
     },
     {
       "id": "edeka_buch-hofgluck-ruckensteaks",
@@ -26492,7 +26491,7 @@
           "price": 9.99
         }
       ],
-      "active": false,
+      "active": true,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12"
@@ -26511,7 +26510,7 @@
           "price": 10.99
         }
       ],
-      "active": false,
+      "active": true,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12"
@@ -26530,7 +26529,7 @@
           "price": 1.29
         }
       ],
-      "active": false,
+      "active": true,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12"
@@ -26549,7 +26548,7 @@
           "price": 1.99
         }
       ],
-      "active": false,
+      "active": true,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12"
@@ -26568,7 +26567,7 @@
           "price": 0.99
         }
       ],
-      "active": false,
+      "active": true,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12"
@@ -26587,7 +26586,7 @@
           "price": 9.99
         }
       ],
-      "active": false,
+      "active": true,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12"
@@ -26596,7 +26595,7 @@
       "id": "edeka_haller-edeka-herzstucke-traubenmix-hell-und-rot",
       "name": "EDEKA Herzstücke Traubenmix hell und rot",
       "brand": "",
-      "quantity": "kernlos, aus Italien oder Spanien, Klasse I, 500 g",
+      "quantity": "kernlos, 500 g",
       "category": "Markt-Angebot",
       "image": "",
       "store": "EDEKA_HALLER",
@@ -26606,7 +26605,7 @@
           "price": 1.99
         }
       ],
-      "active": false,
+      "active": true,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12"
@@ -26625,7 +26624,7 @@
           "price": 12.99
         }
       ],
-      "active": false,
+      "active": true,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12"
@@ -26644,7 +26643,7 @@
           "price": 29.99
         }
       ],
-      "active": false,
+      "active": true,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12"
@@ -26663,7 +26662,7 @@
           "price": 27.99
         }
       ],
-      "active": false,
+      "active": true,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12"
@@ -26682,7 +26681,7 @@
           "price": 44.0
         }
       ],
-      "active": false,
+      "active": true,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12"
@@ -26691,7 +26690,7 @@
       "id": "edeka_haller-gut-gunstig-gartensack-faltbar",
       "name": "Gut & Günstig Gartensack faltbar",
       "brand": "",
-      "quantity": "",
+      "quantity": "Farbe Grün oder Grau",
       "category": "Markt-Angebot",
       "image": "",
       "store": "EDEKA_HALLER",
@@ -26704,14 +26703,13 @@
       "active": true,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
-      "valid_until": "2026-09-12",
-      "source_page": 34
+      "valid_until": "2026-09-12"
     },
     {
       "id": "edeka_haller-mepal-trinkflasche",
       "name": "MEPAL Trinkflasche",
       "brand": "",
-      "quantity": "auslaufsicher, praktische Trageschlaufe, spülmaschinengeeignet bis 65 °C, 400 ml, versch. Motive",
+      "quantity": "auslaufsicher, 400 ml, versch. Motive",
       "category": "Markt-Angebot",
       "image": "",
       "store": "EDEKA_HALLER",
@@ -26721,7 +26719,7 @@
           "price": 11.99
         }
       ],
-      "active": false,
+      "active": true,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12"
@@ -27000,7 +26998,7 @@
           "price": 1.11
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -27080,7 +27078,7 @@
           "price": 1.49
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -27467,7 +27465,7 @@
       "source_page": 16
     },
     {
-      "id": "edeka_buch-vegan-rugenwalder-muhle-teewurst-fein",
+      "id": "edeka_buch-rugenwalder-muhle-teewurst-fein",
       "name": "Vegan Rügenwalder Mühle Teewurst fein",
       "brand": "",
       "quantity": "",
@@ -27480,14 +27478,14 @@
           "price": 1.69
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
       "source_page": 16
     },
     {
-      "id": "edeka_buch-vegan-planted-chicken-krauter-zitrone",
+      "id": "edeka_buch-planted-chicken-krauter-zitrone",
       "name": "Vegan Planted Chicken Kräuter & Zitrone",
       "brand": "",
       "quantity": "",
@@ -27500,14 +27498,14 @@
           "price": 2.49
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
       "source_page": 16
     },
     {
-      "id": "edeka_buch-vegan-rugenwalder-pommersche-schnittlauch",
+      "id": "edeka_buch-rugenwalder-pommersche-schnittlauch",
       "name": "Vegan Rügenwalder Pommersche Schnittlauch",
       "brand": "",
       "quantity": "",
@@ -27520,7 +27518,7 @@
           "price": 1.79
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -27540,7 +27538,7 @@
           "price": 2.79
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -27560,7 +27558,7 @@
           "price": 1.11
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -27620,7 +27618,7 @@
           "price": 1.29
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -28240,7 +28238,7 @@
           "price": 1.0
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -28260,7 +28258,7 @@
           "price": 2.19
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -28340,7 +28338,7 @@
           "price": 1.49
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -28380,7 +28378,7 @@
           "price": 2.59
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -28440,7 +28438,7 @@
           "price": 1.49
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -28500,7 +28498,7 @@
           "price": 12.0
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -28520,7 +28518,7 @@
           "price": 1.19
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -28800,7 +28798,7 @@
           "price": 1.11
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -28880,7 +28878,7 @@
           "price": 1.49
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -29267,7 +29265,7 @@
       "source_page": 16
     },
     {
-      "id": "edeka_haller-vegan-rugenwalder-muhle-teewurst-fein",
+      "id": "edeka_haller-rugenwalder-muhle-teewurst-fein",
       "name": "Vegan Rügenwalder Mühle Teewurst fein",
       "brand": "",
       "quantity": "",
@@ -29280,14 +29278,14 @@
           "price": 1.69
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
       "source_page": 16
     },
     {
-      "id": "edeka_haller-vegan-planted-chicken-krauter-zitrone",
+      "id": "edeka_haller-planted-chicken-krauter-zitrone",
       "name": "Vegan Planted Chicken Kräuter & Zitrone",
       "brand": "",
       "quantity": "",
@@ -29300,14 +29298,14 @@
           "price": 2.49
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
       "source_page": 16
     },
     {
-      "id": "edeka_haller-vegan-rugenwalder-pommersche-schnittlauch",
+      "id": "edeka_haller-rugenwalder-pommersche-schnittlauch",
       "name": "Vegan Rügenwalder Pommersche Schnittlauch",
       "brand": "",
       "quantity": "",
@@ -29320,7 +29318,7 @@
           "price": 1.79
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -29340,7 +29338,7 @@
           "price": 2.79
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -29360,7 +29358,7 @@
           "price": 1.11
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -29420,7 +29418,7 @@
           "price": 1.29
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -30040,7 +30038,7 @@
           "price": 1.0
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -30060,7 +30058,7 @@
           "price": 2.19
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -30140,7 +30138,7 @@
           "price": 1.49
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -30180,7 +30178,7 @@
           "price": 2.59
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -30240,7 +30238,7 @@
           "price": 1.49
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -30300,7 +30298,7 @@
           "price": 12.0
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -30320,7 +30318,7 @@
           "price": 1.19
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -30660,7 +30658,7 @@
           "price": 2.29
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -30800,7 +30798,7 @@
           "price": 1.11
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -31000,7 +30998,7 @@
           "price": 24.99
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -31020,7 +31018,7 @@
           "price": 27.99
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
@@ -31145,15 +31143,1575 @@
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
       "source_page": 49
+    },
+    {
+      "id": "edeka_buch-mind-45-fett-i-tr-mild-nussig-delacreme-mind-50-fett",
+      "name": "mind. 45% Fett i. Tr., mild-nussig Delacrème mind. 50% Fett",
+      "brand": "",
+      "quantity": "i. Tr., mild-würzig",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.11
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 8
+    },
+    {
+      "id": "edeka_buch-honig-senf-nach-matjesart-in-einem",
+      "name": "Honig-Senf nach Matjesart in einem",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.49
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 9
+    },
+    {
+      "id": "edeka_buch-gut-gunstig-bananen",
+      "name": "Gut & Günstig Bananen",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.11
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 10
+    },
+    {
+      "id": "edeka_buch-gut-gunstig-paprika-rot-aus-spanien-oder",
+      "name": "Gut & Günstig Paprika rot aus Spanien oder",
+      "brand": "",
+      "quantity": "den Niederlanden, Klasse I",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.49
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 10
+    },
+    {
+      "id": "edeka_buch-ondine-plattnektarinen-weifleischig-aus-spanien",
+      "name": "Ondine Plattnektarinen weißfleischig aus Spanien",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 10
+    },
+    {
+      "id": "edeka_buch-unsere-heimat-kartoffeln-vorwiegend-festkochend-fest",
+      "name": "Unsere Heimat Kartoffeln vorwiegend festkochend, fest",
+      "brand": "",
+      "quantity": "kochend oder mehligkochend",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 11
+    },
+    {
+      "id": "edeka_buch-versch-sorten-und-fettstufen-auch-cheddar-gerieben",
+      "name": "versch. Sorten und Fettstufen auch Cheddar gerieben",
+      "brand": "",
+      "quantity": "mind. 50% Fett i. Tr., 130–150 g",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.59
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 15
+    },
+    {
+      "id": "edeka_buch-hofgluck-lyoner-versch",
+      "name": "Hofglück Lyoner versch",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.29
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 15
+    },
+    {
+      "id": "edeka_buch-edeka-bio-frische-tortelloni-spinat",
+      "name": "EDEKA Bio Frische Tortelloni Spinat &",
+      "brand": "",
+      "quantity": "Pinienkerne 250 g oder",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 2.29
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 16
+    },
+    {
+      "id": "edeka_buch-vegan-rugenwalder-muhle-teewurst-fein",
+      "name": "Vegan Rügenwalder Mühle Teewurst fein",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.69
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 16
+    },
+    {
+      "id": "edeka_buch-vegan-planted-chicken-krauter-zitrone",
+      "name": "Vegan Planted Chicken Kräuter & Zitrone",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 2.49
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 16
+    },
+    {
+      "id": "edeka_buch-vegan-rugenwalder-pommersche-schnittlauch",
+      "name": "Vegan Rügenwalder Pommersche Schnittlauch",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.79
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 16
+    },
+    {
+      "id": "edeka_buch-rugenwalder-salino-boost-der-herzhafte-energy",
+      "name": "Rügenwalder Salino Boost der herzhafte Energy",
+      "brand": "",
+      "quantity": "Snack mit Koffein und Taurin",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 0.79
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 16
+    },
+    {
+      "id": "edeka_buch-roter-oder-gruner-multi",
+      "name": "Roter oder Grüner Multi",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 2.79
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 17
+    },
+    {
+      "id": "edeka_buch-3-8-fett-oder-frische",
+      "name": "3,8% Fett oder Frische",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.11
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 17
+    },
+    {
+      "id": "edeka_buch-oder-skyr-versch-sorten",
+      "name": "oder Skyr versch. Sorten",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.29
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 17
+    },
+    {
+      "id": "edeka_buch-iglo-rahm-spinat",
+      "name": "Iglo Rahm-Spinat",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 18
+    },
+    {
+      "id": "edeka_buch-langnese-eis-versch-sorten-tiefgefroren-340512-ml",
+      "name": "Langnese Eis versch. Sorten tiefgefroren, 340–512 ml",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 2.49
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 18
+    },
+    {
+      "id": "edeka_buch-iglo-fischstabchen-oder-backfischstabchen",
+      "name": "Iglo Fischstäbchen oder Backfischstäbchen",
+      "brand": "",
+      "quantity": "tiefgefroren, 364–450 g",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 2.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 19
+    },
+    {
+      "id": "edeka_buch-frosta-a-la-carte-oder-high-versch-sorten-tiefgefroren",
+      "name": "Frosta à la Carte oder High versch. Sorten, tiefgefroren",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 4.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 19
+    },
+    {
+      "id": "edeka_buch-bahlsen-geback-versch-sorten-97125-g",
+      "name": "Bahlsen Gebäck versch. Sorten, 97–125 g",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 21
+    },
+    {
+      "id": "edeka_buch-mentos-mint-oder-frucht",
+      "name": "Mentos Mint oder Frucht",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.29
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 22
+    },
+    {
+      "id": "edeka_buch-peanut-caramel-oder-caramel-choco-55-g",
+      "name": "Peanut Caramel oder Caramel Choco 55 g",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 23
+    },
+    {
+      "id": "edeka_buch-sonnen-bassermann-huhner-nudeleintopf",
+      "name": "Sonnen Bassermann Hühner Nudeleintopf",
+      "brand": "",
+      "quantity": "oder Linseneintopf 800 g",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.79
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 24
+    },
+    {
+      "id": "edeka_buch-pasta-rey-teigwaren-versch-ausformungen",
+      "name": "Pasta Rey Teigwaren versch. Ausformungen",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 0.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 24
+    },
+    {
+      "id": "edeka_buch-edeka-bio-tomatensauce-versch-sorten-350-ml",
+      "name": "EDEKA Bio Tomatensauce versch. Sorten, 350 ml",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.59
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 24
+    },
+    {
+      "id": "edeka_buch-monini-natives-olivenol-extra-classico",
+      "name": "Monini Natives Olivenöl Extra Classico",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 5.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 25
+    },
+    {
+      "id": "edeka_buch-oder-mit-schalotten-und-barlauch-verfeinert",
+      "name": "oder mit Schalotten und Bärlauch verfeinert",
+      "brand": "",
+      "quantity": "330 g, Abtropfgewicht 190 g",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 25
+    },
+    {
+      "id": "edeka_buch-booster-energy-drink-versch-sorten-koffeinhaltig",
+      "name": "Booster Energy Drink versch. Sorten, koffeinhaltig",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 0.59
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 29
+    },
+    {
+      "id": "edeka_buch-desperados-auch-0-0-alkoholfrei-und",
+      "name": "Desperados auch 0,0% Alkoholfrei und",
+      "brand": "",
+      "quantity": "weitere Sorten, 4 x 0,33 L",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 4.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 29
+    },
+    {
+      "id": "edeka_buch-allgauer-buble-edelbrau-20-x-0-5-l-zzgl-4-50-pfand",
+      "name": "Allgäuer Büble Edelbräu 20 x 0,5 L, zzgl. 4,50 Pfand",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 14.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 29
+    },
+    {
+      "id": "edeka_buch-pril-geschirrspulmittel-versch-sorten-450675-ml",
+      "name": "Pril Geschirrspülmittel versch. Sorten, 450–675 ml",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.39
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 32
+    },
+    {
+      "id": "edeka_buch-spender-versch-sorten-50-g-wc-reiniger-gel-lemon",
+      "name": "spender versch. Sorten, 50 g WC Reiniger Gel Lemon",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.49
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 32
+    },
+    {
+      "id": "edeka_buch-zewa-wisch-weg-2-x-90-4-x-45",
+      "name": "Zewa Wisch & Weg 2 x 90-, 4 x 45",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 2.59
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 33
+    },
+    {
+      "id": "edeka_buch-colgate-komplett-oder",
+      "name": "Colgate Komplett oder",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.49
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 33
+    },
+    {
+      "id": "edeka_haller-mind-45-fett-i-tr-mild-nussig-delacreme-mind-50-fett",
+      "name": "mind. 45% Fett i. Tr., mild-nussig Delacrème mind. 50% Fett",
+      "brand": "",
+      "quantity": "i. Tr., mild-würzig",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.11
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 8
+    },
+    {
+      "id": "edeka_haller-honig-senf-nach-matjesart-in-einem",
+      "name": "Honig-Senf nach Matjesart in einem",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.49
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 9
+    },
+    {
+      "id": "edeka_haller-gut-gunstig-bananen",
+      "name": "Gut & Günstig Bananen",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.11
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 10
+    },
+    {
+      "id": "edeka_haller-gut-gunstig-paprika-rot-aus-spanien-oder",
+      "name": "Gut & Günstig Paprika rot aus Spanien oder",
+      "brand": "",
+      "quantity": "den Niederlanden, Klasse I",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.49
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 10
+    },
+    {
+      "id": "edeka_haller-ondine-plattnektarinen-weifleischig-aus-spanien",
+      "name": "Ondine Plattnektarinen weißfleischig aus Spanien",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 10
+    },
+    {
+      "id": "edeka_haller-unsere-heimat-kartoffeln-vorwiegend-festkochend-fest",
+      "name": "Unsere Heimat Kartoffeln vorwiegend festkochend, fest",
+      "brand": "",
+      "quantity": "kochend oder mehligkochend",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 11
+    },
+    {
+      "id": "edeka_haller-versch-sorten-und-fettstufen-auch-cheddar-gerieben",
+      "name": "versch. Sorten und Fettstufen auch Cheddar gerieben",
+      "brand": "",
+      "quantity": "mind. 50% Fett i. Tr., 130–150 g",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.59
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 15
+    },
+    {
+      "id": "edeka_haller-hofgluck-lyoner-versch",
+      "name": "Hofglück Lyoner versch",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.29
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 15
+    },
+    {
+      "id": "edeka_haller-edeka-bio-frische-tortelloni-spinat",
+      "name": "EDEKA Bio Frische Tortelloni Spinat &",
+      "brand": "",
+      "quantity": "Pinienkerne 250 g oder",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 2.29
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 16
+    },
+    {
+      "id": "edeka_haller-vegan-rugenwalder-muhle-teewurst-fein",
+      "name": "Vegan Rügenwalder Mühle Teewurst fein",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.69
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 16
+    },
+    {
+      "id": "edeka_haller-vegan-planted-chicken-krauter-zitrone",
+      "name": "Vegan Planted Chicken Kräuter & Zitrone",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 2.49
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 16
+    },
+    {
+      "id": "edeka_haller-vegan-rugenwalder-pommersche-schnittlauch",
+      "name": "Vegan Rügenwalder Pommersche Schnittlauch",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.79
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 16
+    },
+    {
+      "id": "edeka_haller-rugenwalder-salino-boost-der-herzhafte-energy",
+      "name": "Rügenwalder Salino Boost der herzhafte Energy",
+      "brand": "",
+      "quantity": "Snack mit Koffein und Taurin",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 0.79
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 16
+    },
+    {
+      "id": "edeka_haller-roter-oder-gruner-multi",
+      "name": "Roter oder Grüner Multi",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 2.79
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 17
+    },
+    {
+      "id": "edeka_haller-3-8-fett-oder-frische",
+      "name": "3,8% Fett oder Frische",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.11
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 17
+    },
+    {
+      "id": "edeka_haller-oder-skyr-versch-sorten",
+      "name": "oder Skyr versch. Sorten",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.29
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 17
+    },
+    {
+      "id": "edeka_haller-iglo-rahm-spinat",
+      "name": "Iglo Rahm-Spinat",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 18
+    },
+    {
+      "id": "edeka_haller-langnese-eis-versch-sorten-tiefgefroren-340512-ml",
+      "name": "Langnese Eis versch. Sorten tiefgefroren, 340–512 ml",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 2.49
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 18
+    },
+    {
+      "id": "edeka_haller-iglo-fischstabchen-oder-backfischstabchen",
+      "name": "Iglo Fischstäbchen oder Backfischstäbchen",
+      "brand": "",
+      "quantity": "tiefgefroren, 364–450 g",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 2.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 19
+    },
+    {
+      "id": "edeka_haller-frosta-a-la-carte-oder-high-versch-sorten-tiefgefroren",
+      "name": "Frosta à la Carte oder High versch. Sorten, tiefgefroren",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 4.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 19
+    },
+    {
+      "id": "edeka_haller-bahlsen-geback-versch-sorten-97125-g",
+      "name": "Bahlsen Gebäck versch. Sorten, 97–125 g",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 21
+    },
+    {
+      "id": "edeka_haller-mentos-mint-oder-frucht",
+      "name": "Mentos Mint oder Frucht",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.29
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 22
+    },
+    {
+      "id": "edeka_haller-peanut-caramel-oder-caramel-choco-55-g",
+      "name": "Peanut Caramel oder Caramel Choco 55 g",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 23
+    },
+    {
+      "id": "edeka_haller-sonnen-bassermann-huhner-nudeleintopf",
+      "name": "Sonnen Bassermann Hühner Nudeleintopf",
+      "brand": "",
+      "quantity": "oder Linseneintopf 800 g",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.79
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 24
+    },
+    {
+      "id": "edeka_haller-pasta-rey-teigwaren-versch-ausformungen",
+      "name": "Pasta Rey Teigwaren versch. Ausformungen",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 0.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 24
+    },
+    {
+      "id": "edeka_haller-edeka-bio-tomatensauce-versch-sorten-350-ml",
+      "name": "EDEKA Bio Tomatensauce versch. Sorten, 350 ml",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.59
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 24
+    },
+    {
+      "id": "edeka_haller-monini-natives-olivenol-extra-classico",
+      "name": "Monini Natives Olivenöl Extra Classico",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 5.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 25
+    },
+    {
+      "id": "edeka_haller-oder-mit-schalotten-und-barlauch-verfeinert",
+      "name": "oder mit Schalotten und Bärlauch verfeinert",
+      "brand": "",
+      "quantity": "330 g, Abtropfgewicht 190 g",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 25
+    },
+    {
+      "id": "edeka_haller-booster-energy-drink-versch-sorten-koffeinhaltig",
+      "name": "Booster Energy Drink versch. Sorten, koffeinhaltig",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 0.59
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 29
+    },
+    {
+      "id": "edeka_haller-desperados-auch-0-0-alkoholfrei-und",
+      "name": "Desperados auch 0,0% Alkoholfrei und",
+      "brand": "",
+      "quantity": "weitere Sorten, 4 x 0,33 L",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 4.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 29
+    },
+    {
+      "id": "edeka_haller-allgauer-buble-edelbrau-20-x-0-5-l-zzgl-4-50-pfand",
+      "name": "Allgäuer Büble Edelbräu 20 x 0,5 L, zzgl. 4,50 Pfand",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 14.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 29
+    },
+    {
+      "id": "edeka_haller-pril-geschirrspulmittel-versch-sorten-450675-ml",
+      "name": "Pril Geschirrspülmittel versch. Sorten, 450–675 ml",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.39
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 32
+    },
+    {
+      "id": "edeka_haller-spender-versch-sorten-50-g-wc-reiniger-gel-lemon",
+      "name": "spender versch. Sorten, 50 g WC Reiniger Gel Lemon",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.49
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 32
+    },
+    {
+      "id": "edeka_haller-zewa-wisch-weg-2-x-90-4-x-45",
+      "name": "Zewa Wisch & Weg 2 x 90-, 4 x 45",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 2.59
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 33
+    },
+    {
+      "id": "edeka_haller-colgate-komplett-oder",
+      "name": "Colgate Komplett oder",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.49
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 33
+    },
+    {
+      "id": "edeka_haller-miami-shrimps-mit-ananas-pfirsichen-papayas",
+      "name": "Miami Shrimps mit Ananas Pfirsichen, Papayas",
+      "brand": "",
+      "quantity": "und Champignons, in fein",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 2.29
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 43
+    },
+    {
+      "id": "edeka_haller-edeka-herzstucke-gemusemischung",
+      "name": "EDEKA Herzstücke Gemüsemischung",
+      "brand": "",
+      "quantity": "Asiatische Art tiefgefroren",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 2.49
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 44
+    },
+    {
+      "id": "edeka_haller-edeka-herzstucke-griechische-pfefferonen",
+      "name": "EDEKA Herzstücke griechische Pfefferonen",
+      "brand": "",
+      "quantity": "mild oder scharf 250 g, Ab",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.29
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 45
+    },
+    {
+      "id": "edeka_haller-edeka-herzstucke-haferflocken-fein",
+      "name": "EDEKA Herzstücke Haferflocken fein",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 0.89
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 45
+    },
+    {
+      "id": "edeka_haller-schweppes-versch-sorten-6-x-1-l",
+      "name": "Schweppes versch. Sorten, 6 x 1 L",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 8.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 46
+    },
+    {
+      "id": "edeka_haller-karamalz-classic-20-x-0-5-l-zzgl-3-10-pfand",
+      "name": "Karamalz Classic 20 x 0,5 L, zzgl. 3,10 Pfand",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 11.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 46
+    },
+    {
+      "id": "edeka_haller-schneider-weisse-original-weissbier",
+      "name": "Schneider Weisse Original Weissbier",
+      "brand": "",
+      "quantity": "20 x 0,5 L, zzgl. 3,10 Pfand",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 16.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 46
+    },
+    {
+      "id": "edeka_haller-carlsberg-bier-20-x-0-5-l",
+      "name": "Carlsberg Bier 20 x 0,5 L",
+      "brand": "",
+      "quantity": "zzgl. 3,10 Pfand",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 15.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 46
     }
   ],
   "source": "https://prospektewoche.de/rewe",
   "last_import_count": {
     "REWE": 205,
     "GLOBUS": 451,
-    "EDEKA_BUCH": 91,
-    "EDEKA_HALLER": 132,
-    "total": 879
+    "EDEKA_BUCH": 122,
+    "EDEKA_HALLER": 167,
+    "total": 945
   },
   "sources": {
     "REWE": "https://prospektewoche.de/rewe",
@@ -31162,7 +32720,7 @@
     "EDEKA_BUCH": "https://blaetterkatalog.edeka.de/SUEDWEST/MG_328_ED_ABH/blaetterkatalog/pdf/complete.pdf",
     "EDEKA_HALLER": "https://blaetterkatalog.edeka.de/SUEDWEST/MG_328_EC_Raunheim/blaetterkatalog/pdf/complete.pdf"
   },
-  "active_offer_count": 873,
+  "active_offer_count": 939,
   "validity": {
     "REWE": {
       "valid_from": "2026-09-07",
@@ -31180,14 +32738,14 @@
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
       "source": "https://blaetterkatalog.edeka.de/SUEDWEST/MG_328_ED_ABH/blaetterkatalog/pdf/complete.pdf",
-      "mode": "official_leaflet_pdf",
+      "mode": "official_leaflet_pdf_strong_pairs",
       "pages": 42
     },
     "EDEKA_HALLER": {
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
       "source": "https://blaetterkatalog.edeka.de/SUEDWEST/MG_328_EC_Raunheim/blaetterkatalog/pdf/complete.pdf",
-      "mode": "official_leaflet_pdf",
+      "mode": "official_leaflet_pdf_strong_pairs",
       "pages": 50
     }
   }
