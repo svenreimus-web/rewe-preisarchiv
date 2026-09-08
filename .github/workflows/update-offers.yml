@@ -1,10 +1,19 @@
-name: REWE Angebote aktualisieren
+name: Angebote aktualisieren
 
 on:
   workflow_dispatch:
+  schedule:
+    # GitHub cron uses UTC. 04:15 UTC is 06:15 CEST and 05:15 CET.
+    # A second check at 06:15 UTC covers winter time and delayed source updates.
+    - cron: '15 4 * * *'
+    - cron: '15 6 * * *'
 
 permissions:
   contents: write
+
+concurrency:
+  group: offer-update
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -16,7 +25,7 @@ jobs:
           python-version: '3.12'
       - name: Abhängigkeiten installieren
         run: pip install requests beautifulsoup4
-      - name: Angebote abrufen
+      - name: Angebotszeiträume prüfen und Angebote abrufen
         run: python crawler_pages.py
       - name: Archiv speichern
         run: |
@@ -24,6 +33,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/offers.json
           if ! git diff --cached --quiet; then
-            git commit -m "Update REWE offers"
+            git commit -m "Update offers and validity periods"
             git push
+          else
+            echo "Keine neuen Angebotsdaten oder Gültigkeitszeiträume."
           fi
