@@ -6,8 +6,6 @@ on:
     paths:
       - 'crawler_pages.py'
       - 'edeka_current.py'
-      - 'edeka_catalog_probe.py'
-      - 'edeka_catalog_ocr.py'
       - '.github/workflows/update-offers.yml'
   schedule:
     - cron: '15 4 * * *'
@@ -58,14 +56,11 @@ jobs:
           PY
       - name: Abhängigkeiten installieren
         if: steps.gate.outputs.run == 'true'
-        run: pip install requests beautifulsoup4 pypdf
-      - name: EDEKA Blätterkatalog PDF testen
-        if: steps.gate.outputs.run == 'true'
-        run: python edeka_catalog_ocr.py
+        run: pip install requests beautifulsoup4 pypdf fonttools
       - name: REWE und GLOBUS aktualisieren
         if: steps.gate.outputs.run == 'true'
         run: python crawler_pages.py
-      - name: Verifizierte EDEKA-Marktdaten einspielen
+      - name: EDEKA Blätterkataloge aktualisieren
         if: steps.gate.outputs.run == 'true'
         run: python edeka_current.py
       - name: Archiv speichern
