@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - 'crawler_pages.py'
+      - 'edeka_probe.py'
   schedule:
     # GitHub cron uses UTC. 04:15 UTC is 06:15 CEST and 05:15 CET.
     # A second check at 06:15 UTC covers winter time and delayed source updates.
@@ -28,6 +29,8 @@ jobs:
           python-version: '3.12'
       - name: Abhängigkeiten installieren
         run: pip install requests beautifulsoup4
+      - name: EDEKA API prüfen
+        run: python edeka_probe.py
       - name: Angebotszeiträume prüfen und Angebote abrufen
         run: python crawler_pages.py
       - name: Archiv speichern
