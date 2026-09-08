@@ -4,7 +4,7 @@
     "name": "REWE Vigheshan Gahndi oHG",
     "address": "Industriestraße 40, 65439 Flörsheim-Weilbach"
   },
-  "updated_at": "2026-09-08T09:59:55+00:00",
+  "updated_at": "2026-09-08T10:03:23+00:00",
   "products": [
     {
       "id": "rewe-bonne-maman-weniger-zucker-mehr-frucht-konfiture",
@@ -27502,13 +27502,13 @@
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
       "source": "https://prospektewoche.de/rewe",
-      "checked_at": "2026-09-08T09:59:55+00:00"
+      "checked_at": "2026-09-08T10:03:23+00:00"
     },
     "GLOBUS": {
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
       "source": "https://prospektewoche.de/globus",
-      "checked_at": "2026-09-08T09:59:55+00:00"
+      "checked_at": "2026-09-08T10:03:23+00:00"
     }
   }
 }
