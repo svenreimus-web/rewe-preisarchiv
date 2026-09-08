@@ -4,7 +4,7 @@
     "name": "REWE Vigheshan Gahndi oHG",
     "address": "Industriestraße 40, 65439 Flörsheim-Weilbach"
   },
-  "updated_at": "2026-09-08T13:28:12+02:00",
+  "updated_at": "2026-09-08T13:43:46+02:00",
   "products": [
     {
       "id": "rewe-bonne-maman-weniger-zucker-mehr-frucht-konfiture",
@@ -26464,7 +26464,7 @@
       "brand": "",
       "quantity": "Farbe Grün oder Grau",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-gut-gunstig-gartensack-faltbar.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -26475,7 +26475,8 @@
       "active": true,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
-      "valid_until": "2026-09-12"
+      "valid_until": "2026-09-12",
+      "source_page": 34
     },
     {
       "id": "edeka_buch-hofgluck-ruckensteaks",
@@ -26692,7 +26693,7 @@
       "brand": "",
       "quantity": "Farbe Grün oder Grau",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-gut-gunstig-gartensack-faltbar.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -26703,7 +26704,8 @@
       "active": true,
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
-      "valid_until": "2026-09-12"
+      "valid_until": "2026-09-12",
+      "source_page": 34
     },
     {
       "id": "edeka_haller-mepal-trinkflasche",
@@ -26730,7 +26732,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-frische-franzosische.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -26750,7 +26752,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-frische-hahnchenschenkel-mit-ruckenstuck-hkl-a.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -26770,7 +26772,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-im-frischepack-hofgluck-ruckensteaks-vom-schwein.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -26790,7 +26792,7 @@
       "brand": "",
       "quantity": "Rinder-Schmorbraten",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-zart-gereiftes-rindfleisch.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -26810,7 +26812,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-zarter-kasseler-lachsbraten-mild-gerauchert.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -26830,7 +26832,7 @@
       "brand": "",
       "quantity": "mit Salz und Pfeffer gewürzt",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-beef-burger-rinderhackfleisch-patty.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -26850,7 +26852,7 @@
       "brand": "",
       "quantity": "laufend frisch hergestellt, für",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-hackfleisch-gemischt-aus-schweine-und-rindfleisch.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -26870,7 +26872,7 @@
       "brand": "",
       "quantity": "Ring oder Schwartenmagen",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-hausmacher-spezialitaten-leberwurst-blutwurst-im.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -26890,7 +26892,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-paprika-gefullt-mit-einer-hackfleischzubereitung-reis.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -26910,7 +26912,7 @@
       "brand": "",
       "quantity": "alter meisterlicher Art gereift",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-salami-mailander-art-mit-edlen-naturgewurzen-nach.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -26930,7 +26932,7 @@
       "brand": "",
       "quantity": "4-fach sortiert, aus",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-premium-geflugelwurst-aufschnitt-gemischt.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -26950,7 +26952,7 @@
       "brand": "",
       "quantity": "ofenge-backen, gluten-/",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-fleischkase-aufschnitt-gemischt-4-fach-sortiert.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -26970,7 +26972,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-salami-trapezform.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27010,7 +27012,7 @@
       "brand": "",
       "quantity": "deutscher Schnittkäse aus",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-bio-wilder-bernd-oder-bio-grienkenschmied.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27030,7 +27032,7 @@
       "brand": "",
       "quantity": "Fleisch, ideal zum Dünsten",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-dorade-royal-aus-aquakultur-festes-mageres.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27050,7 +27052,7 @@
       "brand": "",
       "quantity": "Rauchnote, vor dem Verzehr",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-makrelen-gerauchert-zartes-fleisch-mit-feiner.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27090,7 +27092,7 @@
       "brand": "",
       "quantity": "Neuseeland",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-zespri-kiwis-grun-aus.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27110,7 +27112,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-gut-gunstig-apfel-jonagold-aus-deutschland.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27130,7 +27132,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-zespri-kiwis-gold-jumbo.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27150,7 +27152,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-edeka-bio-heidelbeeren-aus-peru-oder-rumanien.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27170,7 +27172,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-edeka-genussmomente-mandarinen-aus-sudafrika.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27190,7 +27192,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-edeka-herzstucke-apfel-elstar.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27210,7 +27212,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-unsere-heimat-bio-bioland-zwiebeln-aus.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27230,7 +27232,7 @@
       "brand": "",
       "quantity": "Polen oder den Niederlanden",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-gut-gunstig-champignons-braun-aus.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27250,7 +27252,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-gut-gunstig-erdnusse-aus-den-usa-oder-agypten.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27270,7 +27272,7 @@
       "brand": "",
       "quantity": "Grünpflanze 12-cm- Topf, Stück",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-in-papiertasche-orchidee-bluhpflanze-und.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27290,7 +27292,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-besenheide-mintberry-14-cm-topf-2-farbig.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27310,7 +27312,7 @@
       "brand": "",
       "quantity": "Fairtrade Edelrosenstrauß",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-fairtrade-moosrosenstrau-18-stiele-ohne-vase-oder.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27330,7 +27332,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-halbes-vesperbrot-nach-wahl-weizenmischbrot.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27350,7 +27352,7 @@
       "brand": "",
       "quantity": "mit Haselnussfüllung",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-plunder-nuss-hornchen-plunderteiggeback.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27370,7 +27372,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-edeka-bio-salami.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27390,7 +27392,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-hofgluck-pfefferbeier.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27410,7 +27412,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-edeka-sudwest-delikatess-grillwurst-versch-sorten.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27430,7 +27432,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-edeka-herzstucke-jamon.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27450,7 +27452,7 @@
       "brand": "",
       "quantity": "Schinkenstreifen",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-schwarzwaldhof-schinkenwurfel-oder.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27570,7 +27572,7 @@
       "brand": "",
       "quantity": "Grütze und weitere Sorten",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-dr-oetker-sahne-pudding-bourbon-vanille-high.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27590,7 +27592,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-arla-skyr-versch-sorten-nach-islandischer-tradition.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27630,7 +27632,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-vly-joghurtalternative.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27650,7 +27652,7 @@
       "brand": "",
       "quantity": "mild 3,8% Fett, 500 g",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-edeka-bio-bioland-weidemilch-joghurt.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27670,7 +27672,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-latta-original.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27690,7 +27692,7 @@
       "brand": "",
       "quantity": "Max Pistachio 4 x 90 ml",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-langnese-cornetto-classico-erdbeer-6-x-90-ml-auch.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27710,7 +27712,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-wagner-pizzeria-style-pizza-margherita.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27730,7 +27732,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-mccain-golden-longs-und-weitere-sorten-tiefgefroren.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27750,7 +27752,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-bonne-maman-sue-aufstriche-versch-sorten.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27770,7 +27772,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-jacobs-kapseln-versch-sorten-18-20-stuck.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27790,7 +27792,7 @@
       "brand": "",
       "quantity": "versch. Sorten, 230–400 g",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-zentis-nusspli-creme-oder-smile-fruchtaufstrich.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27810,7 +27812,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-oder-butter-toast.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27830,7 +27832,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-wasa-crisps-rosemary-sea-salt-und-weitere-sorten.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27850,7 +27852,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-kurbiskernbrot.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27870,7 +27872,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-kit-kat-4er-lion-5er-und-weitere-sorten-150166-g.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27890,7 +27892,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-pick-up-original-oder-minis.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27910,7 +27912,7 @@
       "brand": "",
       "quantity": "Doritos Nacho Cheese",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-lays-chips-versch-sorten-bugles-nacho-cheese-oder.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27930,7 +27932,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-edeka-bio-kokosnussmilch.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27950,7 +27952,7 @@
       "brand": "",
       "quantity": "Chicken Taste 59–65 g",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-knorr-pasta-pot-versch-sorten-oder-asia-noodles.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27970,7 +27972,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-tigullio-pesto-versch-sorten.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27990,7 +27992,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-miracel-whip-original-auch.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -28010,7 +28012,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-active-o2-versch-sorten-0-75-l-zzgl.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -28030,7 +28032,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-vitrex-mineralwasser-naturelle-6-x-1-5-l-zzgl.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -28050,7 +28052,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-valensina-safte-aus-konzentrat-versch-sorten.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -28070,7 +28072,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-auch-zero-oder-zitrone-zero.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -28090,7 +28092,7 @@
       "brand": "",
       "quantity": "koffeinhaltig, 0,33 L",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-pepsi-auch-zero-oder-schwip-schwap.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -28110,7 +28112,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-krombacher-pils-oder-jever-pilsener-auch-fun-alkoholfrei.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -28130,7 +28132,7 @@
       "brand": "",
       "quantity": "weitere Sorten, 24 x 0,33 L",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-rothaus-tannenzapfle-auch-alkoholfrei-und.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -28150,7 +28152,7 @@
       "brand": "",
       "quantity": "3,42 Pfand oder 20 x 0,5 L",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-becks-pils-gold-oder-blue-alkoholfrei-24-x-0-33-l-zzgl.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -28170,7 +28172,7 @@
       "brand": "",
       "quantity": "frei und weitere Sorten, 6 x 0,33 L",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-paulaner-hefe-weibier-naturtrub-auch-0-0-alkohol.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -28190,7 +28192,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-kloster-hefeweizen-oder-spezial-20-x-0-5-l.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -28210,7 +28212,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-mumm-sekt-versch.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -28270,7 +28272,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-ouzo-of-plomari.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -28290,7 +28292,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-frankreich-grand-sud.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -28310,7 +28312,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-vernel-weichspuler-versch-sorten-46-waschladungen.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -28350,7 +28352,7 @@
       "brand": "",
       "quantity": "Pulver 20 Waschladungen",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-respekt-color-waschmittel-pulver-oder-vollwaschmittel.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -28390,7 +28392,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-tempo-feuchte-toilettentucher.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -28410,7 +28412,7 @@
       "brand": "",
       "quantity": "versch. Sorten, 50–150 ml",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-dove-advanced-care-deo-spray-oder-roll-on.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -28450,7 +28452,7 @@
       "brand": "",
       "quantity": "und Grillgut, 4 wechselbare",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-fur-sandwiches-herz-waffeln-belgische-waffeln.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -28470,7 +28472,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-extrapunkte-55-cent.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -28530,7 +28532,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-frische-franzosische.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -28550,7 +28552,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-frische-hahnchenschenkel-mit-ruckenstuck-hkl-a.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -28570,7 +28572,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-im-frischepack-hofgluck-ruckensteaks-vom-schwein.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -28590,7 +28592,7 @@
       "brand": "",
       "quantity": "Rinder-Schmorbraten",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-zart-gereiftes-rindfleisch.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -28610,7 +28612,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-zarter-kasseler-lachsbraten-mild-gerauchert.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -28630,7 +28632,7 @@
       "brand": "",
       "quantity": "mit Salz und Pfeffer gewürzt",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-beef-burger-rinderhackfleisch-patty.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -28650,7 +28652,7 @@
       "brand": "",
       "quantity": "laufend frisch hergestellt, für",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-hackfleisch-gemischt-aus-schweine-und-rindfleisch.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -28670,7 +28672,7 @@
       "brand": "",
       "quantity": "Ring oder Schwartenmagen",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-hausmacher-spezialitaten-leberwurst-blutwurst-im.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -28690,7 +28692,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-paprika-gefullt-mit-einer-hackfleischzubereitung-reis.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -28710,7 +28712,7 @@
       "brand": "",
       "quantity": "alter meisterlicher Art gereift",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-salami-mailander-art-mit-edlen-naturgewurzen-nach.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -28730,7 +28732,7 @@
       "brand": "",
       "quantity": "4-fach sortiert, aus",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-premium-geflugelwurst-aufschnitt-gemischt.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -28750,7 +28752,7 @@
       "brand": "",
       "quantity": "ofenge-backen, gluten-/",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-fleischkase-aufschnitt-gemischt-4-fach-sortiert.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -28770,7 +28772,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-salami-trapezform.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -28810,7 +28812,7 @@
       "brand": "",
       "quantity": "deutscher Schnittkäse aus",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-bio-wilder-bernd-oder-bio-grienkenschmied.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -28830,7 +28832,7 @@
       "brand": "",
       "quantity": "Fleisch, ideal zum Dünsten",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-dorade-royal-aus-aquakultur-festes-mageres.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -28850,7 +28852,7 @@
       "brand": "",
       "quantity": "Rauchnote, vor dem Verzehr",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-makrelen-gerauchert-zartes-fleisch-mit-feiner.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -28890,7 +28892,7 @@
       "brand": "",
       "quantity": "Neuseeland",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-zespri-kiwis-grun-aus.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -28910,7 +28912,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-gut-gunstig-apfel-jonagold-aus-deutschland.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -28930,7 +28932,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-zespri-kiwis-gold-jumbo.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -28950,7 +28952,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-edeka-bio-heidelbeeren-aus-peru-oder-rumanien.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -28970,7 +28972,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-edeka-genussmomente-mandarinen-aus-sudafrika.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -28990,7 +28992,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-edeka-herzstucke-apfel-elstar.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29010,7 +29012,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-unsere-heimat-bio-bioland-zwiebeln-aus.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29030,7 +29032,7 @@
       "brand": "",
       "quantity": "Polen oder den Niederlanden",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-gut-gunstig-champignons-braun-aus.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29050,7 +29052,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-gut-gunstig-erdnusse-aus-den-usa-oder-agypten.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29070,7 +29072,7 @@
       "brand": "",
       "quantity": "Grünpflanze 12-cm- Topf, Stück",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-in-papiertasche-orchidee-bluhpflanze-und.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29090,7 +29092,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-besenheide-mintberry-14-cm-topf-2-farbig.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29110,7 +29112,7 @@
       "brand": "",
       "quantity": "Fairtrade Edelrosenstrauß",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-fairtrade-moosrosenstrau-18-stiele-ohne-vase-oder.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29130,7 +29132,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-halbes-vesperbrot-nach-wahl-weizenmischbrot.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29150,7 +29152,7 @@
       "brand": "",
       "quantity": "mit Haselnussfüllung",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-plunder-nuss-hornchen-plunderteiggeback.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29170,7 +29172,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-edeka-bio-salami.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29190,7 +29192,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-hofgluck-pfefferbeier.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29210,7 +29212,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-edeka-sudwest-delikatess-grillwurst-versch-sorten.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29230,7 +29232,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-edeka-herzstucke-jamon.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29250,7 +29252,7 @@
       "brand": "",
       "quantity": "Schinkenstreifen",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-schwarzwaldhof-schinkenwurfel-oder.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29370,7 +29372,7 @@
       "brand": "",
       "quantity": "Grütze und weitere Sorten",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-dr-oetker-sahne-pudding-bourbon-vanille-high.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29390,7 +29392,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-arla-skyr-versch-sorten-nach-islandischer-tradition.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29430,7 +29432,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-vly-joghurtalternative.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29450,7 +29452,7 @@
       "brand": "",
       "quantity": "mild 3,8% Fett, 500 g",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-edeka-bio-bioland-weidemilch-joghurt.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29470,7 +29472,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-latta-original.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29490,7 +29492,7 @@
       "brand": "",
       "quantity": "Max Pistachio 4 x 90 ml",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-langnese-cornetto-classico-erdbeer-6-x-90-ml-auch.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29510,7 +29512,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-wagner-pizzeria-style-pizza-margherita.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29530,7 +29532,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-mccain-golden-longs-und-weitere-sorten-tiefgefroren.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29550,7 +29552,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-bonne-maman-sue-aufstriche-versch-sorten.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29570,7 +29572,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-jacobs-kapseln-versch-sorten-18-20-stuck.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29590,7 +29592,7 @@
       "brand": "",
       "quantity": "versch. Sorten, 230–400 g",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-zentis-nusspli-creme-oder-smile-fruchtaufstrich.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29610,7 +29612,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-oder-butter-toast.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29630,7 +29632,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-wasa-crisps-rosemary-sea-salt-und-weitere-sorten.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29650,7 +29652,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-kurbiskernbrot.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29670,7 +29672,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-kit-kat-4er-lion-5er-und-weitere-sorten-150166-g.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29690,7 +29692,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-pick-up-original-oder-minis.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29710,7 +29712,7 @@
       "brand": "",
       "quantity": "Doritos Nacho Cheese",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-lays-chips-versch-sorten-bugles-nacho-cheese-oder.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29730,7 +29732,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-edeka-bio-kokosnussmilch.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29750,7 +29752,7 @@
       "brand": "",
       "quantity": "Chicken Taste 59–65 g",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-knorr-pasta-pot-versch-sorten-oder-asia-noodles.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29770,7 +29772,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-tigullio-pesto-versch-sorten.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29790,7 +29792,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-miracel-whip-original-auch.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29810,7 +29812,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-active-o2-versch-sorten-0-75-l-zzgl.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29830,7 +29832,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-vitrex-mineralwasser-naturelle-6-x-1-5-l-zzgl.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29850,7 +29852,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-valensina-safte-aus-konzentrat-versch-sorten.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29870,7 +29872,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-auch-zero-oder-zitrone-zero.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29890,7 +29892,7 @@
       "brand": "",
       "quantity": "koffeinhaltig, 0,33 L",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-pepsi-auch-zero-oder-schwip-schwap.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29910,7 +29912,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-krombacher-pils-oder-jever-pilsener-auch-fun-alkoholfrei.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29930,7 +29932,7 @@
       "brand": "",
       "quantity": "weitere Sorten, 24 x 0,33 L",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-rothaus-tannenzapfle-auch-alkoholfrei-und.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29950,7 +29952,7 @@
       "brand": "",
       "quantity": "3,42 Pfand oder 20 x 0,5 L",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-becks-pils-gold-oder-blue-alkoholfrei-24-x-0-33-l-zzgl.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29970,7 +29972,7 @@
       "brand": "",
       "quantity": "frei und weitere Sorten, 6 x 0,33 L",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-paulaner-hefe-weibier-naturtrub-auch-0-0-alkohol.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29990,7 +29992,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-kloster-hefeweizen-oder-spezial-20-x-0-5-l.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30010,7 +30012,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-mumm-sekt-versch.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30070,7 +30072,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-ouzo-of-plomari.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30090,7 +30092,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-frankreich-grand-sud.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30110,7 +30112,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-vernel-weichspuler-versch-sorten-46-waschladungen.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30150,7 +30152,7 @@
       "brand": "",
       "quantity": "Pulver 20 Waschladungen",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-respekt-color-waschmittel-pulver-oder-vollwaschmittel.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30190,7 +30192,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-tempo-feuchte-toilettentucher.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30210,7 +30212,7 @@
       "brand": "",
       "quantity": "versch. Sorten, 50–150 ml",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-dove-advanced-care-deo-spray-oder-roll-on.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30250,7 +30252,7 @@
       "brand": "",
       "quantity": "und Grillgut, 4 wechselbare",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-fur-sandwiches-herz-waffeln-belgische-waffeln.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30270,7 +30272,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-extrapunkte-55-cent.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30330,7 +30332,7 @@
       "brand": "",
       "quantity": "55% Fett i. Tr., mind. 6 Monate",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-jakobskase-schweizer-hartkase-aus-kuhmilch-mind.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30350,7 +30352,7 @@
       "brand": "",
       "quantity": "Unterschale, Nuss und Hüfte",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-zarte-kalbs-schnitzel-oder-geschnetzeltes-natur-aus.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30370,7 +30372,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-in-der-markt-backerei-kartoffelbrotchen.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30390,7 +30392,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-edeka-herzstucke-papayas-genussreif.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30410,7 +30412,7 @@
       "brand": "",
       "quantity": "oder dunkel kernhaltig aus",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-unsere-heimat-trauben-hell-kernlos.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30430,7 +30432,7 @@
       "brand": "",
       "quantity": "in Deutschland, festes Fleisch",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-wallerfilets-mit-haut-aus-kontrollierter-aquakultur.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30450,7 +30452,7 @@
       "brand": "",
       "quantity": "100% Grasfütterung, 365 Tage",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-aus-uruguay-optimal-gereift-aromatisch-im-geschmack.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30470,7 +30472,7 @@
       "brand": "",
       "quantity": "Schweinen und männlichen Duroc",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-iberico-schweinefleisch-eine-kreuzung-aus-weiblichen-iberico.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30490,7 +30492,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-im-frischepack-schweinehaxen-grillfertig.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30510,7 +30512,7 @@
       "brand": "",
       "quantity": "gereift, hauchdünn geschnitten",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-spanischer-serrano-schinken-luftgetrocknet-mind-12-monate.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30530,7 +30532,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-cabanossi-fur-die-herzhafte-brotzeit-gluten-laktosefrei.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30550,7 +30552,7 @@
       "brand": "",
       "quantity": "(laktosefrei durch Reifung)",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-delikatess-kaseknacker-mit-wurzigem-emmentaler-kase.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30570,7 +30572,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-im-frischepack-hofgluck-hackfleisch.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30590,7 +30592,7 @@
       "brand": "",
       "quantity": "Naturrinde, erbsengroße Rund",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-gereift-mind-45-fett-i-tr-geschmierte-braun-rote.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30610,7 +30612,7 @@
       "brand": "",
       "quantity": "Rohmilch, mind. 45% Fett i. Tr",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-jura-comte-franzosischer-hartkase-aus.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30630,7 +30632,7 @@
       "brand": "",
       "quantity": "aus biologischer und nachhalti",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-bio-forellen-ausgenommen-kuchenfertig.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30670,7 +30672,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-garnelenspiee-mariniert-in-krautermarinade-und-limet.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30690,7 +30692,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-edeka-herzstucke-mini-laugen-kreationen.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30710,7 +30712,7 @@
       "brand": "",
       "quantity": "Sahnetopping auch Vanille",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-edeka-herzstucke-schoko-pudding-mit.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30730,7 +30732,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-edeka-herzstucke-erdbeeren-tiefgefroren.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30750,7 +30752,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-edeka-herzstucke.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30770,7 +30772,7 @@
       "brand": "",
       "quantity": "versch. Sorten, 60–100 g",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-edeka-herzstucke-gefriergetrocknete-fruchte.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30810,7 +30812,7 @@
       "brand": "",
       "quantity": "ungesalzen oder gesalzen",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-edeka-herzstucke-erdnusskerne-gerostet.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30830,7 +30832,7 @@
       "brand": "",
       "quantity": "oder Salt & Vinegar",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-edeka-herzstucke-kesselchips-sweet-chili.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30850,7 +30852,7 @@
       "brand": "",
       "quantity": "Pomodoro mit Sahne oder",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-edeka-herzstucke-pastasauce-amore-al.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30870,7 +30872,7 @@
       "brand": "",
       "quantity": "Italienisches Löffelbiskuit",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-edeka-herzstucke-originale-savoiardi.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30890,7 +30892,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-edeka-herzstucke-brioche-burger-buns.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30910,7 +30912,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-sonnlander-apfelsaft.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30930,7 +30932,7 @@
       "brand": "",
       "quantity": "Trageschlaufe, spülmaschi‑",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-trinkflasche-auslaufsicher-praktische.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30950,7 +30952,7 @@
       "brand": "",
       "quantity": "Bento‑Box und eine Gabel",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-brotdose-enthalt-eine-herausnehmbare.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -30970,7 +30972,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-fruchtbox-campus.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -31030,7 +31032,7 @@
       "brand": "",
       "quantity": "1x MAXTRA PRO Extra",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-zeige-inkl-1x-maxtra-pro-pure-performance-kartusche.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -31050,7 +31052,7 @@
       "brand": "",
       "quantity": "Verschluss, 100% dicht und",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-emsa-isolierkanne-samba-1-5-l-mit-quickpress.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -31070,7 +31072,7 @@
       "brand": "",
       "quantity": "zum Selbstbemalen",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-edeka-zuhause-vogelfutterhaus.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -31090,7 +31092,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-pick-a-pen-wurfelspiel-ab-8-jahre.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -31110,7 +31112,7 @@
       "brand": "",
       "quantity": "der Bundesliga",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-adidas-bundesliga-ball-offizieller-fuball.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -31130,7 +31132,7 @@
       "brand": "",
       "quantity": "1x ULTRAMAX Eimer",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-vem-bezug-mit-2in1-microfasertechnologie.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -31150,7 +31152,7 @@
       "brand": "",
       "quantity": "i. Tr., mild-würzig",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-mind-45-fett-i-tr-mild-nussig-delacreme-mind-50-fett.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31170,7 +31172,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-honig-senf-nach-matjesart-in-einem.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31190,7 +31192,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-gut-gunstig-bananen.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31210,7 +31212,7 @@
       "brand": "",
       "quantity": "den Niederlanden, Klasse I",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-gut-gunstig-paprika-rot-aus-spanien-oder.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31230,7 +31232,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-ondine-plattnektarinen-weifleischig-aus-spanien.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31250,7 +31252,7 @@
       "brand": "",
       "quantity": "kochend oder mehligkochend",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-unsere-heimat-kartoffeln-vorwiegend-festkochend-fest.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31270,7 +31272,7 @@
       "brand": "",
       "quantity": "mind. 50% Fett i. Tr., 130–150 g",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-versch-sorten-und-fettstufen-auch-cheddar-gerieben.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31290,7 +31292,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-hofgluck-lyoner-versch.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31310,7 +31312,7 @@
       "brand": "",
       "quantity": "Pinienkerne 250 g oder",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-edeka-bio-frische-tortelloni-spinat.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31330,7 +31332,7 @@
       "brand": "",
       "quantity": "Snack mit Koffein und Taurin",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-rugenwalder-salino-boost-der-herzhafte-energy.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31350,7 +31352,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-roter-oder-gruner-multi.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31370,7 +31372,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-3-8-fett-oder-frische.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31390,7 +31392,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-oder-skyr-versch-sorten.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31410,7 +31412,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-iglo-rahm-spinat.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31430,7 +31432,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-langnese-eis-versch-sorten-tiefgefroren-340512-ml.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31450,7 +31452,7 @@
       "brand": "",
       "quantity": "tiefgefroren, 364–450 g",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-iglo-fischstabchen-oder-backfischstabchen.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31470,7 +31472,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-frosta-a-la-carte-oder-high-versch-sorten-tiefgefroren.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31490,7 +31492,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-bahlsen-geback-versch-sorten-97125-g.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31510,7 +31512,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-mentos-mint-oder-frucht.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31530,7 +31532,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-peanut-caramel-oder-caramel-choco-55-g.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31550,7 +31552,7 @@
       "brand": "",
       "quantity": "oder Linseneintopf 800 g",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-sonnen-bassermann-huhner-nudeleintopf.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31570,7 +31572,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-pasta-rey-teigwaren-versch-ausformungen.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31590,7 +31592,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-edeka-bio-tomatensauce-versch-sorten-350-ml.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31610,7 +31612,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-monini-natives-olivenol-extra-classico.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31630,7 +31632,7 @@
       "brand": "",
       "quantity": "330 g, Abtropfgewicht 190 g",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-oder-mit-schalotten-und-barlauch-verfeinert.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31650,7 +31652,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-booster-energy-drink-versch-sorten-koffeinhaltig.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31670,7 +31672,7 @@
       "brand": "",
       "quantity": "weitere Sorten, 4 x 0,33 L",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-desperados-auch-0-0-alkoholfrei-und.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31690,7 +31692,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-allgauer-buble-edelbrau-20-x-0-5-l-zzgl-4-50-pfand.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31710,7 +31712,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-pril-geschirrspulmittel-versch-sorten-450675-ml.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31730,7 +31732,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-spender-versch-sorten-50-g-wc-reiniger-gel-lemon.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31750,7 +31752,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-zewa-wisch-weg-2-x-90-4-x-45.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31770,7 +31772,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-colgate-komplett-oder.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -31790,7 +31792,7 @@
       "brand": "",
       "quantity": "i. Tr., mild-würzig",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-mind-45-fett-i-tr-mild-nussig-delacreme-mind-50-fett.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -31810,7 +31812,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-honig-senf-nach-matjesart-in-einem.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -31830,7 +31832,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-gut-gunstig-bananen.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -31850,7 +31852,7 @@
       "brand": "",
       "quantity": "den Niederlanden, Klasse I",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-gut-gunstig-paprika-rot-aus-spanien-oder.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -31870,7 +31872,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-ondine-plattnektarinen-weifleischig-aus-spanien.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -31890,7 +31892,7 @@
       "brand": "",
       "quantity": "kochend oder mehligkochend",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-unsere-heimat-kartoffeln-vorwiegend-festkochend-fest.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -31910,7 +31912,7 @@
       "brand": "",
       "quantity": "mind. 50% Fett i. Tr., 130–150 g",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-versch-sorten-und-fettstufen-auch-cheddar-gerieben.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -31930,7 +31932,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-hofgluck-lyoner-versch.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -31950,7 +31952,7 @@
       "brand": "",
       "quantity": "Pinienkerne 250 g oder",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-edeka-bio-frische-tortelloni-spinat.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -31970,7 +31972,7 @@
       "brand": "",
       "quantity": "Snack mit Koffein und Taurin",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-rugenwalder-salino-boost-der-herzhafte-energy.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -31990,7 +31992,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-roter-oder-gruner-multi.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32010,7 +32012,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-3-8-fett-oder-frische.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32030,7 +32032,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-oder-skyr-versch-sorten.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32050,7 +32052,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-iglo-rahm-spinat.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32070,7 +32072,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-langnese-eis-versch-sorten-tiefgefroren-340512-ml.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32090,7 +32092,7 @@
       "brand": "",
       "quantity": "tiefgefroren, 364–450 g",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-iglo-fischstabchen-oder-backfischstabchen.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32110,7 +32112,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-frosta-a-la-carte-oder-high-versch-sorten-tiefgefroren.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32130,7 +32132,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-bahlsen-geback-versch-sorten-97125-g.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32150,7 +32152,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-mentos-mint-oder-frucht.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32170,7 +32172,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-peanut-caramel-oder-caramel-choco-55-g.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32190,7 +32192,7 @@
       "brand": "",
       "quantity": "oder Linseneintopf 800 g",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-sonnen-bassermann-huhner-nudeleintopf.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32210,7 +32212,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-pasta-rey-teigwaren-versch-ausformungen.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32230,7 +32232,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-edeka-bio-tomatensauce-versch-sorten-350-ml.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32250,7 +32252,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-monini-natives-olivenol-extra-classico.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32270,7 +32272,7 @@
       "brand": "",
       "quantity": "330 g, Abtropfgewicht 190 g",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-oder-mit-schalotten-und-barlauch-verfeinert.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32290,7 +32292,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-booster-energy-drink-versch-sorten-koffeinhaltig.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32310,7 +32312,7 @@
       "brand": "",
       "quantity": "weitere Sorten, 4 x 0,33 L",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-desperados-auch-0-0-alkoholfrei-und.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32330,7 +32332,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-allgauer-buble-edelbrau-20-x-0-5-l-zzgl-4-50-pfand.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32350,7 +32352,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-pril-geschirrspulmittel-versch-sorten-450675-ml.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32370,7 +32372,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-spender-versch-sorten-50-g-wc-reiniger-gel-lemon.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32390,7 +32392,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-zewa-wisch-weg-2-x-90-4-x-45.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32410,7 +32412,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-colgate-komplett-oder.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32430,7 +32432,7 @@
       "brand": "",
       "quantity": "und Champignons, in fein",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-miami-shrimps-mit-ananas-pfirsichen-papayas.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32450,7 +32452,7 @@
       "brand": "",
       "quantity": "Asiatische Art tiefgefroren",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-edeka-herzstucke-gemusemischung.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32470,7 +32472,7 @@
       "brand": "",
       "quantity": "mild oder scharf 250 g, Ab",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-edeka-herzstucke-griechische-pfefferonen.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32490,7 +32492,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-edeka-herzstucke-haferflocken-fein.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32510,7 +32512,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-schweppes-versch-sorten-6-x-1-l.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32530,7 +32532,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-karamalz-classic-20-x-0-5-l-zzgl-3-10-pfand.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32550,7 +32552,7 @@
       "brand": "",
       "quantity": "20 x 0,5 L, zzgl. 3,10 Pfand",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-schneider-weisse-original-weissbier.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32570,7 +32572,7 @@
       "brand": "",
       "quantity": "zzgl. 3,10 Pfand",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-carlsberg-bier-20-x-0-5-l.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32590,7 +32592,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-vegan-rugenwalder-muhle-teewurst-fein.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -32610,7 +32612,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-vegan-planted-chicken-krauter-zitrone.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -32630,7 +32632,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-vegan-rugenwalder-pommersche-schnittlauch.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -32650,7 +32652,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-vegan-rugenwalder-muhle-teewurst-fein.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32670,7 +32672,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-vegan-planted-chicken-krauter-zitrone.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32690,7 +32692,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-vegan-rugenwalder-pommersche-schnittlauch.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -32738,14 +32740,16 @@
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
       "source": "https://blaetterkatalog.edeka.de/SUEDWEST/MG_328_ED_ABH/blaetterkatalog/pdf/complete.pdf",
-      "mode": "official_leaflet_pdf_strong_pairs",
+      "mode": "official_leaflet_pdf_strong_pairs_with_images",
+      "images": 111,
       "pages": 42
     },
     "EDEKA_HALLER": {
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
       "source": "https://blaetterkatalog.edeka.de/SUEDWEST/MG_328_EC_Raunheim/blaetterkatalog/pdf/complete.pdf",
-      "mode": "official_leaflet_pdf_strong_pairs",
+      "mode": "official_leaflet_pdf_strong_pairs_with_images",
+      "images": 156,
       "pages": 50
     }
   }
