@@ -56,22 +56,25 @@ jobs:
           PY
       - name: Abhängigkeiten installieren
         if: steps.gate.outputs.run == 'true'
-        run: pip install requests beautifulsoup4 pypdf fonttools
+        run: pip install requests beautifulsoup4 pypdf fonttools pymupdf pillow
       - name: REWE und GLOBUS aktualisieren
         if: steps.gate.outputs.run == 'true'
         run: python crawler_pages.py
       - name: EDEKA Blätterkataloge aktualisieren
         if: steps.gate.outputs.run == 'true'
         run: python edeka_current.py
-      - name: Archiv speichern
+      - name: Archiv und EDEKA-Bilder speichern
         if: steps.gate.outputs.run == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/offers.json
+          if [ -d data/edeka-images ]; then
+            git add -A data/edeka-images
+          fi
           if ! git diff --cached --quiet; then
-            git commit -m "Update offers and validity periods"
+            git commit -m "Update offers, validity periods and EDEKA images"
             git push
           else
-            echo "Keine echten Änderungen an Angeboten oder Gültigkeitszeiträumen."
+            echo "Keine echten Änderungen an Angeboten, Bildern oder Gültigkeitszeiträumen."
           fi
