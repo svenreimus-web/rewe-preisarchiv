@@ -1,0 +1,47 @@
+name: Suche korrigieren
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-search.yml'
+      - 'fix_search.py'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Suche korrigieren
+        run: python fix_search.py
+      - name: JavaScript prüfen
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          s=Path('index.html').read_text(encoding='utf-8')
+          scripts=re.findall(r'<script(?: [^>]*)?>(.*?)</script>',s,re.S)
+          inline='\n'.join(x for x in scripts if x.strip())
+          Path('/tmp/app.js').write_text(inline,encoding='utf-8')
+          PY
+          node --check /tmp/app.js
+      - name: Suchlogik testen
+        run: |
+          node - <<'JS'
+          const norm=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9äöüß]+/g,' ').trim();
+          function match(text,query){const terms=norm(query).split(/\s+/).filter(Boolean),tokens=norm(text).split(' ').filter(Boolean);return terms.every(term=>tokens.some(token=>token===term||token.startsWith(term)))}
+          if(match('Frische Schweinefilets Fleisch','Wein')) throw new Error('Schweinefilets darf nicht Wein treffen');
+          if(match("Butcher's Barbecue Schweine-Rückensteaks Fleisch",'Wein')) throw new Error('Schweine-Rückensteaks darf nicht Wein treffen');
+          if(!match('Dostert Mosel DQW verschiedene Weine','Wein')) throw new Error('Weine muss Wein treffen');
+          if(!match('Ahr Spätburgunder Wein Alkoholische Getränke','Wein')) throw new Error('Produktart Wein muss treffen');
+          console.log('Suchtests OK');
+          JS
+      - name: Änderung speichern
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Fix word-based offer search"
+          git push
