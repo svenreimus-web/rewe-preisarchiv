@@ -1,0 +1,46 @@
+name: Einkaufsroute und Teilen
+
+on:
+  push:
+    paths:
+      - 'shopping_route_share_patch.py'
+      - '.github/workflows/shopping-route-share.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Laufweg und Teilen einbauen
+        run: python shopping_route_share_patch.py
+      - name: JavaScript prüfen
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          s=Path('index.html').read_text(encoding='utf-8')
+          scripts=re.findall(r'<script(?: [^>]*)?>(.*?)</script>',s,re.S)
+          inline='\n'.join(x for x in scripts if x.strip())
+          Path('/tmp/app.js').write_text(inline,encoding='utf-8')
+          PY
+          node --check /tmp/app.js
+      - name: Funktionen prüfen
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          s=Path('index.html').read_text(encoding='utf-8')
+          checks=['SHOP_ROUTE_PROFILES','sortedShoppingEntries','shoppingShareText','shareShoppingList','In Notizen teilen','In Notiz-App teilen','shop-route-zone']
+          for x in checks:
+              if x not in s: raise SystemExit('Fehlt: '+x)
+          print('Laufweg/Share OK')
+          PY
+      - name: Änderung speichern
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Sort shopping list by store route and add native sharing"
+          git push
