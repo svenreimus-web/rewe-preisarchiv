@@ -7,6 +7,7 @@ on:
       - 'crawler_pages.py'
       - 'edeka_current.py'
       - 'edeka_catalog_probe.py'
+      - 'edeka_catalog_ocr.py'
       - '.github/workflows/update-offers.yml'
   schedule:
     - cron: '15 4 * * *'
@@ -57,10 +58,13 @@ jobs:
           PY
       - name: Abhängigkeiten installieren
         if: steps.gate.outputs.run == 'true'
-        run: pip install requests beautifulsoup4
-      - name: EDEKA Blätterkatalog untersuchen
+        run: |
+          pip install requests beautifulsoup4 pillow pytesseract
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-deu
+      - name: EDEKA Blätterkatalog OCR testen
         if: steps.gate.outputs.run == 'true'
-        run: python edeka_catalog_probe.py
+        run: python edeka_catalog_ocr.py
       - name: REWE und GLOBUS aktualisieren
         if: steps.gate.outputs.run == 'true'
         run: python crawler_pages.py
