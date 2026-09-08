@@ -1,9 +1,12 @@
 import json, re, unicodedata
-from datetime import datetime, timezone
+from copy import deepcopy
+from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 # Verified from the official EDEKA market pages for the current offer period.
 OUT=Path('data/offers.json')
+TZ=ZoneInfo('Europe/Berlin')
 VALID_FROM='2026-09-07'
 VALID_UNTIL='2026-09-12'
 MARKETS={
@@ -32,6 +35,7 @@ COMMON=[
  ('Gut & Günstig Gartensack faltbar','Farbe Grün oder Grau',2.99),
 ]
 
+def now(): return datetime.now(TZ)
 def slug(s):
  s=unicodedata.normalize('NFKD',s).encode('ascii','ignore').decode().lower()
  return re.sub(r'[^a-z0-9]+','-',s).strip('-')[:100]
@@ -40,36 +44,47 @@ def dedupe(hist):
  out=[]; seen=set()
  for h in sorted(hist,key=lambda x:(x.get('date',''),x.get('price',0))):
   k=(h.get('date'),h.get('price'))
-  if k not in seen: seen.add(k); out.append(h)
+  if k not in seen:seen.add(k);out.append(h)
  return out
+
+def upsert(hist,date,price):
+ out=[h for h in dedupe(hist) if h.get('date')!=date]
+ out.append({'date':date,'price':price})
+ return sorted(out,key=lambda x:(x.get('date',''),x.get('price',0)))
+
+def stable_view(data):
+ x=deepcopy(data); x.pop('updated_at',None)
+ return x
 
 def main():
  data=json.loads(OUT.read_text(encoding='utf-8')) if OUT.exists() else {'products':[]}
- today=datetime.now(timezone.utc).date().isoformat()
- current=VALID_FROM <= today <= VALID_UNTIL
+ before=stable_view(data); old_updated_at=data.get('updated_at'); today=now().date().isoformat(); current=VALID_FROM<=today<=VALID_UNTIL
  merged={p.get('id'):p for p in data.get('products',[]) if p.get('id')}
  for store,meta in MARKETS.items():
   for p in merged.values():
-   if p.get('store')==store: p['active']=False
+   if p.get('store')==store:p['active']=False
   offers=COMMON+meta['offers_extra']
   if current:
    for name,qty,price in offers:
     pid=store.lower()+'-'+slug(name)
     p=merged.get(pid) or {'id':pid,'name':name,'brand':'','quantity':qty,'category':'Markt-Angebot','image':'','store':store,'history':[]}
-    p.update({'name':name,'quantity':qty,'category':'Markt-Angebot','store':store,'active':True,'last_seen':today,'valid_from':VALID_FROM,'valid_until':VALID_UNTIL})
-    obs={'date':VALID_FROM,'price':price}
-    if obs not in p.get('history',[]): p.setdefault('history',[]).append(obs)
-    p['history']=dedupe(p.get('history',[])); merged[pid]=p
-  data.setdefault('validity',{})[store]={'valid_from':VALID_FROM,'valid_until':VALID_UNTIL,'source':meta['source'],'checked_at':datetime.now(timezone.utc).isoformat(timespec='seconds'),'mode':'verified_official_snapshot'}
+    period_changed=p.get('valid_from')!=VALID_FROM or p.get('valid_until')!=VALID_UNTIL
+    p.update({'name':name,'quantity':qty,'category':'Markt-Angebot','store':store,'active':True,'valid_from':VALID_FROM,'valid_until':VALID_UNTIL})
+    if period_changed or not p.get('last_seen'):p['last_seen']=today
+    p['history']=upsert(p.get('history',[]),VALID_FROM,price); merged[pid]=p
+  old=data.setdefault('validity',{}).get(store,{})
+  if old.get('valid_from')!=VALID_FROM or old.get('valid_until')!=VALID_UNTIL or old.get('source')!=meta['source'] or old.get('mode')!='verified_official_snapshot':
+   data['validity'][store]={'valid_from':VALID_FROM,'valid_until':VALID_UNTIL,'source':meta['source'],'checked_at':now().isoformat(timespec='seconds'),'mode':'verified_official_snapshot'}
   data.setdefault('sources',{})[store]=meta['source']
   data.setdefault('last_import_count',{})[store]=len(offers) if current else 0
  data['products']=[p for p in merged.values() if p and p.get('history')]
  data['last_import_count']['total']=sum(v for k,v in data['last_import_count'].items() if k!='total' and isinstance(v,int))
  data['active_offer_count']=sum(1 for p in data['products'] if p.get('active') is True)
- data['updated_at']=datetime.now(timezone.utc).isoformat(timespec='seconds')
+ if stable_view(data)!=before:data['updated_at']=now().isoformat(timespec='seconds')
+ elif old_updated_at:data['updated_at']=old_updated_at
  OUT.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
  print('EDEKA Buch:',len(COMMON)+1 if current else 0,'aktuelle verifizierte Online-Angebote')
  print('E center Haller:',len(COMMON)+1 if current else 0,'aktuelle verifizierte Online-Angebote')
  print('Gesamt aktiv:',data['active_offer_count'])
 
-if __name__=='__main__': main()
+if __name__=='__main__':main()
