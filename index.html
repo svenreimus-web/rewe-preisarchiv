@@ -96,7 +96,9 @@ const TYPE_RULES=[
  ['Toilettenpapier',['toilettenpapier']],
  ['Tierfutter',['katzenfutter','hundefutter','tierfutter']]
 ];
-function productType(p){const hay=norm(`${p.name||''} ${p.quantity||''}`);for(const [type,terms] of TYPE_RULES)if(terms.some(t=>phraseHit(hay,t)))return type;return category(p)}
+function strictTypeHit(text,term){const hay=norm(text),p=norm(term);if(!hay||!p)return false;if((` ${hay} `).includes(` ${p} `))return true;if(p.includes(' '))return false;return hay.split(' ').some(token=>{if(!token.startsWith(p))return false;const suffix=token.slice(p.length);return ['','e','en','er','n','s'].includes(suffix)})}
+const DESC_TYPE_CATEGORY={'Bier':'Alkoholische Getränke','Wein':'Alkoholische Getränke','Sekt & Schaumwein':'Alkoholische Getränke','Spirituosen':'Alkoholische Getränke','Wasser':'Alkoholfreie Getränke','Cola & Limonade':'Alkoholfreie Getränke','Saft':'Alkoholfreie Getränke','Energy Drink':'Alkoholfreie Getränke','Kaffee':'Kaffee & Tee','Tee':'Kaffee & Tee'};
+function productType(p){const name=`${p.name||''} ${p.brand||''}`;for(const [type,terms] of TYPE_RULES)if(terms.some(t=>strictTypeHit(name,t)))return type;const cat=category(p),desc=p.quantity||'';for(const [type,terms] of TYPE_RULES)if(DESC_TYPE_CATEGORY[type]===cat&&terms.some(t=>strictTypeHit(desc,t)))return type;return cat}
 const TYPE_STOPS={
  'Bier':['bier','pils','pilsener','radler','weissbier','weißbier','weizenbier','hefeweizen','helles','export','lager'],
  'Wein':['wein','riesling','grauburgunder','weissburgunder','weißburgunder','spatburgunder','spätburgunder','merlot','chardonnay','sauvignon','dornfelder'],
