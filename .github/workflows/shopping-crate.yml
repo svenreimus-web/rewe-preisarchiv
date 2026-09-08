@@ -1,0 +1,46 @@
+name: Kasten und Haushaltsmengen
+
+on:
+  push:
+    paths:
+      - 'shopping_crate_patch.py'
+      - '.github/workflows/shopping-crate.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Kastenlogik ergänzen
+        run: python shopping_crate_patch.py
+      - name: JavaScript prüfen
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          s=Path('index.html').read_text(encoding='utf-8')
+          scripts=re.findall(r'<script(?: [^>]*)?>(.*?)</script>',s,re.S)
+          inline='\n'.join(x for x in scripts if x.strip())
+          Path('/tmp/app.js').write_text(inline,encoding='utf-8')
+          PY
+          node --check /tmp/app.js
+      - name: Kastenlogik prüfen
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          s=Path('index.html').read_text(encoding='utf-8')
+          checks=['shoppingUnitCompatible','shoppingBrandTypeMap','1–3 Jahre',"'Kasten'",'Kartoffelmahlzeit']
+          for c in checks:
+              if c not in s: raise SystemExit('Fehlt: '+c)
+          print('Kasten-/Haushaltsprüfungen OK')
+          PY
+      - name: Änderung speichern
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Improve crate and household quantity matching"
+          git push
