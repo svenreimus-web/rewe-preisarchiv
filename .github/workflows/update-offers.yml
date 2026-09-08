@@ -2,8 +2,6 @@ name: REWE Angebote aktualisieren
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '15 6 * * 1'
 
 permissions:
   contents: write
