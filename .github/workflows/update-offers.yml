@@ -6,11 +6,9 @@ on:
     paths:
       - 'crawler_pages.py'
       - 'edeka_current.py'
+      - 'edeka_catalog_probe.py'
       - '.github/workflows/update-offers.yml'
   schedule:
-    # Zwei UTC-Zeiten decken 06:15 Uhr in Deutschland ab:
-    # 04:15 UTC = 06:15 CEST, 05:15 UTC = 06:15 CET.
-    # Das Gate unten lässt nur den zur lokalen Uhrzeit passenden Lauf weiterlaufen.
     - cron: '15 4 * * *'
     - cron: '15 5 * * *'
 
@@ -29,7 +27,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
       - name: Prüfen ob Aktualisierung fällig ist
         id: gate
         env:
@@ -40,7 +37,6 @@ jobs:
           from datetime import datetime
           from pathlib import Path
           from zoneinfo import ZoneInfo
-
           event=os.environ.get('EVENT_NAME','')
           run=event in ('push','workflow_dispatch')
           reason=f'Ereignis {event}'
@@ -51,20 +47,20 @@ jobs:
               else:
                   p=Path('data/offers.json')
                   data=json.loads(p.read_text(encoding='utf-8')) if p.exists() else {}
-                  today=now.date().isoformat()
-                  periods=data.get('validity',{})
+                  today=now.date().isoformat(); periods=data.get('validity',{})
                   expired=[store for store,v in periods.items() if isinstance(v,dict) and v.get('valid_until') and v['valid_until']<today]
                   missing=[store for store in ('REWE','GLOBUS','EDEKA_BUCH','EDEKA_HALLER') if not periods.get(store)]
                   run=bool(expired or missing)
                   reason='fällig: '+', '.join(expired+missing) if run else 'alle Angebotszeiträume noch gültig'
           print('Aktualisierung:',run,'-',reason)
-          with open(os.environ['GITHUB_OUTPUT'],'a',encoding='utf-8') as f:
-              f.write(f'run={str(run).lower()}\n')
+          with open(os.environ['GITHUB_OUTPUT'],'a',encoding='utf-8') as f: f.write(f'run={str(run).lower()}\n')
           PY
-
       - name: Abhängigkeiten installieren
         if: steps.gate.outputs.run == 'true'
         run: pip install requests beautifulsoup4
+      - name: EDEKA Blätterkatalog untersuchen
+        if: steps.gate.outputs.run == 'true'
+        run: python edeka_catalog_probe.py
       - name: REWE und GLOBUS aktualisieren
         if: steps.gate.outputs.run == 'true'
         run: python crawler_pages.py
