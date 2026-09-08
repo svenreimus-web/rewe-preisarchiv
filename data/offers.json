@@ -4,7 +4,7 @@
     "name": "REWE Vigheshan Gahndi oHG",
     "address": "Industriestraße 40, 65439 Flörsheim-Weilbach"
   },
-  "updated_at": "2026-09-08T13:26:36+02:00",
+  "updated_at": "2026-09-08T13:28:12+02:00",
   "products": [
     {
       "id": "rewe-bonne-maman-weniger-zucker-mehr-frucht-konfiture",
@@ -31325,66 +31325,6 @@
       "source_page": 16
     },
     {
-      "id": "edeka_buch-vegan-rugenwalder-muhle-teewurst-fein",
-      "name": "Vegan Rügenwalder Mühle Teewurst fein",
-      "brand": "",
-      "quantity": "",
-      "category": "Markt-Angebot",
-      "image": "",
-      "store": "EDEKA_BUCH",
-      "history": [
-        {
-          "date": "2026-09-07",
-          "price": 1.69
-        }
-      ],
-      "active": true,
-      "last_seen": "2026-09-08",
-      "valid_from": "2026-09-07",
-      "valid_until": "2026-09-12",
-      "source_page": 16
-    },
-    {
-      "id": "edeka_buch-vegan-planted-chicken-krauter-zitrone",
-      "name": "Vegan Planted Chicken Kräuter & Zitrone",
-      "brand": "",
-      "quantity": "",
-      "category": "Markt-Angebot",
-      "image": "",
-      "store": "EDEKA_BUCH",
-      "history": [
-        {
-          "date": "2026-09-07",
-          "price": 2.49
-        }
-      ],
-      "active": true,
-      "last_seen": "2026-09-08",
-      "valid_from": "2026-09-07",
-      "valid_until": "2026-09-12",
-      "source_page": 16
-    },
-    {
-      "id": "edeka_buch-vegan-rugenwalder-pommersche-schnittlauch",
-      "name": "Vegan Rügenwalder Pommersche Schnittlauch",
-      "brand": "",
-      "quantity": "",
-      "category": "Markt-Angebot",
-      "image": "",
-      "store": "EDEKA_BUCH",
-      "history": [
-        {
-          "date": "2026-09-07",
-          "price": 1.79
-        }
-      ],
-      "active": true,
-      "last_seen": "2026-09-08",
-      "valid_from": "2026-09-07",
-      "valid_until": "2026-09-12",
-      "source_page": 16
-    },
-    {
       "id": "edeka_buch-rugenwalder-salino-boost-der-herzhafte-energy",
       "name": "Rügenwalder Salino Boost der herzhafte Energy",
       "brand": "",
@@ -32025,66 +31965,6 @@
       "source_page": 16
     },
     {
-      "id": "edeka_haller-vegan-rugenwalder-muhle-teewurst-fein",
-      "name": "Vegan Rügenwalder Mühle Teewurst fein",
-      "brand": "",
-      "quantity": "",
-      "category": "Markt-Angebot",
-      "image": "",
-      "store": "EDEKA_HALLER",
-      "history": [
-        {
-          "date": "2026-09-07",
-          "price": 1.69
-        }
-      ],
-      "active": true,
-      "last_seen": "2026-09-08",
-      "valid_from": "2026-09-07",
-      "valid_until": "2026-09-12",
-      "source_page": 16
-    },
-    {
-      "id": "edeka_haller-vegan-planted-chicken-krauter-zitrone",
-      "name": "Vegan Planted Chicken Kräuter & Zitrone",
-      "brand": "",
-      "quantity": "",
-      "category": "Markt-Angebot",
-      "image": "",
-      "store": "EDEKA_HALLER",
-      "history": [
-        {
-          "date": "2026-09-07",
-          "price": 2.49
-        }
-      ],
-      "active": true,
-      "last_seen": "2026-09-08",
-      "valid_from": "2026-09-07",
-      "valid_until": "2026-09-12",
-      "source_page": 16
-    },
-    {
-      "id": "edeka_haller-vegan-rugenwalder-pommersche-schnittlauch",
-      "name": "Vegan Rügenwalder Pommersche Schnittlauch",
-      "brand": "",
-      "quantity": "",
-      "category": "Markt-Angebot",
-      "image": "",
-      "store": "EDEKA_HALLER",
-      "history": [
-        {
-          "date": "2026-09-07",
-          "price": 1.79
-        }
-      ],
-      "active": true,
-      "last_seen": "2026-09-08",
-      "valid_from": "2026-09-07",
-      "valid_until": "2026-09-12",
-      "source_page": 16
-    },
-    {
       "id": "edeka_haller-rugenwalder-salino-boost-der-herzhafte-energy",
       "name": "Rügenwalder Salino Boost der herzhafte Energy",
       "brand": "",
@@ -32703,6 +32583,126 @@
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
       "source_page": 46
+    },
+    {
+      "id": "edeka_buch-vegan-rugenwalder-muhle-teewurst-fein",
+      "name": "Vegan Rügenwalder Mühle Teewurst fein",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.69
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 16
+    },
+    {
+      "id": "edeka_buch-vegan-planted-chicken-krauter-zitrone",
+      "name": "Vegan Planted Chicken Kräuter & Zitrone",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 2.49
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 16
+    },
+    {
+      "id": "edeka_buch-vegan-rugenwalder-pommersche-schnittlauch",
+      "name": "Vegan Rügenwalder Pommersche Schnittlauch",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.79
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 16
+    },
+    {
+      "id": "edeka_haller-vegan-rugenwalder-muhle-teewurst-fein",
+      "name": "Vegan Rügenwalder Mühle Teewurst fein",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.69
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 16
+    },
+    {
+      "id": "edeka_haller-vegan-planted-chicken-krauter-zitrone",
+      "name": "Vegan Planted Chicken Kräuter & Zitrone",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 2.49
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 16
+    },
+    {
+      "id": "edeka_haller-vegan-rugenwalder-pommersche-schnittlauch",
+      "name": "Vegan Rügenwalder Pommersche Schnittlauch",
+      "brand": "",
+      "quantity": "",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.79
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source_page": 16
     }
   ],
   "source": "https://prospektewoche.de/rewe",
