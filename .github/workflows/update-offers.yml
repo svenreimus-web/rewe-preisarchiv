@@ -1,36 +1,80 @@
-name: Einkaufsplaner einbauen
+name: Angebote aktualisieren
 
 on:
   workflow_dispatch:
   push:
     paths:
+      - 'crawler_pages.py'
+      - 'edeka_current.py'
       - '.github/workflows/update-offers.yml'
+  schedule:
+    - cron: '15 4 * * *'
+    - cron: '15 5 * * *'
 
 permissions:
   contents: write
 
+concurrency:
+  group: offer-update
+  cancel-in-progress: false
+
 jobs:
-  patch:
+  update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Einkaufplaner patchen
-        run: python patch_shopping.py
-      - name: JavaScript prüfen
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Prüfen ob Aktualisierung fällig ist
+        id: gate
+        env:
+          EVENT_NAME: ${{ github.event_name }}
         run: |
           python - <<'PY'
+          import json, os
+          from datetime import datetime
           from pathlib import Path
-          import re
-          text=Path('index.html').read_text(encoding='utf-8')
-          scripts=re.findall(r'<script(?:\s+[^>]*)?>(.*?)</script>',text,re.S)
-          inline=max(scripts,key=len)
-          Path('/tmp/app.js').write_text(inline,encoding='utf-8')
+          from zoneinfo import ZoneInfo
+          event=os.environ.get('EVENT_NAME','')
+          run=event in ('push','workflow_dispatch')
+          reason=f'Ereignis {event}'
+          if event=='schedule':
+              now=datetime.now(ZoneInfo('Europe/Berlin'))
+              if now.hour!=6:
+                  run=False; reason=f'zweiter DST-Cron, lokal {now:%H:%M}'
+              else:
+                  p=Path('data/offers.json')
+                  data=json.loads(p.read_text(encoding='utf-8')) if p.exists() else {}
+                  today=now.date().isoformat(); periods=data.get('validity',{})
+                  expired=[store for store,v in periods.items() if isinstance(v,dict) and v.get('valid_until') and v['valid_until']<today]
+                  missing=[store for store in ('REWE','GLOBUS','EDEKA_BUCH','EDEKA_HALLER') if not periods.get(store)]
+                  run=bool(expired or missing)
+                  reason='fällig: '+', '.join(expired+missing) if run else 'alle Angebotszeiträume noch gültig'
+          print('Aktualisierung:',run,'-',reason)
+          with open(os.environ['GITHUB_OUTPUT'],'a',encoding='utf-8') as f: f.write(f'run={str(run).lower()}\n')
           PY
-          node --check /tmp/app.js
-      - name: Änderungen speichern
+      - name: Abhängigkeiten installieren
+        if: steps.gate.outputs.run == 'true'
+        run: pip install requests beautifulsoup4 pypdf fonttools pymupdf pillow
+      - name: REWE und GLOBUS aktualisieren
+        if: steps.gate.outputs.run == 'true'
+        run: python crawler_pages.py
+      - name: EDEKA Blätterkataloge aktualisieren
+        if: steps.gate.outputs.run == 'true'
+        run: python edeka_current.py
+      - name: Archiv und EDEKA-Bilder speichern
+        if: steps.gate.outputs.run == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html
-          git commit -m "Add shopping planner, market map and recipe styles"
-          git push
+          git add data/offers.json
+          if [ -d data/edeka-images ]; then
+            git add -A data/edeka-images
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "Update offers, validity periods and EDEKA images"
+            git push
+          else
+            echo "Keine echten Änderungen an Angeboten, Bildern oder Gültigkeitszeiträumen."
+          fi
