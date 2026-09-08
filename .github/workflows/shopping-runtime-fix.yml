@@ -1,0 +1,37 @@
+name: Einkaufsliste Laufzeit prüfen
+
+on:
+  push:
+    paths:
+      - 'shopping_runtime_fix.py'
+      - '.github/workflows/shopping-runtime-fix.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Laufzeitfehler korrigieren
+        run: python shopping_runtime_fix.py
+      - name: JavaScript und Fehlerstelle prüfen
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          s=Path('index.html').read_text(encoding='utf-8')
+          if '||nullshoppingTypeCache' in s: raise SystemExit('Defekte Verkettung noch vorhanden')
+          if '||null;shoppingTypeCache.set(q,found)' not in s: raise SystemExit('Korrekte Cache-Zeile fehlt')
+          scripts=re.findall(r'<script(?: [^>]*)?>(.*?)</script>',s,re.S)
+          Path('/tmp/app.js').write_text('\n'.join(x for x in scripts if x.strip()),encoding='utf-8')
+          PY
+          node --check /tmp/app.js
+      - name: Änderung speichern
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Fix shopping type runtime fallback"
+          git push
