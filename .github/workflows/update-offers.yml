@@ -2,6 +2,9 @@ name: Angebote aktualisieren
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'crawler_pages.py'
   schedule:
     # GitHub cron uses UTC. 04:15 UTC is 06:15 CEST and 05:15 CET.
     # A second check at 06:15 UTC covers winter time and delayed source updates.
