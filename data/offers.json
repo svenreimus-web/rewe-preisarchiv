@@ -4,7 +4,7 @@
     "name": "REWE Vigheshan Gahndi oHG",
     "address": "Industriestraße 40, 65439 Flörsheim-Weilbach"
   },
-  "updated_at": "2026-09-08T10:06:25+00:00",
+  "updated_at": "2026-09-08T10:09:48+00:00",
   "products": [
     {
       "id": "rewe-bonne-maman-weniger-zucker-mehr-frucht-konfiture",
@@ -27479,15 +27479,471 @@
       "last_seen": "2026-09-08",
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12"
+    },
+    {
+      "id": "edeka_buch-paulaner-spezi",
+      "name": "Paulaner Spezi",
+      "brand": "",
+      "quantity": "auch Zero, koffeinhaltig, 20 x 0,5 L, zzgl. 3,10 Pfand",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 10.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12"
+    },
+    {
+      "id": "edeka_buch-meggle-feine-butter-joghurt-butter-oder-streichzart-ungesalzen",
+      "name": "Meggle Feine Butter, Joghurt Butter oder Streichzart ungesalzen",
+      "brand": "",
+      "quantity": "250 g",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.29
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12"
+    },
+    {
+      "id": "edeka_buch-wagner-die-backfrische-pizza-piccolinis-oder-big-city",
+      "name": "Wagner Die Backfrische Pizza, Piccolinis oder Big City",
+      "brand": "",
+      "quantity": "versch. Sorten, tiefgefroren, 270–440 g",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12"
+    },
+    {
+      "id": "edeka_buch-ritter-sport-schokolade-bunte-vielfalt",
+      "name": "Ritter Sport Schokolade Bunte Vielfalt",
+      "brand": "",
+      "quantity": "versch. Sorten, 100 g",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 0.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12"
+    },
+    {
+      "id": "edeka_buch-frische-schweinefilets",
+      "name": "Frische Schweinefilets",
+      "brand": "",
+      "quantity": "ideal für zarte Medaillons, 1 kg",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 9.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12"
+    },
+    {
+      "id": "edeka_buch-edeka-herzstucke-traubenmix-hell-und-rot",
+      "name": "EDEKA Herzstücke Traubenmix hell und rot",
+      "brand": "",
+      "quantity": "kernlos, aus Italien oder Spanien, Klasse I, 500 g",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12"
+    },
+    {
+      "id": "edeka_buch-dallmayr-crema-doro-fairtrade-organic",
+      "name": "Dallmayr Crema d’Oro, Fairtrade Organic",
+      "brand": "",
+      "quantity": "weitere Sorten, ganze Bohnen, 750 g–1 kg",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 12.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12"
+    },
+    {
+      "id": "edeka_buch-edeka-zuhause-glaswasserkocher",
+      "name": "EDEKA zuhause Glaswasserkocher",
+      "brand": "",
+      "quantity": "Easy-Fill-Deckel, Temperaturvorwahl, Warmhaltefunktion",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 29.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12"
+    },
+    {
+      "id": "edeka_buch-edeka-zuhause-4-in-1-snack-maker",
+      "name": "EDEKA zuhause 4 in 1 Snack Maker",
+      "brand": "",
+      "quantity": "870 Watt, 4 wechselbare Aluguss-Platten",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 27.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12"
+    },
+    {
+      "id": "edeka_buch-edeka-zuhause-xl-heiluft-fritteuse",
+      "name": "EDEKA zuhause XL Heißluft-Fritteuse",
+      "brand": "",
+      "quantity": "Touch-Display, 12 Programme, 6,5 L",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 44.0
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12"
+    },
+    {
+      "id": "edeka_buch-gut-gunstig-gartensack-faltbar",
+      "name": "Gut & Günstig Gartensack faltbar",
+      "brand": "",
+      "quantity": "Farbe Grün oder Grau",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 2.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12"
+    },
+    {
+      "id": "edeka_buch-hofgluck-ruckensteaks",
+      "name": "Hofglück Rückensteaks",
+      "brand": "",
+      "quantity": "vom Schwein, gewürzt, ca. 320 g, 1 kg",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_BUCH",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 9.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12"
+    },
+    {
+      "id": "edeka_haller-paulaner-spezi",
+      "name": "Paulaner Spezi",
+      "brand": "",
+      "quantity": "auch Zero, koffeinhaltig, 20 x 0,5 L, zzgl. 3,10 Pfand",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 10.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12"
+    },
+    {
+      "id": "edeka_haller-meggle-feine-butter-joghurt-butter-oder-streichzart-ungesalzen",
+      "name": "Meggle Feine Butter, Joghurt Butter oder Streichzart ungesalzen",
+      "brand": "",
+      "quantity": "250 g",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.29
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12"
+    },
+    {
+      "id": "edeka_haller-wagner-die-backfrische-pizza-piccolinis-oder-big-city",
+      "name": "Wagner Die Backfrische Pizza, Piccolinis oder Big City",
+      "brand": "",
+      "quantity": "versch. Sorten, tiefgefroren, 270–440 g",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12"
+    },
+    {
+      "id": "edeka_haller-ritter-sport-schokolade-bunte-vielfalt",
+      "name": "Ritter Sport Schokolade Bunte Vielfalt",
+      "brand": "",
+      "quantity": "versch. Sorten, 100 g",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 0.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12"
+    },
+    {
+      "id": "edeka_haller-frische-schweinefilets",
+      "name": "Frische Schweinefilets",
+      "brand": "",
+      "quantity": "ideal für zarte Medaillons, 1 kg",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 9.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12"
+    },
+    {
+      "id": "edeka_haller-edeka-herzstucke-traubenmix-hell-und-rot",
+      "name": "EDEKA Herzstücke Traubenmix hell und rot",
+      "brand": "",
+      "quantity": "kernlos, aus Italien oder Spanien, Klasse I, 500 g",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 1.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12"
+    },
+    {
+      "id": "edeka_haller-dallmayr-crema-doro-fairtrade-organic",
+      "name": "Dallmayr Crema d’Oro, Fairtrade Organic",
+      "brand": "",
+      "quantity": "weitere Sorten, ganze Bohnen, 750 g–1 kg",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 12.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12"
+    },
+    {
+      "id": "edeka_haller-edeka-zuhause-glaswasserkocher",
+      "name": "EDEKA zuhause Glaswasserkocher",
+      "brand": "",
+      "quantity": "Easy-Fill-Deckel, Temperaturvorwahl, Warmhaltefunktion",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 29.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12"
+    },
+    {
+      "id": "edeka_haller-edeka-zuhause-4-in-1-snack-maker",
+      "name": "EDEKA zuhause 4 in 1 Snack Maker",
+      "brand": "",
+      "quantity": "870 Watt, 4 wechselbare Aluguss-Platten",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 27.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12"
+    },
+    {
+      "id": "edeka_haller-edeka-zuhause-xl-heiluft-fritteuse",
+      "name": "EDEKA zuhause XL Heißluft-Fritteuse",
+      "brand": "",
+      "quantity": "Touch-Display, 12 Programme, 6,5 L",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 44.0
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12"
+    },
+    {
+      "id": "edeka_haller-gut-gunstig-gartensack-faltbar",
+      "name": "Gut & Günstig Gartensack faltbar",
+      "brand": "",
+      "quantity": "Farbe Grün oder Grau",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 2.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12"
+    },
+    {
+      "id": "edeka_haller-mepal-trinkflasche",
+      "name": "MEPAL Trinkflasche",
+      "brand": "",
+      "quantity": "auslaufsicher, praktische Trageschlaufe, spülmaschinengeeignet bis 65 °C, 400 ml, versch. Motive",
+      "category": "Markt-Angebot",
+      "image": "",
+      "store": "EDEKA_HALLER",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "price": 11.99
+        }
+      ],
+      "active": true,
+      "last_seen": "2026-09-08",
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12"
     }
   ],
   "source": "https://prospektewoche.de/rewe",
   "last_import_count": {
     "REWE": 206,
     "GLOBUS": 451,
-    "EDEKA_BUCH": 0,
-    "EDEKA_HALLER": 0,
-    "total": 657
+    "EDEKA_BUCH": 12,
+    "EDEKA_HALLER": 12,
+    "total": 681
   },
   "sources": {
     "REWE": "https://prospektewoche.de/rewe",
@@ -27496,19 +27952,33 @@
     "EDEKA_BUCH": "https://www.edeka.de/maerkte/046253/",
     "EDEKA_HALLER": "https://www.edeka.de/maerkte/042385/"
   },
-  "active_offer_count": 650,
+  "active_offer_count": 674,
   "validity": {
     "REWE": {
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
       "source": "https://prospektewoche.de/rewe",
-      "checked_at": "2026-09-08T10:06:25+00:00"
+      "checked_at": "2026-09-08T10:09:48+00:00"
     },
     "GLOBUS": {
       "valid_from": "2026-09-07",
       "valid_until": "2026-09-12",
       "source": "https://prospektewoche.de/globus",
-      "checked_at": "2026-09-08T10:06:25+00:00"
+      "checked_at": "2026-09-08T10:09:48+00:00"
+    },
+    "EDEKA_BUCH": {
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source": "https://www.edeka.de/maerkte/046253/",
+      "checked_at": "2026-09-08T10:09:48+00:00",
+      "mode": "verified_official_snapshot"
+    },
+    "EDEKA_HALLER": {
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-12",
+      "source": "https://www.edeka.de/maerkte/042385/",
+      "checked_at": "2026-09-08T10:09:48+00:00",
+      "mode": "verified_official_snapshot"
     }
   }
 }
