@@ -1,0 +1,55 @@
+name: Einkauf Haushalt und Einheiten
+
+on:
+  push:
+    paths:
+      - 'shopping_household_patch.py'
+      - '.github/workflows/shopping-household.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Einkaufsliste erweitern
+        run: python shopping_household_patch.py
+      - name: JavaScript prüfen
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          s=Path('index.html').read_text(encoding='utf-8')
+          scripts=re.findall(r'<script(?: [^>]*)?>(.*?)</script>',s,re.S)
+          inline='\n'.join(x for x in scripts if x.strip())
+          Path('/tmp/app.js').write_text(inline,encoding='utf-8')
+          PY
+          node --check /tmp/app.js
+      - name: Funktionen prüfen
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          s=Path('index.html').read_text(encoding='utf-8')
+          checks=[
+            ('houseAdults','Haushaltsabfrage Erwachsene'),
+            ('houseChildren','Haushaltsabfrage Kinder'),
+            ('shopUnit','Einheitenauswahl'),
+            ("['Wasser','Bier','Saft','Cola & Limonade']",'Kasten-Default'),
+            ('function renderShoppingFast()','Fast-Render'),
+            ('shoppingSuggestionsReady','Suggestions-Cache'),
+            ('125','Nudelportion'),
+            ('30','Wurst/Käse-Portion')
+          ]
+          for needle,label in checks:
+              if needle not in s: raise SystemExit(f'Fehlt: {label}')
+          print('Shopping-V2-Prüfungen OK')
+          PY
+      - name: Änderung speichern
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Speed up shopping list and add household quantities"
+          git push
