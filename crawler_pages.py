@@ -9,6 +9,8 @@ REWE_URL='https://www.rewe.de/angebote/floersheim-weilbach/240367/rewe-markt-ind
 REWE_FALLBACK='https://prospektewoche.de/rewe'
 GLOBUS_OFFICIAL='https://www.globus.de/hattersheim/aktuelles-prospekt.php'
 GLOBUS_FALLBACK='https://prospektewoche.de/globus'
+EDEKA_BUCH='https://www.edeka.de/maerkte/046253/'
+EDEKA_HALLER='https://www.edeka.de/maerkte/042385/'
 OUT=Path('data/offers.json')
 HEADERS={'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140 Safari/537.36','Accept-Language':'de-DE,de;q=0.9,en;q=0.7'}
 S=requests.Session(); S.headers.update(HEADERS)
@@ -18,7 +20,7 @@ def slug(s):
  return re.sub(r'[^a-z0-9]+','-',s).strip('-')[:100]
 
 def price_from_text(s):
- m=re.search(r'(?<!\d)(\d{1,3})[,.](\d{2})\s*€',s); return float(m.group(1)+'.'+m.group(2)) if m else None
+ m=re.search(r'(?<!\d)(\d{1,3})[,.](\d{2})\s*€?',s); return float(m.group(1)+'.'+m.group(2)) if m else None
 
 def get(url):
  r=S.get(url,timeout=40); r.raise_for_status(); return BeautifulSoup(r.text,'html.parser')
@@ -79,6 +81,33 @@ def extract_rewe_direct():
   seen.add(key); src=(img.get('src') or img.get('data-src') or '') if img else ''; found.append({'name':name,'quantity':'','category':'Markt-Angebot','price':p,'image':urljoin(REWE_URL,src) if src else '','store':'REWE'})
  return found,period
 
+def extract_edeka_market(url,store,market_name):
+ period,soup=source_period(url); page_text=' '.join(soup.stripped_strings)
+ if market_name.casefold() not in page_text.casefold(): raise RuntimeError(f'{market_name} auf Marktseite nicht bestätigt')
+ found=[]; seen=set()
+ for h in soup.find_all(re.compile(r'^h[1-6]$')):
+  raw=' '.join(h.stripped_strings); m=re.match(r'\s*Angebot:\s*(.+)',raw,re.I)
+  if not m: continue
+  name=m.group(1).strip(); block=None
+  for parent in list(h.parents)[:7]:
+   if parent.name in ('body','html'): break
+   txt=' '.join(parent.stripped_strings)
+   if price_from_text(txt) is not None and len(txt)<1800: block=parent; break
+  if not block: continue
+  txt=' '.join(block.stripped_strings); p=price_from_text(txt)
+  if p is None: continue
+  key=(slug(name),p)
+  if key in seen: continue
+  seen.add(key); img=block.find('img'); src=(img.get('src') or img.get('data-src') or img.get('data-lazy-src') or '') if img else ''
+  pieces=[x.strip() for x in block.stripped_strings if x.strip()]; desc=''
+  for x in pieces:
+   xl=x.casefold()
+   if x==raw or x==name or price_from_text(x) is not None or xl.startswith(('gültig ab','festpreis','rabattierter preis','app preis','grundpreis','image','diese artikel','abgabe in','niedrigster gesamtpreis','mit payback')): continue
+   if 4<len(x)<320: desc=x; break
+  found.append({'name':name,'quantity':desc,'category':'Markt-Angebot','price':p,'image':urljoin(url,src) if src else '','store':store})
+ print(f'{store}: {len(found)} Angebote von offizieller EDEKA-Marktseite')
+ return found,period
+
 def dedupe_history(history):
  out=[];seen=set()
  for h in sorted(history,key=lambda x:(x.get('date',''),x.get('price',0))):
@@ -103,7 +132,11 @@ def main():
   print('GLOBUS Hattersheim Marktseite bestätigt')
  except Exception as e: print('GLOBUS Marktseitenprüfung fehlgeschlagen:',e); globus_period=None
  globus,globus_fallback_period=extract_prospektewoche(GLOBUS_FALLBACK,'GLOBUS'); globus_period=globus_period or globus_fallback_period; globus_source=GLOBUS_FALLBACK
- candidates={'REWE':(rewe,rewe_period,rewe_source),'GLOBUS':(globus,globus_period,globus_source)}; accepted={}; validity=dict(old_periods)
+ try: edeka_buch,edeka_buch_period=extract_edeka_market(EDEKA_BUCH,'EDEKA_BUCH','EDEKA Buch')
+ except Exception as e: print('EDEKA Buch Abruf fehlgeschlagen:',e); edeka_buch=[]; edeka_buch_period=None
+ try: edeka_haller,edeka_haller_period=extract_edeka_market(EDEKA_HALLER,'EDEKA_HALLER','E center Haller')
+ except Exception as e: print('E center Haller Abruf fehlgeschlagen:',e); edeka_haller=[]; edeka_haller_period=None
+ candidates={'REWE':(rewe,rewe_period,rewe_source),'GLOBUS':(globus,globus_period,globus_source),'EDEKA_BUCH':(edeka_buch,edeka_buch_period,EDEKA_BUCH),'EDEKA_HALLER':(edeka_haller,edeka_haller_period,EDEKA_HALLER)}; accepted={}; validity=dict(old_periods)
  for st,(items,period,src) in candidates.items():
   if period_is_current(period,today) and items:
    accepted[st]=items; validity[st]={**period,'source':src,'checked_at':datetime.now(timezone.utc).isoformat(timespec='seconds')}; print(st,'Zeitraum akzeptiert:',period,'neu=',period_is_new(period,old_periods.get(st)))
@@ -126,6 +159,6 @@ def main():
    obs={'date':validity[st]['valid_from'],'price':o['price']}
    if obs not in item['history']:item['history'].append(obs)
    item['history']=dedupe_history(item['history'])
- data['products']=[p for p in merged.values() if p.get('history')]; data['updated_at']=datetime.now(timezone.utc).isoformat(timespec='seconds'); data['validity']=validity; data['sources']={'REWE':rewe_source,'GLOBUS':globus_source,'GLOBUS_market_confirmation':GLOBUS_OFFICIAL}; data['last_import_count']={st:(len(v) if v is not None else 0) for st,v in accepted.items()}; data['last_import_count']['total']=sum(data['last_import_count'].values()); data['active_offer_count']=sum(1 for p in data['products'] if p.get('active') is True)
+ data['products']=[p for p in merged.values() if p.get('history')]; data['updated_at']=datetime.now(timezone.utc).isoformat(timespec='seconds'); data['validity']=validity; data['sources']={'REWE':rewe_source,'GLOBUS':globus_source,'GLOBUS_market_confirmation':GLOBUS_OFFICIAL,'EDEKA_BUCH':EDEKA_BUCH,'EDEKA_HALLER':EDEKA_HALLER}; data['last_import_count']={st:(len(v) if v is not None else 0) for st,v in accepted.items()}; data['last_import_count']['total']=sum(data['last_import_count'].values()); data['active_offer_count']=sum(1 for p in data['products'] if p.get('active') is True)
  OUT.parent.mkdir(parents=True,exist_ok=True);OUT.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8'); print('Fertig:',data['active_offer_count'],'aktuelle Angebote; Archiv',len(data['products']))
 if __name__=='__main__':main()
