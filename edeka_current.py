@@ -2,6 +2,7 @@ import json, re, unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 
+# Verified from the official EDEKA market pages for the current offer period.
 OUT=Path('data/offers.json')
 VALID_FROM='2026-09-07'
 VALID_UNTIL='2026-09-12'
@@ -48,7 +49,6 @@ def main():
  current=VALID_FROM <= today <= VALID_UNTIL
  merged={p.get('id'):p for p in data.get('products',[]) if p.get('id')}
  for store,meta in MARKETS.items():
-  # Never leave expired EDEKA offers active.
   for p in merged.values():
    if p.get('store')==store: p['active']=False
   offers=COMMON+meta['offers_extra']
