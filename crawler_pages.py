@@ -87,7 +87,6 @@ def main():
   rewe_source=REWE_URL
  except Exception as e:
   print('REWE Direktabruf nicht möglich:',e); rewe=extract_prospektewoche(REWE_FALLBACK,'REWE'); rewe_source=REWE_FALLBACK
- # GLOBUS Hattersheim official page confirms the market/week; product extraction uses the weekly prospect fallback.
  try:
   official=' '.join(get(GLOBUS_OFFICIAL).stripped_strings)
   if 'GLOBUS Hattersheim' not in official:raise RuntimeError('Hattersheim auf Marktseite nicht bestätigt')
@@ -95,20 +94,19 @@ def main():
  except Exception as e:print('GLOBUS Marktseitenprüfung fehlgeschlagen:',e)
  globus=extract_prospektewoche(GLOBUS_FALLBACK,'GLOBUS'); globus_source=GLOBUS_FALLBACK
  offers=rewe+globus
- # Preserve histories separately by market. Old records without a market are REWE records.
  merged={}
  for old in data.get('products',[]):
   st=old.get('store') or 'REWE'; old['store']=st
   pid=st.lower()+'-'+slug(old.get('name') or old.get('id',''))
   if not pid:continue
-  old['id']=pid; old['history']=dedupe_history(old.get('history',[])); merged[pid]=old
+  old['id']=pid; old['history']=dedupe_history(old.get('history',[])); old['active']=False; merged[pid]=old
  for item in merged.values():
   item['history']=[h for h in item.get('history',[]) if h.get('date')!=today]
  for o in offers:
   pid=o['store'].lower()+'-'+slug(o['name']); item=merged.get(pid)
   if item is None:
    item={'id':pid,'name':o['name'],'brand':'','quantity':o.get('quantity',''),'category':o.get('category','Angebot'),'image':o.get('image',''),'store':o['store'],'history':[]}; merged[pid]=item
-  item.update({'name':o['name'],'quantity':o.get('quantity',''),'category':o.get('category','Angebot'),'store':o['store']})
+  item.update({'name':o['name'],'quantity':o.get('quantity',''),'category':o.get('category','Angebot'),'store':o['store'],'active':True,'last_seen':today})
   if o.get('image'):item['image']=o['image']
   obs={'date':today,'price':o['price']}
   if obs not in item['history']:item['history'].append(obs)
@@ -117,6 +115,7 @@ def main():
  data['updated_at']=datetime.now(timezone.utc).isoformat(timespec='seconds')
  data['sources']={'REWE':rewe_source,'GLOBUS':globus_source,'GLOBUS_market_confirmation':GLOBUS_OFFICIAL}
  data['last_import_count']={'REWE':len(rewe),'GLOBUS':len(globus),'total':len(offers)}
+ data['active_offer_count']=sum(1 for p in data['products'] if p.get('active') is True)
  OUT.parent.mkdir(parents=True,exist_ok=True);OUT.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
- print(f'Fertig: REWE {len(rewe)}, GLOBUS {len(globus)}, gesamt {len(offers)} Angebote')
+ print(f'Fertig: REWE {len(rewe)}, GLOBUS {len(globus)}, gesamt {len(offers)} aktuelle Angebote; Archiv {len(data["products"])} Produkte')
 if __name__=='__main__':main()
