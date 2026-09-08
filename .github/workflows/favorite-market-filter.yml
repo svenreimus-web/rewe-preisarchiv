@@ -1,0 +1,45 @@
+name: Favoriten Marktfilter
+
+on:
+  push:
+    paths:
+      - 'favorite_market_patch.py'
+      - '.github/workflows/favorite-market-filter.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Favoriten Marktfilter einbauen
+        run: python favorite_market_patch.py
+      - name: JavaScript prüfen
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          s=Path('index.html').read_text(encoding='utf-8')
+          scripts=re.findall(r'<script(?: [^>]*)?>(.*?)</script>',s,re.S)
+          inline='\n'.join(x for x in scripts if x.strip())
+          Path('/tmp/app.js').write_text(inline,encoding='utf-8')
+          PY
+          node --check /tmp/app.js
+      - name: Filter prüfen
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          s=Path('index.html').read_text(encoding='utf-8')
+          for needle in ['favoriteMarket=\'Alle\'','setFavoriteMarket','fmREWE','fmGLOBUS','fmEDEKA_BUCH','fmEDEKA_HALLER']:
+              if needle not in s: raise SystemExit('Fehlt: '+needle)
+          print('Favoriten-Marktfilter OK')
+          PY
+      - name: Änderung speichern
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Add market filter to favorites"
+          git push
