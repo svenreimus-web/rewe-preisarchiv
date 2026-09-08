@@ -4,7 +4,7 @@
     "name": "REWE Vigheshan Gahndi oHG",
     "address": "Industriestraße 40, 65439 Flörsheim-Weilbach"
   },
-  "updated_at": "2026-09-08T13:43:46+02:00",
+  "updated_at": "2026-09-08T14:17:34+02:00",
   "products": [
     {
       "id": "rewe-bonne-maman-weniger-zucker-mehr-frucht-konfiture",
@@ -27472,7 +27472,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-vegan-rugenwalder-muhle-teewurst-fein.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27492,7 +27492,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-vegan-planted-chicken-krauter-zitrone.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -27512,7 +27512,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_buch/edeka_buch-vegan-rugenwalder-pommersche-schnittlauch.jpg",
       "store": "EDEKA_BUCH",
       "history": [
         {
@@ -29272,7 +29272,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-vegan-rugenwalder-muhle-teewurst-fein.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29292,7 +29292,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-vegan-planted-chicken-krauter-zitrone.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
@@ -29312,7 +29312,7 @@
       "brand": "",
       "quantity": "",
       "category": "Markt-Angebot",
-      "image": "",
+      "image": "./data/edeka-images/edeka_haller/edeka_haller-vegan-rugenwalder-pommersche-schnittlauch.jpg",
       "store": "EDEKA_HALLER",
       "history": [
         {
