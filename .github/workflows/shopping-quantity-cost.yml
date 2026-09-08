@@ -1,0 +1,44 @@
+name: Mengen und Packungskosten
+
+on:
+  push:
+    paths:
+      - 'shopping_quantity_cost_patch.py'
+      - '.github/workflows/shopping-quantity-cost.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Mengenvergleich korrigieren
+        run: python shopping_quantity_cost_patch.py
+      - name: JavaScript prüfen
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          s=Path('index.html').read_text(encoding='utf-8')
+          scripts=re.findall(r'<script(?: [^>]*)?>(.*?)</script>',s,re.S)
+          Path('/tmp/app.js').write_text('\n'.join(x for x in scripts if x.strip()),encoding='utf-8')
+          PY
+          node --check /tmp/app.js
+      - name: Mengenlogik prüfen
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          s=Path('index.html').read_text(encoding='utf-8')
+          for c in ['bestCost','shoppingOfferCount(item,p)','item.unit||','item.amount','migrated=false']:
+              if c not in s: raise SystemExit('Fehlt: '+c)
+          print('Mengen-/Kostenprüfungen OK')
+          PY
+      - name: Änderung speichern
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Compare shopping offers by required quantity cost"
+          git push
