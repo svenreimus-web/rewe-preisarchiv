@@ -1,5 +1,5 @@
 import json, re, unicodedata
-from datetime import datetime, timezone
+from datetime import datetime, timezone, date
 from pathlib import Path
 from urllib.parse import urljoin
 import requests
@@ -14,30 +14,43 @@ HEADERS={'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML
 S=requests.Session(); S.headers.update(HEADERS)
 
 def slug(s):
- s=unicodedata.normalize('NFKD',s).encode('ascii','ignore').decode().lower()
- s=re.sub(r'\bvegan\b','',s); s=re.sub(r'\s*,\s*',' ',s)
+ s=unicodedata.normalize('NFKD',s).encode('ascii','ignore').decode().lower(); s=re.sub(r'\bvegan\b','',s); s=re.sub(r'\s*,\s*',' ',s)
  return re.sub(r'[^a-z0-9]+','-',s).strip('-')[:100]
 
 def price_from_text(s):
- m=re.search(r'(?<!\d)(\d{1,3})[,.](\d{2})\s*€',s)
- return float(m.group(1)+'.'+m.group(2)) if m else None
+ m=re.search(r'(?<!\d)(\d{1,3})[,.](\d{2})\s*€',s); return float(m.group(1)+'.'+m.group(2)) if m else None
 
 def get(url):
  r=S.get(url,timeout=40); r.raise_for_status(); return BeautifulSoup(r.text,'html.parser')
 
+def parse_period(text, today=None):
+ today=today or datetime.now(timezone.utc).date()
+ patterns=[r'(?:Angebot\s+gültig\s+vom\s*)?(\d{1,2})\.(\d{1,2})(?:\.(\d{2,4}))?\s*(?:bis|[-–])\s*(\d{1,2})\.(\d{1,2})\.(\d{2,4})',r'(\d{1,2})\.(\d{1,2})\.(\d{2,4})\s*[-–]\s*(\d{1,2})\.(\d{1,2})\.(\d{2,4})']
+ for pat in patterns:
+  m=re.search(pat,text,re.I)
+  if not m: continue
+  g=m.groups()
+  try:
+   if len(g)==6:
+    d1,mo1,y1,d2,mo2,y2=g; y2=int(y2); y2=y2+2000 if y2<100 else y2; y1=int(y1) if y1 else y2; y1=y1+2000 if y1<100 else y1
+   else: continue
+   start=date(y1,int(mo1),int(d1)); end=date(y2,int(mo2),int(d2)); return {'valid_from':start.isoformat(),'valid_until':end.isoformat()}
+  except ValueError: pass
+ return None
+
+def source_period(url):
+ soup=get(url); text=' '.join(soup.stripped_strings); return parse_period(text), soup
+
 def offer_block_for_image(img):
  for parent in list(img.parents)[:9]:
   if parent.name in ('body','html'): break
-  text=' '.join(parent.stripped_strings)
-  prices=re.findall(r'(?<!\d)\d{1,3}[,.]\d{2}\s*€',text)
-  product_imgs=[i for i in parent.find_all('img') if (i.get('alt') or '').strip() and 'prospekt seite' not in (i.get('alt') or '').casefold()]
+  text=' '.join(parent.stripped_strings); prices=re.findall(r'(?<!\d)\d{1,3}[,.]\d{2}\s*€',text); product_imgs=[i for i in parent.find_all('img') if (i.get('alt') or '').strip() and 'prospekt seite' not in (i.get('alt') or '').casefold()]
   if len(prices)==1 and len(product_imgs)<=2 and len(text)<600:return parent
  return None
 
 def extract_prospektewoche(base,store):
- first=get(f'{base}?slide=0&week=1'); text=' '.join(first.stripped_strings)
- m=re.search(r'(?:1\s*/\s*|Seite\s+1\s+von\s+)(\d{1,2})',text,re.I); pages=int(m.group(1)) if m else (38 if store=='GLOBUS' else 26)
- pages=max(1,min(pages,60)); all_found=[]; seen=set()
+ first=get(f'{base}?slide=0&week=1'); text=' '.join(first.stripped_strings); period=parse_period(text)
+ m=re.search(r'(?:1\s*/\s*|Seite\s+1\s+von\s+)(\d{1,2})',text,re.I); pages=int(m.group(1)) if m else (38 if store=='GLOBUS' else 26); pages=max(1,min(pages,60)); all_found=[]; seen=set()
  for slide in range(pages):
   url=f'{base}?slide={slide}&week=1'
   try:soup=get(url)
@@ -50,26 +63,21 @@ def extract_prospektewoche(base,store):
    if not block:continue
    p=price_from_text(' '.join(block.stripped_strings))
    if p is None:continue
-   pieces=[x.strip() for x in block.stripped_strings if x.strip()]
-   desc=next((x for x in pieces if x!=name and price_from_text(x) is None and 3<len(x)<240 and not x.lower().startswith(('image:','angebote auf'))),'')
-   src=img.get('src') or img.get('data-src') or img.get('data-lazy-src') or ''
-   key=(slug(name),p)
+   pieces=[x.strip() for x in block.stripped_strings if x.strip()]; desc=next((x for x in pieces if x!=name and price_from_text(x) is None and 3<len(x)<240 and not x.lower().startswith(('image:','angebote auf'))),''); src=img.get('src') or img.get('data-src') or img.get('data-lazy-src') or ''; key=(slug(name),p)
    if key in seen:continue
-   seen.add(key); count+=1
-   all_found.append({'name':name,'quantity':desc,'category':'Prospekt','price':p,'image':urljoin(url,src) if src else '','store':store})
+   seen.add(key); count+=1; all_found.append({'name':name,'quantity':desc,'category':'Prospekt','price':p,'image':urljoin(url,src) if src else '','store':store})
   print(f'{store} Prospektseite {slide+1}/{pages}: {count} Angebote')
- return all_found
+ return all_found,period
 
 def extract_rewe_direct():
- soup=get(REWE_URL); found=[]; seen=set()
+ period,soup=source_period(REWE_URL); found=[]; seen=set()
  for el in soup.select('article,[class*=offer],[class*=product],[data-testid*=offer],[data-testid*=product]'):
   p=price_from_text(' '.join(el.stripped_strings)); img=el.find('img'); name=((img.get('alt') or '').strip() if img else '')
   if p is None or not name:continue
   key=(slug(name),p)
   if key in seen:continue
-  seen.add(key); src=(img.get('src') or img.get('data-src') or '') if img else ''
-  found.append({'name':name,'quantity':'','category':'Markt-Angebot','price':p,'image':urljoin(REWE_URL,src) if src else '','store':'REWE'})
- return found
+  seen.add(key); src=(img.get('src') or img.get('data-src') or '') if img else ''; found.append({'name':name,'quantity':'','category':'Markt-Angebot','price':p,'image':urljoin(REWE_URL,src) if src else '','store':'REWE'})
+ return found,period
 
 def dedupe_history(history):
  out=[];seen=set()
@@ -78,44 +86,46 @@ def dedupe_history(history):
   if key not in seen:seen.add(key);out.append(h)
  return out
 
+def period_is_current(p,today): return bool(p and p.get('valid_from')<=today<=p.get('valid_until'))
+def period_is_new(p,old): return bool(p and (not old or (p.get('valid_from'),p.get('valid_until'))!=(old.get('valid_from'),old.get('valid_until'))))
+
 def main():
- data=json.loads(OUT.read_text(encoding='utf-8')) if OUT.exists() else {'products':[]}
- today=datetime.now(timezone.utc).date().isoformat()
+ data=json.loads(OUT.read_text(encoding='utf-8')) if OUT.exists() else {'products':[]}; today=datetime.now(timezone.utc).date().isoformat(); old_periods=data.get('validity',{})
  try:
-  rewe=extract_rewe_direct()
+  rewe,rewe_period=extract_rewe_direct()
   if not rewe:raise RuntimeError('keine Direktangebote')
   rewe_source=REWE_URL
  except Exception as e:
-  print('REWE Direktabruf nicht möglich:',e); rewe=extract_prospektewoche(REWE_FALLBACK,'REWE'); rewe_source=REWE_FALLBACK
+  print('REWE Direktabruf nicht möglich:',e); rewe,rewe_period=extract_prospektewoche(REWE_FALLBACK,'REWE'); rewe_source=REWE_FALLBACK
  try:
-  official=' '.join(get(GLOBUS_OFFICIAL).stripped_strings)
+  globus_period,official_soup=source_period(GLOBUS_OFFICIAL); official=' '.join(official_soup.stripped_strings)
   if 'GLOBUS Hattersheim' not in official:raise RuntimeError('Hattersheim auf Marktseite nicht bestätigt')
   print('GLOBUS Hattersheim Marktseite bestätigt')
- except Exception as e:print('GLOBUS Marktseitenprüfung fehlgeschlagen:',e)
- globus=extract_prospektewoche(GLOBUS_FALLBACK,'GLOBUS'); globus_source=GLOBUS_FALLBACK
- offers=rewe+globus
+ except Exception as e: print('GLOBUS Marktseitenprüfung fehlgeschlagen:',e); globus_period=None
+ globus,globus_fallback_period=extract_prospektewoche(GLOBUS_FALLBACK,'GLOBUS'); globus_period=globus_period or globus_fallback_period; globus_source=GLOBUS_FALLBACK
+ candidates={'REWE':(rewe,rewe_period,rewe_source),'GLOBUS':(globus,globus_period,globus_source)}; accepted={}; validity=dict(old_periods)
+ for st,(items,period,src) in candidates.items():
+  if period_is_current(period,today) and items:
+   accepted[st]=items; validity[st]={**period,'source':src,'checked_at':datetime.now(timezone.utc).isoformat(timespec='seconds')}; print(st,'Zeitraum akzeptiert:',period,'neu=',period_is_new(period,old_periods.get(st)))
+  else:
+   accepted[st]=None; print(st,'nicht übernommen: Zeitraum fehlt/veraltet oder keine Angebote:',period,len(items))
  merged={}
  for old in data.get('products',[]):
-  st=old.get('store') or 'REWE'; old['store']=st
-  pid=st.lower()+'-'+slug(old.get('name') or old.get('id',''))
+  st=old.get('store') or 'REWE'; old['store']=st; pid=st.lower()+'-'+slug(old.get('name') or old.get('id',''))
   if not pid:continue
-  old['id']=pid; old['history']=dedupe_history(old.get('history',[])); old['active']=False; merged[pid]=old
- for item in merged.values():
-  item['history']=[h for h in item.get('history',[]) if h.get('date')!=today]
- for o in offers:
-  pid=o['store'].lower()+'-'+slug(o['name']); item=merged.get(pid)
-  if item is None:
-   item={'id':pid,'name':o['name'],'brand':'','quantity':o.get('quantity',''),'category':o.get('category','Angebot'),'image':o.get('image',''),'store':o['store'],'history':[]}; merged[pid]=item
-  item.update({'name':o['name'],'quantity':o.get('quantity',''),'category':o.get('category','Angebot'),'store':o['store'],'active':True,'last_seen':today})
-  if o.get('image'):item['image']=o['image']
-  obs={'date':today,'price':o['price']}
-  if obs not in item['history']:item['history'].append(obs)
-  item['history']=dedupe_history(item['history'])
- data['products']=[p for p in merged.values() if p.get('history')]
- data['updated_at']=datetime.now(timezone.utc).isoformat(timespec='seconds')
- data['sources']={'REWE':rewe_source,'GLOBUS':globus_source,'GLOBUS_market_confirmation':GLOBUS_OFFICIAL}
- data['last_import_count']={'REWE':len(rewe),'GLOBUS':len(globus),'total':len(offers)}
- data['active_offer_count']=sum(1 for p in data['products'] if p.get('active') is True)
- OUT.parent.mkdir(parents=True,exist_ok=True);OUT.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
- print(f'Fertig: REWE {len(rewe)}, GLOBUS {len(globus)}, gesamt {len(offers)} aktuelle Angebote; Archiv {len(data["products"])} Produkte')
+  old['id']=pid; old['history']=dedupe_history(old.get('history',[])); old['active']=period_is_current(validity.get(st),today); merged[pid]=old
+ for st,items in accepted.items():
+  if items is None: continue
+  for item in merged.values():
+   if item.get('store')==st:item['active']=False
+  for o in items:
+   pid=st.lower()+'-'+slug(o['name']); item=merged.get(pid)
+   if item is None:item={'id':pid,'name':o['name'],'brand':'','quantity':o.get('quantity',''),'category':o.get('category','Angebot'),'image':o.get('image',''),'store':st,'history':[]}; merged[pid]=item
+   item.update({'name':o['name'],'quantity':o.get('quantity',''),'category':o.get('category','Angebot'),'store':st,'active':True,'last_seen':today,'valid_from':validity[st]['valid_from'],'valid_until':validity[st]['valid_until']})
+   if o.get('image'):item['image']=o['image']
+   obs={'date':validity[st]['valid_from'],'price':o['price']}
+   if obs not in item['history']:item['history'].append(obs)
+   item['history']=dedupe_history(item['history'])
+ data['products']=[p for p in merged.values() if p.get('history')]; data['updated_at']=datetime.now(timezone.utc).isoformat(timespec='seconds'); data['validity']=validity; data['sources']={'REWE':rewe_source,'GLOBUS':globus_source,'GLOBUS_market_confirmation':GLOBUS_OFFICIAL}; data['last_import_count']={st:(len(v) if v is not None else 0) for st,v in accepted.items()}; data['last_import_count']['total']=sum(data['last_import_count'].values()); data['active_offer_count']=sum(1 for p in data['products'] if p.get('active') is True)
+ OUT.parent.mkdir(parents=True,exist_ok=True);OUT.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8'); print('Fertig:',data['active_offer_count'],'aktuelle Angebote; Archiv',len(data['products']))
 if __name__=='__main__':main()
