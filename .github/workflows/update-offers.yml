@@ -1,80 +1,43 @@
-name: Angebote aktualisieren
+name: Produktarten korrigieren
 
 on:
-  workflow_dispatch:
   push:
     paths:
-      - 'crawler_pages.py'
-      - 'edeka_current.py'
       - '.github/workflows/update-offers.yml'
-  schedule:
-    - cron: '15 4 * * *'
-    - cron: '15 5 * * *'
 
 permissions:
   contents: write
 
-concurrency:
-  group: offer-update
-  cancel-in-progress: false
-
 jobs:
-  update:
+  patch:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
-      - name: Prüfen ob Aktualisierung fällig ist
-        id: gate
-        env:
-          EVENT_NAME: ${{ github.event_name }}
+          fetch-depth: 2
+      - name: Produktart-Erkennung korrigieren
         run: |
           python - <<'PY'
-          import json, os
-          from datetime import datetime
           from pathlib import Path
-          from zoneinfo import ZoneInfo
-          event=os.environ.get('EVENT_NAME','')
-          run=event in ('push','workflow_dispatch')
-          reason=f'Ereignis {event}'
-          if event=='schedule':
-              now=datetime.now(ZoneInfo('Europe/Berlin'))
-              if now.hour!=6:
-                  run=False; reason=f'zweiter DST-Cron, lokal {now:%H:%M}'
-              else:
-                  p=Path('data/offers.json')
-                  data=json.loads(p.read_text(encoding='utf-8')) if p.exists() else {}
-                  today=now.date().isoformat(); periods=data.get('validity',{})
-                  expired=[store for store,v in periods.items() if isinstance(v,dict) and v.get('valid_until') and v['valid_until']<today]
-                  missing=[store for store in ('REWE','GLOBUS','EDEKA_BUCH','EDEKA_HALLER') if not periods.get(store)]
-                  run=bool(expired or missing)
-                  reason='fällig: '+', '.join(expired+missing) if run else 'alle Angebotszeiträume noch gültig'
-          print('Aktualisierung:',run,'-',reason)
-          with open(os.environ['GITHUB_OUTPUT'],'a',encoding='utf-8') as f: f.write(f'run={str(run).lower()}\n')
+          path=Path('index.html')
+          text=path.read_text(encoding='utf-8')
+          old="function productType(p){const hay=norm(`${p.name||''} ${p.quantity||''}`);for(const [type,terms] of TYPE_RULES)if(terms.some(t=>phraseHit(hay,t)))return type;return category(p)}"
+          new="""function strictTypeHit(text,term){const hay=norm(text),p=norm(term);if(!hay||!p)return false;if((` ${hay} `).includes(` ${p} `))return true;if(p.includes(' '))return false;return hay.split(' ').some(token=>{if(!token.startsWith(p))return false;const suffix=token.slice(p.length);return ['','e','en','er','n','s'].includes(suffix)})}\nconst DESC_TYPE_CATEGORY={'Bier':'Alkoholische Getränke','Wein':'Alkoholische Getränke','Sekt & Schaumwein':'Alkoholische Getränke','Spirituosen':'Alkoholische Getränke','Wasser':'Alkoholfreie Getränke','Cola & Limonade':'Alkoholfreie Getränke','Saft':'Alkoholfreie Getränke','Energy Drink':'Alkoholfreie Getränke','Kaffee':'Kaffee & Tee','Tee':'Kaffee & Tee'};\nfunction productType(p){const name=`${p.name||''} ${p.brand||''}`;for(const [type,terms] of TYPE_RULES)if(terms.some(t=>strictTypeHit(name,t)))return type;const cat=category(p),desc=p.quantity||'';for(const [type,terms] of TYPE_RULES)if(DESC_TYPE_CATEGORY[type]===cat&&terms.some(t=>strictTypeHit(desc,t)))return type;return cat}"""
+          if old not in text:
+              raise SystemExit('Alte productType-Funktion nicht gefunden')
+          text=text.replace(old,new,1)
+          path.write_text(text,encoding='utf-8')
           PY
-      - name: Abhängigkeiten installieren
-        if: steps.gate.outputs.run == 'true'
-        run: pip install requests beautifulsoup4 pypdf fonttools pymupdf pillow
-      - name: REWE und GLOBUS aktualisieren
-        if: steps.gate.outputs.run == 'true'
-        run: python crawler_pages.py
-      - name: EDEKA Blätterkataloge aktualisieren
-        if: steps.gate.outputs.run == 'true'
-        run: python edeka_current.py
-      - name: Archiv und EDEKA-Bilder speichern
-        if: steps.gate.outputs.run == 'true'
-        run: |
+          python - <<'PY'
+          import re
+          from pathlib import Path
+          text=Path('index.html').read_text(encoding='utf-8')
+          assert 'strictTypeHit' in text and 'DESC_TYPE_CATEGORY' in text
+          print('Klassifizierer gepatcht')
+          PY
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/offers.json
-          if [ -d data/edeka-images ]; then
-            git add -A data/edeka-images
-          fi
-          if ! git diff --cached --quiet; then
-            git commit -m "Update offers, validity periods and EDEKA images"
-            git push
-          else
-            echo "Keine echten Änderungen an Angeboten, Bildern oder Gültigkeitszeiträumen."
-          fi
+          git checkout HEAD^ -- .github/workflows/update-offers.yml
+          git add index.html .github/workflows/update-offers.yml
+          git commit -m "Fix false product type matches"
+          git push
