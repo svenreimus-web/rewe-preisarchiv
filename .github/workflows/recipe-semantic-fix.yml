@@ -1,0 +1,48 @@
+name: Rezeptsemantik korrigieren
+
+on:
+  push:
+    paths:
+      - 'recipe_semantic_patch.py'
+      - '.github/workflows/recipe-semantic-fix.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rezeptsemantik korrigieren
+        run: python recipe_semantic_patch.py
+      - name: JavaScript prüfen
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          s=Path('index.html').read_text(encoding='utf-8')
+          scripts=re.findall(r'<script(?: [^>]*)?>(.*?)</script>',s,re.S)
+          Path('/tmp/app.js').write_text('\n'.join(x for x in scripts if x.strip()),encoding='utf-8')
+          PY
+          node --check /tmp/app.js
+      - name: Regression prüfen
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          s=Path('index.html').read_text(encoding='utf-8')
+          assert "['Tofu',['tofu']]" in s
+          assert "title:'Tofu-Gemüse-Wok'" in s and "needs:[{types:['Tofu']}" in s
+          assert "title:'Fisch mit Gemüse'" in s and "needs:[{types:['Fisch']}" in s
+          assert "title:'Fleisch-Gemüse-Pfanne'" in s
+          assert "title:'Gemüse-Pfanne'" not in s
+          assert "title:'Hackfleisch-Kartoffel-Pfanne'" in s and "needs:[{types:['Hackfleisch']" in s
+          print('Rezept-Hauptzutaten sind jetzt semantisch strikt')
+          PY
+      - name: Änderung speichern
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Tighten recipe ingredient semantics"
+          git push
