@@ -1,0 +1,58 @@
+name: Versionsstand anzeigen
+
+on:
+  push:
+    paths:
+      - 'version_badge_patch.py'
+      - '.github/workflows/version-badge.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Versionsanzeige einbauen
+        run: python version_badge_patch.py
+      - name: HTML und JavaScript prüfen
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          s=Path('index.html').read_text(encoding='utf-8')
+          assert '<!--APP_VERSION_START-->' in s
+          assert '__CHANGE_COMMIT__' in s
+          assert '__CHANGE_TIME__' in s
+          scripts=re.findall(r'<script(?: [^>]*)?>(.*?)</script>',s,re.S)
+          Path('/tmp/app.js').write_text('\n'.join(x for x in scripts if x.strip()),encoding='utf-8')
+          PY
+          node --check /tmp/app.js
+      - name: Funktionsänderung committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Show app version with change commit and time"
+      - name: Versionsdaten in Anzeige schreiben
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          import subprocess
+          s=Path('index.html').read_text(encoding='utf-8')
+          sha=subprocess.check_output(['git','rev-parse','--short=7','HEAD'],text=True).strip()
+          iso=subprocess.check_output(['git','show','-s','--format=%cI','HEAD'],text=True).strip()
+          dt=datetime.fromisoformat(iso).astimezone(ZoneInfo('Europe/Berlin'))
+          stamp=dt.strftime('%d.%m.%Y, %H:%M Uhr')
+          s=s.replace('__CHANGE_COMMIT__',sha).replace('__CHANGE_TIME__',stamp)
+          Path('index.html').write_text(s,encoding='utf-8')
+          print(f'Version: {sha} · {stamp}')
+          PY
+          git add index.html
+          git commit -m "Stamp visible app version"
+          git push
