@@ -1,0 +1,47 @@
+name: Preisdiagramm beschriften
+
+on:
+  push:
+    paths:
+      - 'price_chart_patch.py'
+      - '.github/workflows/price-chart-labels.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Preisdiagramm verbessern
+        run: python price_chart_patch.py
+      - name: JavaScript prüfen
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          s=Path('index.html').read_text(encoding='utf-8')
+          scripts=re.findall(r'<script(?: [^>]*)?>(.*?)</script>',s,re.S)
+          Path('/tmp/app.js').write_text('\n'.join(x for x in scripts if x.strip()),encoding='utf-8')
+          PY
+          node --check /tmp/app.js
+      - name: Diagramm-Regressionscheck
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          s=Path('index.html').read_text(encoding='utf-8')
+          assert 'viewBox="0 0 640 300"' in s
+          assert 'tickCount=4' in s
+          assert '<circle cx=' in s
+          assert '${dateDE(x.date)} · ${euro(x.price)}' in s
+          assert 'font-weight="700"' in s
+          print('Preisdiagramm enthält Datum, Preisachse und Punktwerte')
+          PY
+      - name: Änderung speichern
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Add date and price labels to history chart"
+          git push
