@@ -95,6 +95,7 @@ const TYPE_RULES=[
  ['Geflügel',['hahnchen','hähnchen','pute','geflugel','geflügel']],
  ['Fisch',['fisch','lachs','forelle','dorade','makrele','matjes','hering','waller']],
  ['Garnelen',['garnele','shrimp']],
+ ['Tofu',['tofu']],
  ['Äpfel',['apfel','äpfel']],
  ['Bananen',['banane']],
  ['Trauben',['traube']],
@@ -233,9 +234,9 @@ function pick(cat,used){return marketItems().filter(p=>category(p)===cat&&!used.
 function recipeAnimalProduct(p){const t=productType(p),c=category(p),text=norm(`${p.name||''} ${p.brand||''}`);if(['Hackfleisch','Rindfleisch','Schweinefleisch','Geflügel','Fisch','Garnelen','Wurst & Aufschnitt'].includes(t))return true;if(['Fleisch','Fisch & Meeresfrüchte'].includes(c))return true;return /\b(hackfleisch|rind|rinder|schwein|schweine|hahnchen|hähnchen|pute|geflugel|geflügel|huhn|hühner|fisch|lachs|forelle|dorade|makrele|matjes|hering|garnele|shrimp|wurst|salami|schinken)\b/.test(text)}
 function pickNeed(need,used){let rows=marketItems().filter(p=>!used.has(p.id));if(need.types?.length){rows=rows.filter(p=>need.types.includes(productType(p)));if(!rows.length)return null}else if(need.cats?.length){rows=rows.filter(p=>need.cats.includes(category(p)))}return rows.sort((a,b)=>currentPrice(a)-currentPrice(b))[0]||null}
 function renderRecipes(){if(!data.length){recipeStatus.textContent='Keine aktuell bestätigten Angebote für Rezepte vorhanden.';recipeGrid.innerHTML='';return}const specs=[
-{title:'Gemüse-Pfanne',tags:['gesund','leicht','schnell','guenstig'],needs:[{cats:['Fleisch']},{cats:['Gemüse & Salat']}],extras:['Öl','Salz','Pfeffer'],steps:['Fleisch in wenig Öl anbraten.','Gemüse bissfest mitgaren.','Abschmecken und servieren.']},
-{title:'Fisch mit Gemüse',tags:['gesund','leicht'],needs:[{cats:['Fisch & Meeresfrüchte']},{cats:['Gemüse & Salat']}],extras:['Öl','Zitrone','Salz','Pfeffer'],steps:['Gemüse vorbereiten und garen.','Fisch schonend braten oder backen.','Mit Zitrone abschmecken und zusammen anrichten.']},
-{title:'Tofu-Gemüse-Wok',tags:['gesund','leicht','vegetarisch','schnell'],needs:[{cats:['Vegetarisch & Vegan']},{cats:['Gemüse & Salat']}],extras:['Sojasauce','Öl'],steps:['Tofu kräftig anbraten.','Gemüse kurz mitbraten.','Mit Sojasauce abschmecken.']},
+{title:'Fleisch-Gemüse-Pfanne',tags:['gesund','leicht','schnell','guenstig'],needs:[{types:['Geflügel','Schweinefleisch','Rindfleisch','Hackfleisch']},{cats:['Gemüse & Salat']}],extras:['Öl','Salz','Pfeffer'],steps:['Fleisch in wenig Öl anbraten.','Gemüse bissfest mitgaren.','Abschmecken und servieren.']},
+{title:'Fisch mit Gemüse',tags:['gesund','leicht'],needs:[{types:['Fisch']},{cats:['Gemüse & Salat']}],extras:['Öl','Zitrone','Salz','Pfeffer'],steps:['Gemüse vorbereiten und garen.','Fisch schonend braten oder backen.','Mit Zitrone abschmecken und zusammen anrichten.']},
+{title:'Tofu-Gemüse-Wok',tags:['gesund','leicht','vegetarisch','schnell'],needs:[{types:['Tofu']},{cats:['Gemüse & Salat']}],extras:['Sojasauce','Öl'],steps:['Tofu kräftig anbraten.','Gemüse kurz mitbraten.','Mit Sojasauce abschmecken.']},
 {title:'Pasta mit Gemüse',tags:['vegetarisch','guenstig','schnell'],needs:[{types:['Pasta & Nudeln'],cats:['Nudeln, Reis & Beilagen']},{cats:['Gemüse & Salat']}],extras:['Olivenöl','Kräuter'],steps:['Pasta kochen.','Gemüse anbraten.','Vermengen und würzen.']},
 {title:'Joghurt-Obst-Bowl',tags:['gesund','leicht','vegetarisch','schnell'],needs:[{types:['Joghurt & Skyr'],cats:['Molkerei & Käse']},{cats:['Obst']}],extras:['Zimt'],steps:['Milchprodukt in eine Schüssel geben.','Obst schneiden und darauf verteilen.','Mit etwas Zimt abschließen.']},
 {title:'Deftiger Schweinebraten mit Kartoffeln',tags:['deftig'],needs:[{types:['Schweinefleisch'],cats:['Fleisch']},{types:['Kartoffeln'],cats:['Gemüse & Salat']}],extras:['Zwiebeln','Brühe','Salz','Pfeffer'],steps:['Fleisch kräftig anbraten.','Zwiebeln zugeben, mit Brühe ablöschen und schmoren.','Kartoffeln garen und zum Braten servieren.']},
