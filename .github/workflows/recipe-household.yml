@@ -1,0 +1,63 @@
+name: Rezepte nach Haushaltsgröße
+
+on:
+  push:
+    paths:
+      - 'recipe_household_patch.py'
+      - '.github/workflows/recipe-household.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Vollständige Rezepte einbauen
+        run: python recipe_household_patch.py
+      - name: JavaScript prüfen
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          s=Path('index.html').read_text(encoding='utf-8')
+          scripts=re.findall(r'<script(?: [^>]*)?>(.*?)</script>',s,re.S)
+          Path('/tmp/app.js').write_text('\n'.join(x for x in scripts if x.strip()),encoding='utf-8')
+          assert 'recipeAdultEquivalents' in s
+          assert 'recipeAdults' in s and 'recipeChildren' in s and 'recipeChildAge' in s
+          assert 'Alle Zutaten auf Einkaufsliste' in s
+          assert 'Tofu-Gemüse-Wok mit Reis' in s
+          assert 'Fisch mit Ofengemüse und Kartoffeln' in s
+          assert 'Mengen für ${people}' in s
+          PY
+          node --check /tmp/app.js
+      - name: Funktionsänderung committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Expand recipes and scale portions for household"
+      - name: Sichtbare Version auf Änderungs-Commit setzen
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          import subprocess,re
+          s=Path('index.html').read_text(encoding='utf-8')
+          sha=subprocess.check_output(['git','rev-parse','--short=7','HEAD'],text=True).strip()
+          iso=subprocess.check_output(['git','show','-s','--format=%cI','HEAD'],text=True).strip()
+          dt=datetime.fromisoformat(iso).astimezone(ZoneInfo('Europe/Berlin'))
+          stamp=dt.strftime('%d.%m.%Y, %H:%M Uhr')
+          repl=f'<!--APP_VERSION_START--><div class="app-version">Version: {sha} · {stamp}</div><!--APP_VERSION_END-->'
+          s,n=re.subn(r'<!--APP_VERSION_START-->.*?<!--APP_VERSION_END-->',repl,s,count=1,flags=re.S)
+          if n!=1: raise SystemExit('version marker not found')
+          Path('index.html').write_text(s,encoding='utf-8')
+          print(repl)
+          PY
+          git add index.html
+          git commit -m "Stamp recipe feature version"
+          git push
