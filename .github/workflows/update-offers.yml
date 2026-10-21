@@ -41,16 +41,13 @@ jobs:
           reason=f'Ereignis {event}'
           if event=='schedule':
               now=datetime.now(ZoneInfo('Europe/Berlin'))
-              if now.hour!=6:
-                  run=False; reason=f'zweiter DST-Cron, lokal {now:%H:%M}'
-              else:
-                  p=Path('data/offers.json')
-                  data=json.loads(p.read_text(encoding='utf-8')) if p.exists() else {}
-                  today=now.date().isoformat(); periods=data.get('validity',{})
-                  expired=[store for store,v in periods.items() if isinstance(v,dict) and v.get('valid_until') and v['valid_until']<today]
-                  missing=[store for store in ('REWE','GLOBUS','EDEKA_BUCH','EDEKA_HALLER') if not periods.get(store)]
-                  run=bool(expired or missing)
-                  reason='fällig: '+', '.join(expired+missing) if run else 'alle Angebotszeiträume noch gültig'
+              p=Path('data/offers.json')
+              data=json.loads(p.read_text(encoding='utf-8')) if p.exists() else {}
+              today=now.date().isoformat(); periods=data.get('validity',{})
+              expired=[store for store,v in periods.items() if isinstance(v,dict) and v.get('valid_until') and v['valid_until']<today]
+              missing=[store for store in ('REWE','GLOBUS','EDEKA_BUCH','EDEKA_HALLER') if not periods.get(store)]
+              run=bool(expired or missing)
+              reason='fällig: '+', '.join(expired+missing) if run else 'alle Angebotszeiträume noch gültig'
           print('Aktualisierung:',run,'-',reason)
           with open(os.environ['GITHUB_OUTPUT'],'a',encoding='utf-8') as f: f.write(f'run={str(run).lower()}\n')
           PY
