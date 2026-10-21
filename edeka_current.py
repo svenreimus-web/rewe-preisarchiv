@@ -44,6 +44,8 @@ def normalized_history_fields(quantity,price):
  if m:
   amount=float(m.group(1));unit=m.group(2);total=amount*(1000 if unit in ('kg','l') else 1)
   if total>0:return {'normalized_price':round(float(price)*1000/total,4),'normalized_unit':'kg' if unit in ('kg','g') else 'l'}
+ m=re.search(r'\b(?:je\s+)?(\d+)\s*[- ]?(?:st\.?|stück)\b',q)
+ if m and int(m.group(1))>0:return {'normalized_price':round(float(price)/int(m.group(1)),4),'normalized_unit':'Stück'}
  return {}
 
 def history_observation(obs_date,price,quantity):
