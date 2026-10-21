@@ -26,6 +26,31 @@ def parse_period(text):
  t=re.sub(r'\s+','',text.replace('•',''));m=re.search(r'(\d{1,2})\.(\d{1,2})\.?(?:\d{4})?[–-](\d{1,2})\.(\d{1,2})\.(\d{4})',t)
  if not m:return None
  d1,m1,d2,m2,y=m.groups();return f'{y}-{int(m1):02d}-{int(d1):02d}',f'{y}-{int(m2):02d}-{int(d2):02d}'
+def normalized_history_fields(quantity,price):
+ q=(quantity or '').lower().replace(',','.')
+ m=re.search(r'\b(1|100)\s*(kg|g|l|ml)\s*=\s*(\d+(?:\.\d+)?)',q)
+ if m:
+  amount=float(m.group(1));unit=m.group(2);value=float(m.group(3))
+  if amount==1 and unit in ('kg','l'):return {'normalized_price':round(value,4),'normalized_unit':unit}
+  if amount==100 and unit=='g':return {'normalized_price':round(value*10,4),'normalized_unit':'kg'}
+  if amount==100 and unit=='ml':return {'normalized_price':round(value*10,4),'normalized_unit':'l'}
+ if re.search(r'\d+(?:\.\d+)?\s*[-–]\s*\d+(?:\.\d+)?\s*(?:kg|g|l|ml)\b',q):return {}
+ m=re.search(r'\b(\d+)\s*[x×]\s*(\d+(?:\.\d+)?)\s*[- ]?(kg|g|l|ml)\b',q)
+ if m:
+  count=float(m.group(1));amount=float(m.group(2));unit=m.group(3);total=count*amount*(1000 if unit in ('kg','l') else 1)
+  if total>0:return {'normalized_price':round(float(price)*1000/total,4),'normalized_unit':'kg' if unit in ('kg','g') else 'l'}
+ m=re.search(r'\bje\s+(\d+(?:\.\d+)?)\s*[- ]?(kg|g|l|ml)\b',q)
+ if not m:m=re.search(r'\b(\d+(?:\.\d+)?)\s*[- ]?(kg|g|l|ml)\b',q)
+ if m:
+  amount=float(m.group(1));unit=m.group(2);total=amount*(1000 if unit in ('kg','l') else 1)
+  if total>0:return {'normalized_price':round(float(price)*1000/total,4),'normalized_unit':'kg' if unit in ('kg','g') else 'l'}
+ return {}
+
+def history_observation(obs_date,price,quantity):
+ obs={'date':obs_date,'price':price,'quantity':quantity or ''}
+ obs.update(normalized_history_fields(quantity,price))
+ return obs
+
 def fragments(page):
  out=[]
  def visitor(text,cm,tm,font_dict,font_size):
@@ -128,7 +153,7 @@ def parse_pdf(store,meta):
 def dedupe(hist):
  out=[];seen=set()
  for h in sorted(hist,key=lambda x:(x.get('date',''),x.get('price',0))):
-  k=(h.get('date'),h.get('price'))
+  k=(h.get('date'),h.get('price'),h.get('quantity',''))
   if k not in seen:seen.add(k);out.append(h)
  return out
 def apply_store(data,store,meta,offers,period,mode,pages=None,image_count=0):
@@ -141,7 +166,7 @@ def apply_store(data,store,meta,offers,period,mode,pages=None,image_count=0):
    p.update({'name':o['name'],'quantity':o.get('quantity',''),'category':'Markt-Angebot','image':o.get('image',''),'store':store,'active':True,'last_seen':today,'valid_from':vf,'valid_until':vu})
    if o.get('page'):p['source_page']=o['page']
    else:p.pop('source_page',None)
-   hist=[h for h in p.get('history',[]) if h.get('date')!=vf];hist.append({'date':vf,'price':o['price']});p['history']=dedupe(hist);merged[pid]=p
+   hist=[h for h in p.get('history',[]) if h.get('date')!=vf];hist.append(history_observation(vf,o['price'],o.get('quantity','')));p['history']=dedupe(hist);merged[pid]=p
  data['products']=[p for p in merged.values() if p and p.get('history')]
  v={'valid_from':vf,'valid_until':vu,'source':meta['pdf'],'mode':mode,'images':image_count}
  if pages:v['pages']=pages
