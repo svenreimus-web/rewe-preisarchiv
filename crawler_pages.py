@@ -29,6 +29,34 @@ def price_from_text(s):
  m=re.search(r'(?<!\d)(\d{1,3})[,.](\d{2})\s*€',s)
  return float(m.group(1)+'.'+m.group(2)) if m else None
 
+def normalized_history_fields(quantity,price):
+ q=(quantity or '').lower().replace(',','.')
+ # Bevorzugt den im Prospekt angegebenen Grundpreis.
+ m=re.search(r'\b(1|100)\s*(kg|g|l|ml)\s*=\s*(\d+(?:\.\d+)?)',q)
+ if m:
+  amount=float(m.group(1));unit=m.group(2);value=float(m.group(3))
+  if amount==1 and unit in ('kg','l'):return {'normalized_price':round(value,4),'normalized_unit':unit}
+  if amount==100 and unit=='g':return {'normalized_price':round(value*10,4),'normalized_unit':'kg'}
+  if amount==100 and unit=='ml':return {'normalized_price':round(value*10,4),'normalized_unit':'l'}
+ # Größenbereiche sind nicht eindeutig genug für einen sauberen Grundpreis.
+ if re.search(r'\d+(?:\.\d+)?\s*[-–]\s*\d+(?:\.\d+)?\s*(?:kg|g|l|ml)\b',q):return {}
+ m=re.search(r'\b(\d+)\s*[x×]\s*(\d+(?:\.\d+)?)\s*[- ]?(kg|g|l|ml)\b',q)
+ if m:
+  count=float(m.group(1));amount=float(m.group(2));unit=m.group(3)
+  total=count*amount*(1000 if unit in ('kg','l') else 1)
+  if total>0:return {'normalized_price':round(float(price)*1000/total,4),'normalized_unit':'kg' if unit in ('kg','g') else 'l'}
+ m=re.search(r'\bje\s+(\d+(?:\.\d+)?)\s*[- ]?(kg|g|l|ml)\b',q)
+ if not m:m=re.search(r'\b(\d+(?:\.\d+)?)\s*[- ]?(kg|g|l|ml)\b',q)
+ if m:
+  amount=float(m.group(1));unit=m.group(2);total=amount*(1000 if unit in ('kg','l') else 1)
+  if total>0:return {'normalized_price':round(float(price)*1000/total,4),'normalized_unit':'kg' if unit in ('kg','g') else 'l'}
+ return {}
+
+def history_observation(obs_date,price,quantity):
+ obs={'date':obs_date,'price':price,'quantity':quantity or ''}
+ obs.update(normalized_history_fields(quantity,price))
+ return obs
+
 def get(url):
  r=S.get(url,timeout=40); r.raise_for_status(); return BeautifulSoup(r.text,'html.parser')
 
@@ -97,7 +125,7 @@ def extract_rewe_direct():
 def dedupe_history(history):
  out=[];seen=set()
  for h in sorted(history,key=lambda x:(x.get('date',''),x.get('price',0))):
-  key=(h.get('date'),h.get('price'))
+  key=(h.get('date'),h.get('price'),h.get('quantity',''))
   if key not in seen:seen.add(key);out.append(h)
  return out
 
@@ -158,7 +186,7 @@ def main():
    item.update({'name':o['name'],'quantity':o.get('quantity',''),'category':o.get('category','Angebot'),'store':st,'active':True,'valid_from':validity[st]['valid_from'],'valid_until':validity[st]['valid_until']})
    if period_changed or not item.get('last_seen'):item['last_seen']=today
    if o.get('image'):item['image']=o['image']
-   item['history']=upsert_history(item.get('history',[]),{'date':validity[st]['valid_from'],'price':o['price']}); merged[pid]=item
+   item['history']=upsert_history(item.get('history',[]),history_observation(validity[st]['valid_from'],o['price'],o.get('quantity',''))); merged[pid]=item
  data['products']=[p for p in merged.values() if p.get('history')]; data['validity']=validity
  sources=data.get('sources',{}); sources.update({'REWE':rewe_source,'GLOBUS':globus_source,'GLOBUS_market_confirmation':GLOBUS_OFFICIAL}); data['sources']=sources
  counts=data.get('last_import_count',{}); counts.update({st:(len(v) if v is not None else 0) for st,v in accepted.items()}); counts['total']=sum(v for k,v in counts.items() if k!='total' and isinstance(v,int)); data['last_import_count']=counts
