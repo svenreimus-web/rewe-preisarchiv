@@ -184,11 +184,12 @@ def main():
   counts[store]=apply_store(data,store,meta,offers,period,mode,pages,image_count)
  data['last_import_count']['total']=sum(v for k,v in data['last_import_count'].items() if k!='total' and isinstance(v,int));data['active_offer_count']=sum(1 for p in data['products'] if p.get('active') is True);data['updated_at']=datetime.now(TZ).isoformat(timespec='seconds')
  OUT.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');print('EDEKA aktiv:',counts,'Gesamt aktiv:',data['active_offer_count'])
- # Hard guard: verified cover products must retain their known normal offer prices.
+ # Plausibilitätsprüfung nur für tatsächlich aktive Perioden. Frühere feste
+ # Beispielprodukte dürfen einen neuen Wochenimport nicht blockieren.
  for store in MARKETS:
   active=[p for p in data['products'] if p.get('store')==store and p.get('active')]
-  for term,want in [('paulaner',10.99),('meggle',1.29),('wagner',1.99),('ritter sport',.99),('schweinefilets',9.99),('dallmayr',12.99)]:
-   m=next((p for p in active if term in p.get('name','').casefold()),None)
-   if not m or abs(m['history'][-1]['price']-want)>.001:raise RuntimeError(f'Guardrail {store} {term} fehlgeschlagen')
-   print('CHECK',store,term,m['history'][-1]['price'],'OK')
+  period=data.get('validity',{}).get(store,{})
+  is_current=bool(period.get('valid_from')<=datetime.now(TZ).date().isoformat()<=period.get('valid_until')) if period.get('valid_from') and period.get('valid_until') else False
+  if is_current and len(active)<25:raise RuntimeError(f'Plausibilitätsprüfung {store}: nur {len(active)} aktive Angebote')
+  print('CHECK',store,'aktiv',len(active),'Zeitraum',period.get('valid_from'),period.get('valid_until'),'OK')
 if __name__=='__main__':main()
