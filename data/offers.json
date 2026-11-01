@@ -4,7 +4,7 @@
     "name": "REWE Vigheshan Gahndi oHG",
     "address": "Industriestraße 40, 65439 Flörsheim-Weilbach"
   },
-  "updated_at": "2026-10-26T11:12:41+01:00",
+  "updated_at": "2026-11-01T12:19:22+01:00",
   "products": [
     {
       "id": "rewe-bonne-maman-weniger-zucker-mehr-frucht-konfiture",
@@ -348,7 +348,7 @@
         }
       ],
       "store": "REWE",
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -598,7 +598,7 @@
         }
       ],
       "store": "REWE",
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -811,7 +811,7 @@
         }
       ],
       "store": "REWE",
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31"
@@ -869,7 +869,7 @@
         }
       ],
       "store": "REWE",
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -999,7 +999,7 @@
         }
       ],
       "store": "REWE",
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -1290,7 +1290,7 @@
         }
       ],
       "store": "REWE",
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -1341,7 +1341,7 @@
         }
       ],
       "store": "REWE",
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -1368,7 +1368,7 @@
         }
       ],
       "store": "REWE",
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -2403,7 +2403,7 @@
         }
       ],
       "store": "REWE",
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -18275,7 +18275,7 @@
           "normalized_unit": "l"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31"
@@ -33441,7 +33441,7 @@
           "normalized_unit": "l"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31"
@@ -33484,7 +33484,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31"
@@ -33519,7 +33519,7 @@
           "quantity": "versch. Sorten, tiefgefroren, 270–440 g"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31"
@@ -33562,7 +33562,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31"
@@ -33605,7 +33605,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31"
@@ -33648,7 +33648,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -33692,7 +33692,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31"
@@ -33727,7 +33727,7 @@
           "quantity": "Easy-Fill-Deckel, Temperaturvorwahl, Warmhaltefunktion"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31"
@@ -33762,7 +33762,7 @@
           "quantity": "870 Watt, 4 wechselbare Aluguss-Platten"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31"
@@ -33805,7 +33805,7 @@
           "normalized_unit": "l"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31"
@@ -33840,7 +33840,7 @@
           "quantity": "Farbe Grün oder Grau"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31"
@@ -33883,7 +33883,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31"
@@ -33926,7 +33926,7 @@
           "normalized_unit": "l"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31"
@@ -33969,7 +33969,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31"
@@ -34004,7 +34004,7 @@
           "quantity": "versch. Sorten, tiefgefroren, 270–440 g"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31"
@@ -34047,7 +34047,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31"
@@ -34090,7 +34090,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31"
@@ -34133,7 +34133,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -34177,7 +34177,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31"
@@ -34212,7 +34212,7 @@
           "quantity": "Easy-Fill-Deckel, Temperaturvorwahl, Warmhaltefunktion"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31"
@@ -34247,7 +34247,7 @@
           "quantity": "870 Watt, 4 wechselbare Aluguss-Platten"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31"
@@ -34290,7 +34290,7 @@
           "normalized_unit": "l"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31"
@@ -34325,7 +34325,7 @@
           "quantity": "Farbe Grün oder Grau"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31"
@@ -34368,7 +34368,7 @@
           "normalized_unit": "l"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31"
@@ -35026,7 +35026,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -35153,7 +35153,7 @@
           "quantity": "Schinkenstreifen"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -35748,7 +35748,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -36910,7 +36910,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -37037,7 +37037,7 @@
           "quantity": "Schinkenstreifen"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -37632,7 +37632,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -38018,7 +38018,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -38393,7 +38393,7 @@
           "quantity": "(laktosefrei durch Reifung) und"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -39317,7 +39317,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -39549,7 +39549,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -39990,7 +39990,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -40222,7 +40222,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -40725,7 +40725,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -40754,7 +40754,7 @@
           "normalized_unit": "l"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -42079,7 +42079,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -54685,7 +54685,7 @@
           "quantity": "oder Bierschinken mit"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -55125,7 +55125,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -56153,7 +56153,7 @@
           "quantity": "mit Duft & Dekor 3-lagig"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -56600,7 +56600,7 @@
           "quantity": "oder Bierschinken mit"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -57040,7 +57040,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -58068,7 +58068,7 @@
           "quantity": "mit Duft & Dekor 3-lagig"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -58552,7 +58552,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -59037,7 +59037,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -59062,7 +59062,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -59111,7 +59111,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -71516,7 +71516,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -71542,7 +71542,7 @@
           "quantity": "festkochend, festkochend"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -71567,7 +71567,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -74077,7 +74077,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -74103,7 +74103,7 @@
           "quantity": "festkochend, festkochend"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -74128,7 +74128,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -76779,7 +76779,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -76801,7 +76801,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -76823,7 +76823,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -76845,7 +76845,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -76867,7 +76867,7 @@
           "normalized_unit": "l"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -76889,7 +76889,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -76911,7 +76911,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -76933,7 +76933,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -76955,7 +76955,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -76975,7 +76975,7 @@
           "quantity": "Spanien: Sorte: siehe Etikett, Kl. I"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -76997,7 +76997,7 @@
           "normalized_unit": "l"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77019,7 +77019,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77041,7 +77041,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77063,7 +77063,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77085,7 +77085,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77107,7 +77107,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77129,7 +77129,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77149,7 +77149,7 @@
           "quantity": "versch. Farben, für die Innendekoration, je Topf"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77169,7 +77169,7 @@
           "quantity": "mit gefüllten Blüten, je Topf"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77189,7 +77189,7 @@
           "quantity": "versch. Farben, mit Schnittblumen-nahrung, je Bund"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77209,7 +77209,7 @@
           "quantity": "für die Innendekoration, je St."
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77229,7 +77229,7 @@
           "quantity": "herbstlich bepflanzte Zinkschale, mit passendem Dekostecker, je St."
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77249,7 +77249,7 @@
           "quantity": "versch. Zusammenstellungen, mit Schnittblumen-nahrung, je Strauß"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77271,7 +77271,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77293,7 +77293,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77315,7 +77315,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77337,7 +77337,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77359,7 +77359,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77381,7 +77381,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77403,7 +77403,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77425,7 +77425,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77447,7 +77447,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77469,7 +77469,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77491,7 +77491,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77513,7 +77513,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77535,7 +77535,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77557,7 +77557,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77579,7 +77579,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77601,7 +77601,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77623,7 +77623,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77645,7 +77645,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77665,7 +77665,7 @@
           "quantity": "Spanien: Bio Grapefruit Sorte: siehe Etikett, Kl. II, je St."
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77687,7 +77687,7 @@
           "normalized_unit": "l"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77709,7 +77709,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77731,7 +77731,7 @@
           "normalized_unit": "Stück"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77753,7 +77753,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77773,7 +77773,7 @@
           "quantity": "je Set"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77795,7 +77795,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -77817,7 +77817,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "last_seen": "2026-10-26"
@@ -85673,7 +85673,7 @@
           "quantity": "kerl besonderer Art, aus 2/3"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -85694,7 +85694,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -85715,7 +85715,7 @@
           "quantity": "gefüllt, auf Wunsch auch"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -85736,7 +85736,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -85757,7 +85757,7 @@
           "quantity": "im Ring oder Schwarten"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -85778,7 +85778,7 @@
           "quantity": "(laktosefrei durch Reifung) und"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -85799,7 +85799,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -85820,7 +85820,7 @@
           "quantity": "in der Gusspfanne gebraten"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -85841,7 +85841,7 @@
           "quantity": "Hüfte geschnitten, ideal zum"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -85862,7 +85862,7 @@
           "quantity": "deutscher Hartkäse aus"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -85883,7 +85883,7 @@
           "quantity": "Kuhmilch, mind. 60% Fett i. Tr"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -85904,7 +85904,7 @@
           "quantity": "Fett i. Tr., würziges bis cremiges"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -85925,7 +85925,7 @@
           "quantity": "rote Feige auch Senf-Dill"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -85946,7 +85946,7 @@
           "quantity": "mind. 48% Fett i. Tr., mild-würzig"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -85967,7 +85967,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -85988,7 +85988,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86009,7 +86009,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86030,7 +86030,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86051,7 +86051,7 @@
           "quantity": "aus Süddeutsch"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86072,7 +86072,7 @@
           "quantity": "Feldsalat oder Bioland"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86093,7 +86093,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86114,7 +86114,7 @@
           "quantity": "den Niederlanden oder Polen"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86135,7 +86135,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86156,7 +86156,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86177,7 +86177,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86198,7 +86198,7 @@
           "quantity": "aus den Niederlanden"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86219,7 +86219,7 @@
           "quantity": "hergestellt in Europa, Farbe"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86240,7 +86240,7 @@
           "quantity": "harmonisch abgestimmtem Grün"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86261,7 +86261,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86282,7 +86282,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86303,7 +86303,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86324,7 +86324,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86345,7 +86345,7 @@
           "quantity": "mit hauseigenem Sauerteig"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86366,7 +86366,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86387,7 +86387,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86408,14 +86408,14 @@
           "quantity": "mind. 65% Fett i. Tr., 6er"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "source_page": 13
     },
     {
-      "id": "edeka_buch-vegan-edeka-herzstucke-naturstreich-brotaufstrich",
+      "id": "edeka_buch-edeka-herzstucke-naturstreich-brotaufstrich",
       "name": "Vegan EDEKA Herzstücke Naturstreich Brotaufstrich",
       "brand": "",
       "quantity": "",
@@ -86429,7 +86429,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86450,7 +86450,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86471,7 +86471,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86492,7 +86492,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86513,14 +86513,14 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "source_page": 14
     },
     {
-      "id": "edeka_buch-vegan-billie-green-salami-baguette-style",
+      "id": "edeka_buch-billie-green-salami-baguette-style",
       "name": "Vegan Billie Green Salami Baguette-Style",
       "brand": "",
       "quantity": "",
@@ -86534,7 +86534,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86555,7 +86555,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86576,7 +86576,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86597,7 +86597,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86618,7 +86618,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86641,7 +86641,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86662,7 +86662,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86683,7 +86683,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86704,7 +86704,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86725,7 +86725,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86746,7 +86746,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86767,7 +86767,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86788,7 +86788,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86809,7 +86809,7 @@
           "quantity": "grätenfrei, tiefgefroren"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86830,7 +86830,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86851,7 +86851,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86872,7 +86872,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86893,7 +86893,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86914,7 +86914,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86935,7 +86935,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86956,7 +86956,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86977,7 +86977,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -86998,7 +86998,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87019,7 +87019,7 @@
           "quantity": "Schokowürfel versch. Sorten"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87040,7 +87040,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87061,7 +87061,7 @@
           "quantity": "Sour Cream Style"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87082,7 +87082,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87103,7 +87103,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87124,7 +87124,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87145,7 +87145,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87166,7 +87166,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87187,7 +87187,7 @@
           "quantity": "versch. Sorten, 34,5–75 g"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87208,7 +87208,7 @@
           "quantity": "versch. Sorten, 200-340 g"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87229,7 +87229,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87250,7 +87250,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87271,7 +87271,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87292,7 +87292,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87313,7 +87313,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87334,7 +87334,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87355,7 +87355,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87376,7 +87376,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87397,7 +87397,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87418,7 +87418,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87441,7 +87441,7 @@
           "normalized_unit": "l"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87462,7 +87462,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87483,7 +87483,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87504,7 +87504,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87525,7 +87525,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87546,7 +87546,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87569,7 +87569,7 @@
           "normalized_unit": "l"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87592,7 +87592,7 @@
           "normalized_unit": "l"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87615,7 +87615,7 @@
           "normalized_unit": "l"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87636,7 +87636,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87657,7 +87657,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87678,7 +87678,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87699,7 +87699,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87720,7 +87720,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87741,7 +87741,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87762,7 +87762,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87783,7 +87783,7 @@
           "quantity": "inkl. Wursttrichter, Stößel"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87804,7 +87804,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87825,7 +87825,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87846,7 +87846,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87867,7 +87867,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87888,7 +87888,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87909,7 +87909,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87930,7 +87930,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87951,7 +87951,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87972,7 +87972,7 @@
           "quantity": "kerl besonderer Art, aus 2/3"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -87993,7 +87993,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88014,7 +88014,7 @@
           "quantity": "gefüllt, auf Wunsch auch"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88035,7 +88035,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88056,7 +88056,7 @@
           "quantity": "im Ring oder Schwarten"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88077,7 +88077,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88098,7 +88098,7 @@
           "quantity": "in der Gusspfanne gebraten"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88119,7 +88119,7 @@
           "quantity": "Hüfte geschnitten, ideal zum"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88140,7 +88140,7 @@
           "quantity": "deutscher Hartkäse aus"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88161,7 +88161,7 @@
           "quantity": "Kuhmilch, mind. 60% Fett i. Tr"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88182,7 +88182,7 @@
           "quantity": "Fett i. Tr., würziges bis cremiges"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88203,7 +88203,7 @@
           "quantity": "rote Feige auch Senf-Dill"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88224,7 +88224,7 @@
           "quantity": "mind. 48% Fett i. Tr., mild-würzig"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88245,7 +88245,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88266,7 +88266,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88287,7 +88287,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88308,7 +88308,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88329,7 +88329,7 @@
           "quantity": "aus Süddeutsch"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88350,7 +88350,7 @@
           "quantity": "Feldsalat oder Bioland"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88371,7 +88371,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88392,7 +88392,7 @@
           "quantity": "den Niederlanden oder Polen"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88413,7 +88413,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88434,7 +88434,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88455,7 +88455,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88476,7 +88476,7 @@
           "quantity": "aus den Niederlanden"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88497,7 +88497,7 @@
           "quantity": "hergestellt in Europa, Farbe"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88518,7 +88518,7 @@
           "quantity": "harmonisch abgestimmtem Grün"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88539,7 +88539,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88560,7 +88560,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88581,7 +88581,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88602,7 +88602,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88623,7 +88623,7 @@
           "quantity": "mit hauseigenem Sauerteig"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88644,7 +88644,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88665,7 +88665,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88686,14 +88686,14 @@
           "quantity": "mind. 65% Fett i. Tr., 6er"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "source_page": 13
     },
     {
-      "id": "edeka_haller-vegan-edeka-herzstucke-naturstreich-brotaufstrich",
+      "id": "edeka_haller-edeka-herzstucke-naturstreich-brotaufstrich",
       "name": "Vegan EDEKA Herzstücke Naturstreich Brotaufstrich",
       "brand": "",
       "quantity": "",
@@ -88707,7 +88707,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88728,7 +88728,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88749,7 +88749,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88770,7 +88770,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88791,14 +88791,14 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
       "source_page": 14
     },
     {
-      "id": "edeka_haller-vegan-billie-green-salami-baguette-style",
+      "id": "edeka_haller-billie-green-salami-baguette-style",
       "name": "Vegan Billie Green Salami Baguette-Style",
       "brand": "",
       "quantity": "",
@@ -88812,7 +88812,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88833,7 +88833,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88854,7 +88854,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88875,7 +88875,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88896,7 +88896,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88919,7 +88919,7 @@
           "normalized_unit": "kg"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88940,7 +88940,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88961,7 +88961,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -88982,7 +88982,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89003,7 +89003,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89024,7 +89024,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89045,7 +89045,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89066,7 +89066,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89087,7 +89087,7 @@
           "quantity": "grätenfrei, tiefgefroren"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89108,7 +89108,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89129,7 +89129,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89150,7 +89150,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89171,7 +89171,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89192,7 +89192,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89213,7 +89213,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89234,7 +89234,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89255,7 +89255,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89276,7 +89276,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89297,7 +89297,7 @@
           "quantity": "Schokowürfel versch. Sorten"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89318,7 +89318,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89339,7 +89339,7 @@
           "quantity": "Sour Cream Style"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89360,7 +89360,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89381,7 +89381,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89402,7 +89402,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89423,7 +89423,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89444,7 +89444,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89465,7 +89465,7 @@
           "quantity": "versch. Sorten, 34,5–75 g"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89486,7 +89486,7 @@
           "quantity": "versch. Sorten, 200-340 g"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89507,7 +89507,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89528,7 +89528,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89549,7 +89549,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89570,7 +89570,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89591,7 +89591,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89612,7 +89612,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89633,7 +89633,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89654,7 +89654,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89675,7 +89675,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89696,7 +89696,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89719,7 +89719,7 @@
           "normalized_unit": "l"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89740,7 +89740,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89761,7 +89761,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89782,7 +89782,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89803,7 +89803,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89824,7 +89824,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89847,7 +89847,7 @@
           "normalized_unit": "l"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89870,7 +89870,7 @@
           "normalized_unit": "l"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89893,7 +89893,7 @@
           "normalized_unit": "l"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89914,7 +89914,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89935,7 +89935,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89956,7 +89956,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89977,7 +89977,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -89998,7 +89998,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90019,7 +90019,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90040,7 +90040,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90061,7 +90061,7 @@
           "quantity": "inkl. Wursttrichter, Stößel"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90082,7 +90082,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90103,7 +90103,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90124,7 +90124,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90145,7 +90145,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90166,7 +90166,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90187,7 +90187,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90208,7 +90208,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90229,7 +90229,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90250,7 +90250,7 @@
           "quantity": "Rinderbugblatt"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90271,7 +90271,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90292,7 +90292,7 @@
           "quantity": "festkochend, Sorte siehe Etikett"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90313,7 +90313,7 @@
           "quantity": "mind. 55% Fett i. Tr., kräftig"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90334,7 +90334,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90355,7 +90355,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90376,7 +90376,7 @@
           "quantity": "z. B. für Steaks, Braten"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90397,7 +90397,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90418,7 +90418,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90439,7 +90439,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90460,7 +90460,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90481,7 +90481,7 @@
           "quantity": "gereift, ideal als Steaks zum"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90502,7 +90502,7 @@
           "quantity": "unterwegs, gluten-/laktosefrei"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90523,7 +90523,7 @@
           "quantity": "Unterschale, Nuss und Hüfte"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90544,7 +90544,7 @@
           "quantity": "fein gehackt oder Würzige"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90565,7 +90565,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90586,7 +90586,7 @@
           "quantity": "12 Monate gereift"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90607,7 +90607,7 @@
           "quantity": "Kuhmilch, mind. 55% Fett i. Tr"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90628,7 +90628,7 @@
           "quantity": "gereift, Heugeschmack"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90649,7 +90649,7 @@
           "quantity": "Ziegenmilch, mind. 50% Fett i"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90670,7 +90670,7 @@
           "quantity": "Tr., würzig-aromatisch, 30"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90691,7 +90691,7 @@
           "quantity": "Ananas, Pfirsichen, Papayas"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90712,7 +90712,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90733,7 +90733,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90754,7 +90754,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90775,7 +90775,7 @@
           "quantity": "aus Süddeutschland, Klasse II"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90796,7 +90796,7 @@
           "quantity": "aus Süddeutschland"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90817,7 +90817,7 @@
           "quantity": "aus Süddeutschland"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90838,7 +90838,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90859,7 +90859,7 @@
           "quantity": "Bioland-Basilikum im Topf"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90880,7 +90880,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90901,7 +90901,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90924,7 +90924,7 @@
           "normalized_unit": "l"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90947,7 +90947,7 @@
           "normalized_unit": "l"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90970,7 +90970,7 @@
           "normalized_unit": "l"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -90991,7 +90991,7 @@
           "quantity": "Protect Pants Plus"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -91012,7 +91012,7 @@
           "quantity": "Pods versch. Sorten"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -91033,7 +91033,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -91054,7 +91054,7 @@
           "quantity": "pürieren, shaken und zerklei"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -91075,7 +91075,7 @@
           "quantity": "Turbstufe, 2x Knethaken"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -91096,7 +91096,7 @@
           "quantity": "Fotokalender zum selbst"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -91117,7 +91117,7 @@
           "quantity": ""
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -91138,7 +91138,7 @@
           "quantity": "Gerätehöhe: ca. 42,5 cm"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -91159,7 +91159,7 @@
           "quantity": "Maße: ca. 58 x 0,8 x 38 cm"
         }
       ],
-      "active": true,
+      "active": false,
       "last_seen": "2026-10-26",
       "valid_from": "2026-10-26",
       "valid_until": "2026-10-31",
@@ -91168,11 +91168,11 @@
   ],
   "source": "https://prospektewoche.de/rewe",
   "last_import_count": {
-    "REWE": 62,
+    "REWE": 0,
     "GLOBUS": 457,
-    "EDEKA_BUCH": 132,
-    "EDEKA_HALLER": 181,
-    "total": 832
+    "EDEKA_BUCH": 0,
+    "EDEKA_HALLER": 0,
+    "total": 457
   },
   "sources": {
     "REWE": "https://prospektewoche.de/rewe",
@@ -91181,7 +91181,7 @@
     "EDEKA_BUCH": "https://blaetterkatalog.edeka.de/SUEDWEST/MG_328_ED_ABH/blaetterkatalog/pdf/complete.pdf",
     "EDEKA_HALLER": "https://blaetterkatalog.edeka.de/SUEDWEST/MG_328_EC_Raunheim/blaetterkatalog/pdf/complete.pdf"
   },
-  "active_offer_count": 826,
+  "active_offer_count": 451,
   "validity": {
     "REWE": {
       "valid_from": "2026-10-26",
@@ -91196,20 +91196,20 @@
       "checked_at": "2026-10-21T10:55:45+02:00"
     },
     "EDEKA_BUCH": {
-      "valid_from": "2026-10-26",
-      "valid_until": "2026-10-31",
+      "valid_from": "2026-11-02",
+      "valid_until": "2026-11-07",
       "source": "https://blaetterkatalog.edeka.de/SUEDWEST/MG_328_ED_ABH/blaetterkatalog/pdf/complete.pdf",
       "mode": "official_leaflet_pdf_strong_pairs_with_images",
-      "images": 121,
-      "pages": 49
+      "images": 112,
+      "pages": 46
     },
     "EDEKA_HALLER": {
-      "valid_from": "2026-10-26",
-      "valid_until": "2026-10-31",
+      "valid_from": "2026-11-02",
+      "valid_until": "2026-11-07",
       "source": "https://blaetterkatalog.edeka.de/SUEDWEST/MG_328_EC_Raunheim/blaetterkatalog/pdf/complete.pdf",
       "mode": "official_leaflet_pdf_strong_pairs_with_images",
-      "images": 170,
-      "pages": 59
+      "images": 156,
+      "pages": 54
     }
   },
   "price_tracking": {
