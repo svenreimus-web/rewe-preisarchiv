@@ -101,9 +101,14 @@ def extract_prospektewoche(base,store):
   for img in soup.find_all('img'):
    name=(img.get('alt') or '').strip()
    if not name or 'prospekt seite' in name.casefold() or re.fullmatch(r'seite\s*\d+',name,re.I):continue
+   debug_target=any(x in slug(name) for x in ('buble','allgauer','edelbrau'))
    block=offer_block_for_image(img)
+   if debug_target:
+    parent_text=' | '.join(list(img.parent.stripped_strings)[:30]) if img.parent else ''
+    print(f'{store} DEBUG Zielartikel Seite {slide+1}: name={name!r} block={bool(block)} parent={parent_text[:500]!r}')
    if not block:continue
    block_text=' '.join(block.stripped_strings); p=price_from_text(block_text)
+   if debug_target:print(f'{store} DEBUG Zielartikel Block: {block_text[:800]!r} preis={p!r}')
    if p is None:continue
    pieces=[x.strip() for x in block.stripped_strings if x.strip()]
    desc=next((x for x in pieces if x!=name and price_from_text(x) is None and 3<len(x)<240 and not x.lower().startswith(('image:','angebote auf'))),'')
