@@ -124,6 +124,25 @@ def extract_rewe_direct():
   found.append({'name':name,'quantity':'','category':'Markt-Angebot','price':p,'image':urljoin(REWE_URL,src) if src else '','store':'REWE'})
  return found,period
 
+def merge_offer_sets(primary, secondary):
+ # Kombiniert zwei Angebotsquellen derselben Woche. "secondary" hat Vorrang
+ # bei Preis/Name (z. B. marktgenaue REWE-Seite), während fehlende Angaben
+ # wie Menge oder Bild aus "primary" erhalten bleiben.
+ merged={}
+ for o in primary or []:
+  k=slug(o.get('name',''))
+  if k: merged[k]=dict(o)
+ for o in secondary or []:
+  k=slug(o.get('name',''))
+  if not k: continue
+  old=merged.get(k,{})
+  x=dict(old)
+  x.update({kk:vv for kk,vv in o.items() if vv not in (None,'')})
+  if not o.get('quantity') and old.get('quantity'):x['quantity']=old['quantity']
+  if not o.get('image') and old.get('image'):x['image']=old['image']
+  merged[k]=x
+ return list(merged.values())
+
 def dedupe_history(history):
  out=[];seen=set()
  for h in sorted(history,key=lambda x:(x.get('date',''),x.get('price',0))):
@@ -148,12 +167,35 @@ def stable_view(data):
 def main():
  data=json.loads(OUT.read_text(encoding='utf-8')) if OUT.exists() else {'products':[]}
  before=stable_view(data); old_updated_at=data.get('updated_at'); today=today_iso(); old_periods=data.get('validity',{})
+ rewe_direct=[]; rewe_direct_period=None
  try:
-  rewe,rewe_period=extract_rewe_direct()
-  if not rewe:raise RuntimeError('keine Direktangebote')
-  rewe_source=REWE_URL
+  rewe_direct,rewe_direct_period=extract_rewe_direct()
+  print('REWE Direktangebote:',len(rewe_direct),'Zeitraum:',rewe_direct_period)
  except Exception as e:
-  print('REWE Direktabruf nicht möglich:',e); rewe,rewe_period=extract_prospektewoche(REWE_FALLBACK,'REWE'); rewe_source=REWE_FALLBACK
+  print('REWE Direktabruf nicht möglich:',e)
+ rewe_fallback=[]; rewe_fallback_period=None
+ try:
+  rewe_fallback,rewe_fallback_period=extract_prospektewoche(REWE_FALLBACK,'REWE')
+  print('REWE Prospektangebote:',len(rewe_fallback),'Zeitraum:',rewe_fallback_period)
+ except Exception as e:
+  print('REWE Prospektabruf nicht möglich:',e)
+ direct_current=period_is_current(rewe_direct_period,today) and bool(rewe_direct)
+ fallback_current=period_is_current(rewe_fallback_period,today) and bool(rewe_fallback)
+ same_period=bool(rewe_direct_period and rewe_fallback_period and rewe_direct_period.get('valid_from')==rewe_fallback_period.get('valid_from') and rewe_direct_period.get('valid_until')==rewe_fallback_period.get('valid_until'))
+ if direct_current and fallback_current and same_period:
+  rewe=merge_offer_sets(rewe_fallback,rewe_direct)
+  rewe_period=rewe_direct_period
+  rewe_source=REWE_URL+' + '+REWE_FALLBACK
+  print('REWE Quellen zusammengeführt:',len(rewe),'Angebote')
+ elif direct_current:
+  rewe,rewe_period,rewe_source=rewe_direct,rewe_direct_period,REWE_URL
+  print('REWE nur Direktquelle verwendet; Prospektzeitraum fehlt oder weicht ab')
+ elif fallback_current:
+  rewe,rewe_period,rewe_source=rewe_fallback,rewe_fallback_period,REWE_FALLBACK
+  print('REWE nur Prospektquelle verwendet')
+ else:
+  rewe,rewe_period,rewe_source=[],rewe_direct_period or rewe_fallback_period,REWE_URL
+  print('REWE keine aktuelle, verlässliche Quelle verfügbar')
  try:
   globus_period,official_soup=source_period(GLOBUS_OFFICIAL); official=' '.join(official_soup.stripped_strings)
   if 'GLOBUS Hattersheim' not in official:raise RuntimeError('Hattersheim auf Marktseite nicht bestätigt')
